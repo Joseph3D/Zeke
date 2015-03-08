@@ -1,4 +1,4 @@
-﻿Log file open, 02/24/15 21:04:26
+﻿Log file open, 03/08/15 16:25:36
 LogInit:Display: Running engine for game: Zeke
 LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
 LogInit: API Version: 2369412
@@ -7,286 +7,669 @@ LogInit: Compiled with Visual C++: 18.00.21005.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.6
 LogInit: Command line: 
-LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Base directory: E:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.02.25-05.04.26:974][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.02.25-05.04.27:023][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.02.25-05.04.27:042][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.02.25-05.04.27:050][  0]LogInit: Object subsystem initialized
-[2015.02.25-05.04.27:051][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.02.25-05.04.27:051][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/Pre Production/update/Zeke/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.02.25-05.04.27:051][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.02.25-05.04.27:051][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/Pre Production/update/Zeke/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.02.25-05.04.27:051][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
-[2015.02.25-05.04.27:052][  0]LogInit: Selected Device Profile: [Windows]
-[2015.02.25-05.04.27:052][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.02.25-05.04.27:096][  0]LogInit: Computer: AI251LAB0234P16
-[2015.02.25-05.04.27:096][  0]LogInit: User: student
-[2015.02.25-05.04.27:096][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.02.25-05.04.27:096][  0]LogInit: High frequency timer resolution =3.507226 MHz
-[2015.02.25-05.04.27:096][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
-[2015.02.25-05.04.27:096][  0]LogMemory: Platform Memory Stats for Windows
-[2015.02.25-05.04.27:096][  0]LogMemory: Process Physical Memory: 50.13 MB used, 50.13 MB peak
-[2015.02.25-05.04.27:096][  0]LogMemory: Process Virtual Memory: 27.10 MB used, 27.10 MB peak
-[2015.02.25-05.04.27:096][  0]LogMemory: Physical Memory: 2367.27 MB used, 8115.79 MB total
-[2015.02.25-05.04.27:096][  0]LogMemory: Virtual Memory: 264.96 MB used, 8388608.00 MB total
-[2015.02.25-05.04.27:120][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K2000 (Feature Level 11_0)
-[2015.02.25-05.04.27:120][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 3801MB of shared system memory, 1 output[s]
-[2015.02.25-05.04.27:120][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.02.25-05.04.27:123][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.02.25-05.04.27:131][  0]LogD3D11RHI: Async texture creation enabled
-[2015.02.25-05.04.27:183][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.02.25-05.04.27:303][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.02.25-05.04.32:682][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.25-05.04.33:078][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.25-05.04.33:129][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.02.25-05.04.33:164][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2015.02.25-05.04.33:164][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/student/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
-[2015.02.25-05.04.33:164][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Pre Production/update/Zeke/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.02.25-05.04.33:173][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.02.25-05.04.33:237][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2015.02.25-05.04.33:249][  0]LogDerivedDataCache: Using Local data cache path C:/Users/student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.02.25-05.04.33:368][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
-[2015.02.25-05.04.33:502][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.02.25-05.04.33:502][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.02.25-05.04.33:836][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.02.25-05.04.33:893][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.02.25-05.04.34:627][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.02.25-05.04.34:782][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for F:/Pre Production/update/Zeke/Binaries/Win64. Error: 0
-[2015.02.25-05.04.35:073][  0]SourceControl: Info Source control is disabled
-[2015.02.25-05.04.35:073][  0]SourceControl: Info Source control is disabled
-[2015.02.25-05.04.35:080][  0]SourceControl: Info Source control is disabled
-[2015.02.25-05.04.35:199][  0]LogObj: 23754 objects as part of root set at end of initial load.
-[2015.02.25-05.04.35:199][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
-[2015.02.25-05.04.35:250][  0]LogEngine: Initializing Engine...
-[2015.02.25-05.04.35:378][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.02.25-05.04.35:398][  0]LogInit: FAudioDevice initialized.
-[2015.02.25-05.04.35:417][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.02.25-05.04.35:435][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
-[2015.02.25-05.04.35:440][  0]LogInit: Texture streaming: Enabled
-[2015.02.25-05.04.35:467][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.02.25-05.04.35:467][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
-[2015.02.25-05.04.35:468][  0]LogAnalytics: SetUserId 17fc350c9628bf7e9ba9a40b0e0c4f9a
-[2015.02.25-05.04.35:468][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.02.25-05.04.35:485][  0]LogInit: Transaction tracking system initialized
-[2015.02.25-05.04.35:577][  0]BlueprintLog: New page: Editor Load
-[2015.02.25-05.04.35:605][  0]LogAssetRegistry: FAssetRegistry took 0.0093 seconds to start up
-[2015.02.25-05.04.35:607][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.02.25-05.04.36:071][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.25-05.04.36:427][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.02.25-05.04.36:621][  0]LogConsoleResponse:Display: 
-[2015.02.25-05.04.36:666][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.02.25-05.04.36:844][  0]SourceControl: Info Source control is disabled
-[2015.02.25-05.04.36:844][  0]Cmd: MAP LOAD FILE="F:/Pre Production/update/Zeke/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2015.02.25-05.04.36:873][  0]LightingResults: New page: Lighting Build
-[2015.02.25-05.04.36:882][  0]MapCheck: New page: Map Check
-[2015.02.25-05.04.36:890][  0]LightingResults: New page: Lighting Build
-[2015.02.25-05.04.36:896][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000138059E0
-[2015.02.25-05.04.38:725][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.02.25-05.04.38:725][  0]LogAIModule: Creating AISystem for world Example_Map
-[2015.02.25-05.04.38:725][  0]Cmd: MAP CHECKDEP
-[2015.02.25-05.04.38:725][  0]MapCheck: New page: Example_Map - Feb 24, 2015, 1:04:38 PM
-[2015.02.25-05.04.38:869][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 143.76ms to complete.
-[2015.02.25-05.04.38:869][  0]LogFileHelpers: Loading map 'Example_Map' took 2.024
-[2015.02.25-05.04.38:945][  0]LogCollectionManager: Loaded 0 collections in 0.001637 seconds
-[2015.02.25-05.04.39:049][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.02.25-05.04.39:053][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.02.25-05.04.39:079][  0]LogLoad: Full Startup: 15.10 seconds (BP compile: 0.04 seconds)
-[2015.02.25-05.04.39:091][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Meshes'
-[2015.02.25-05.04.39:242][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x1024.
-[2015.02.25-05.04.39:348][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2015.02.25-05.04.39:349][  1]Cmd: UpdateLandscapeEditorData
-[2015.02.25-05.04.39:412][  2]LogAssetRegistry: Asset discovery search completed in 3.8155 seconds
-[2015.02.25-05.04.42:617][ 86]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Mats'
-[2015.02.25-05.04.44:230][119]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Mats'
-[2015.02.25-05.04.58:053][662]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke'
-[2015.02.25-05.04.58:458][675]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Mats'
-[2015.02.25-05.05.06:197][547]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Textures'
-[2015.02.25-05.05.06:959][574]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Textures'
-[2015.02.25-05.05.13:467][ 92]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Mats'
-[2015.02.25-05.05.27:989][531]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke'
-[2015.02.25-05.05.35:208][375]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Mats'
-[2015.02.25-05.05.36:029][466]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Meshes'
-[2015.02.25-05.05.36:492][477]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Mats'
-[2015.02.25-05.05.52:391][564]LogUProjectInfo: Found projects:
-[2015.02.25-05.05.59:069][609]Cmd: CLOSE_SLATE_MAINFRAME
-[2015.02.25-05.05.59:822][610]Cmd: QUIT_EDITOR
-[2015.02.25-05.06.00:259][610]LogExit: Preparing to exit.
-[2015.02.25-05.06.00:770][610]LogExit: Editor shut down
-[2015.02.25-05.06.00:770][610]LogExit: Transaction tracking system shut down
-[2015.02.25-05.06.00:771][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A9763E0
-[2015.02.25-05.06.00:774][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020EC3920
-[2015.02.25-05.06.00:774][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020EC3560
-[2015.02.25-05.06.00:796][610]LogExit: Object subsystem successfully closed.
-[2015.02.25-05.06.00:842][610]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
-[2015.02.25-05.06.00:842][610]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module BspMode (159)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module XmlParser (147)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module Blutility (146)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
-[2015.02.25-05.06.00:928][610]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
-[2015.02.25-05.06.00:929][610]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
-[2015.02.25-05.06.00:929][610]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
-[2015.02.25-05.06.00:929][610]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
-[2015.02.25-05.06.00:932][610]LogModuleManager: Shutting down and abandoning module AutomationController (131)
-[2015.02.25-05.06.00:932][610]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
-[2015.02.25-05.06.00:932][610]LogModuleManager: Shutting down and abandoning module Layers (129)
-[2015.02.25-05.06.00:932][610]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
-[2015.02.25-05.06.00:932][610]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
-[2015.02.25-05.06.00:932][610]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
-[2015.02.25-05.06.00:932][610]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
-[2015.02.25-05.06.01:043][610]LogModuleManager: Shutting down and abandoning module Persona (124)
-[2015.02.25-05.06.01:043][610]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.02.25-05.06.01:043][610]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.02.25-05.06.01:043][610]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.02.25-05.06.01:043][610]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.02.25-05.06.01:043][610]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.02.25-05.06.01:043][610]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.02.25-05.06.01:044][610]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.02.25-05.06.01:044][610]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.02.25-05.06.01:044][610]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.02.25-05.06.01:044][610]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.02.25-05.06.01:044][610]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.02.25-05.06.01:044][610]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.02.25-05.06.01:044][610]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.02.25-05.06.01:044][610]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.02.25-05.06.01:044][610]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.02.25-05.06.01:044][610]LogModuleManager: Shutting down and abandoning module AIModule (108)
-[2015.02.25-05.06.01:044][610]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
-[2015.02.25-05.06.01:227][610]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
-[2015.02.25-05.06.01:227][610]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
-[2015.02.25-05.06.01:227][610]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.02.25-05.06.01:227][610]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.02.25-05.06.01:227][610]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.02.25-05.06.01:227][610]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.02.25-05.06.01:227][610]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.02.25-05.06.01:227][610]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.02.25-05.06.01:227][610]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.02.25-05.06.01:227][610]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.02.25-05.06.01:227][610]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
-[2015.02.25-05.06.01:227][610]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
-[2015.02.25-05.06.01:227][610]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
-[2015.02.25-05.06.01:356][610]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
-[2015.02.25-05.06.01:356][610]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
-[2015.02.25-05.06.01:356][610]LogModuleManager: Shutting down and abandoning module SourceControl (91)
-[2015.02.25-05.06.01:356][610]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
-[2015.02.25-05.06.01:356][610]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
-[2015.02.25-05.06.01:356][610]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
-[2015.02.25-05.06.01:356][610]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
-[2015.02.25-05.06.01:356][610]LogModuleManager: Shutting down and abandoning module HotReload (86)
-[2015.02.25-05.06.01:356][610]LogModuleManager: Shutting down and abandoning module MainFrame (85)
-[2015.02.25-05.06.01:356][610]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
-[2015.02.25-05.06.01:357][610]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
-[2015.02.25-05.06.01:357][610]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
-[2015.02.25-05.06.01:357][610]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
-[2015.02.25-05.06.01:357][610]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
-[2015.02.25-05.06.01:357][610]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
-[2015.02.25-05.06.01:357][610]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
-[2015.02.25-05.06.01:357][610]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
-[2015.02.25-05.06.01:357][610]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
-[2015.02.25-05.06.01:457][610]LogModuleManager: Shutting down and abandoning module Paper2D (75)
-[2015.02.25-05.06.01:457][610]LogModuleManager: Shutting down and abandoning module UE4Game (74)
-[2015.02.25-05.06.01:457][610]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
-[2015.02.25-05.06.01:460][610]LogModuleManager: Shutting down and abandoning module Media (72)
-[2015.02.25-05.06.01:460][610]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
-[2015.02.25-05.06.01:460][610]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
-[2015.02.25-05.06.01:460][610]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
-[2015.02.25-05.06.01:460][610]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
-[2015.02.25-05.06.01:460][610]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
-[2015.02.25-05.06.01:460][610]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
-[2015.02.25-05.06.01:460][610]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
-[2015.02.25-05.06.01:460][610]LogModuleManager: Shutting down and abandoning module MessageLog (64)
-[2015.02.25-05.06.01:460][610]LogModuleManager: Shutting down and abandoning module Sequencer (63)
-[2015.02.25-05.06.01:460][610]LogModuleManager: Shutting down and abandoning module AssetTools (62)
-[2015.02.25-05.06.01:460][610]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
-[2015.02.25-05.06.01:460][610]LogModuleManager: Shutting down and abandoning module UMG (60)
-[2015.02.25-05.06.01:460][610]LogModuleManager: Shutting down and abandoning module Slate (59)
-[2015.02.25-05.06.01:460][610]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
-[2015.02.25-05.06.01:463][610]LogModuleManager: Shutting down and abandoning module SessionServices (57)
-[2015.02.25-05.06.01:463][610]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
-[2015.02.25-05.06.01:463][610]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
-[2015.02.25-05.06.01:463][610]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
-[2015.02.25-05.06.01:474][610]LogModuleManager: Shutting down and abandoning module Networking (52)
-[2015.02.25-05.06.01:474][610]LogModuleManager: Shutting down and abandoning module Core (51)
-[2015.02.25-05.06.01:474][610]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
-[2015.02.25-05.06.01:474][610]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
-[2015.02.25-05.06.01:474][610]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
-[2015.02.25-05.06.01:474][610]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
-[2015.02.25-05.06.01:748][610]LogDerivedDataCache: Shutdown
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module Messaging (33)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module InputCore (20)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module Settings (19)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.02.25-05.06.01:748][610]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.02.25-05.06.01:752][610]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.02.25-05.06.01:752][610]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.02.25-05.06.01:752][610]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.02.25-05.06.01:752][610]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.02.25-05.06.01:752][610]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.02.25-05.06.01:752][610]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.02.25-05.06.01:752][610]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.02.25-05.06.01:752][610]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.02.25-05.06.01:752][610]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.02.25-05.06.01:752][610]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.02.25-05.06.01:752][610]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.02.25-05.06.01:752][610]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.02.25-05.06.01:752][610]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.02.25-05.06.01:753][610]LogExit: Exiting.
-[2015.02.25-05.06.01:772][610]Log file closed, 02/24/15 21:06:01
+[2015.03.08-23.25.36:251][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.08-23.25.36:306][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.08-23.25.36:338][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.08-23.25.36:347][  0]LogInit: Object subsystem initialized
+[2015.03.08-23.25.36:349][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.08-23.25.36:349][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/Pre Production/Jessica/Zeke 4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.08-23.25.36:349][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.08-23.25.36:349][  0]LogConsoleResponse:Warning:   Found in ini file 'F:/Pre Production/Jessica/Zeke 4.6/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.08-23.25.36:349][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.03.08-23.25.36:349][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.08-23.25.36:350][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.08-23.25.36:408][  0]LogInit: Computer: JOSEPH-PC
+[2015.03.08-23.25.36:408][  0]LogInit: User: Joseph
+[2015.03.08-23.25.36:408][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.08-23.25.36:408][  0]LogInit: High frequency timer resolution =3.919482 MHz
+[2015.03.08-23.25.36:408][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2015.03.08-23.25.36:409][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.08-23.25.36:409][  0]LogMemory: Process Physical Memory: 50.82 MB used, 50.82 MB peak
+[2015.03.08-23.25.36:409][  0]LogMemory: Process Virtual Memory: 27.48 MB used, 27.48 MB peak
+[2015.03.08-23.25.36:409][  0]LogMemory: Physical Memory: 5065.55 MB used, 16280.89 MB total
+[2015.03.08-23.25.36:409][  0]LogMemory: Virtual Memory: 266.41 MB used, 8388608.00 MB total
+[2015.03.08-23.25.36:441][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.03.08-23.25.36:441][  0]LogD3D11RHI: Adapter has 4073MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.03.08-23.25.36:441][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.08-23.25.36:450][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.08-23.25.36:458][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.03.08-23.25.36:532][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.08-23.25.36:675][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.08-23.25.42:288][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.08-23.25.42:923][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.08-23.25.42:999][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.08-23.25.43:061][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.03.08-23.25.43:061][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joseph/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.03.08-23.25.43:062][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Pre Production/Jessica/Zeke 4.6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.08-23.25.43:071][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.08-23.25.43:133][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.03.08-23.25.43:145][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.08-23.25.43:303][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.03.08-23.25.43:463][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.08-23.25.43:463][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.08-23.25.43:902][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.08-23.25.43:994][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.08-23.25.44:942][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.08-23.25.45:166][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for F:/Pre Production/Jessica/Zeke 4.6/Binaries/Win64. Error: 0
+[2015.03.08-23.25.45:401][  0]SourceControl: Info Source control is disabled
+[2015.03.08-23.25.45:401][  0]SourceControl: Info Source control is disabled
+[2015.03.08-23.25.45:414][  0]SourceControl: Info Source control is disabled
+[2015.03.08-23.25.45:613][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.03.08-23.25.45:613][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.03.08-23.25.45:682][  0]LogEngine: Initializing Engine...
+[2015.03.08-23.25.45:840][  0]LogInit: XAudio2 using '1 - LG ULTRAWIDE (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.03.08-23.25.45:851][  0]LogInit: FAudioDevice initialized.
+[2015.03.08-23.25.45:882][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.08-23.25.45:916][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.03.08-23.25.45:925][  0]LogInit: Texture streaming: Enabled
+[2015.03.08-23.25.45:978][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.08-23.25.45:978][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.03.08-23.25.45:981][  0]LogAnalytics: SetUserId 402b2bd15b9296f902c668936ab9f44f
+[2015.03.08-23.25.45:981][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.08-23.25.46:008][  0]LogInit: Transaction tracking system initialized
+[2015.03.08-23.25.46:163][  0]BlueprintLog: New page: Editor Load
+[2015.03.08-23.25.46:204][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.03.08-23.25.46:243][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.08-23.25.46:951][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.08-23.25.47:446][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.08-23.25.47:763][  0]LogConsoleResponse:Display: 
+[2015.03.08-23.25.47:815][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.03.08-23.25.48:066][  0]SourceControl: Info Source control is disabled
+[2015.03.08-23.25.48:066][  0]Cmd: MAP LOAD FILE="F:/Pre Production/Jessica/Zeke 4.6/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.03.08-23.25.48:079][  0]LightingResults: New page: Lighting Build
+[2015.03.08-23.25.48:105][  0]MapCheck: New page: Map Check
+[2015.03.08-23.25.48:105][  0]LightingResults: New page: Lighting Build
+[2015.03.08-23.25.48:116][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012F19940
+[2015.03.08-23.25.49:533][  0]LogTexture:Display: Building textures: PoPo_Body_diffuse (AutoDXT)
+[2015.03.08-23.25.50:854][  0]LogTexture:Display: Building textures: PoPo_Body_specular (AutoDXT)
+[2015.03.08-23.25.51:185][  0]LogTexture:Display: Building textures: PoPo_Body_normal (BC5)
+[2015.03.08-23.25.51:347][  0]LogMaterial: Missing cached shader map for material Bodymat_popo, compiling.
+[2015.03.08-23.25.51:401][  0]LogMaterial: Missing cached shader map for material Bodymat_eyelashes_Popo, compiling.
+[2015.03.08-23.25.51:438][  0]LogTexture:Display: Building textures: PoPo_Bottom_diffuse (AutoDXT)
+[2015.03.08-23.25.51:704][  0]LogTexture:Display: Building textures: PoPo_Bottom_specular (AutoDXT)
+[2015.03.08-23.25.51:805][  0]LogTexture:Display: Building textures: PoPo_Bottom_normal (BC5)
+[2015.03.08-23.25.51:844][  0]LogMaterial: Missing cached shader map for material Bottommat_popo, compiling.
+[2015.03.08-23.25.51:889][  0]LogTexture:Display: Building textures: PoPo_Shoes_diffuse (AutoDXT)
+[2015.03.08-23.25.52:087][  0]LogTexture:Display: Building textures: PoPo_Shoes_specular (AutoDXT)
+[2015.03.08-23.25.52:167][  0]LogTexture:Display: Building textures: PoPo_Shoes_normal (BC5)
+[2015.03.08-23.25.52:209][  0]LogMaterial: Missing cached shader map for material Shoesmat_Popo, compiling.
+[2015.03.08-23.25.52:253][  0]LogTexture:Display: Building textures: PoPo_Top_diffuse (AutoDXT)
+[2015.03.08-23.25.52:522][  0]LogTexture:Display: Building textures: PoPo_Top_normal (BC5)
+[2015.03.08-23.25.52:568][  0]LogTexture:Display: Building textures: PoPo_Top_specular (AutoDXT)
+[2015.03.08-23.25.52:621][  0]LogMaterial: Missing cached shader map for material Topmat, compiling.
+[2015.03.08-23.25.52:654][  0]LogStaticMesh: Building static mesh sword...
+[2015.03.08-23.25.52:676][  0]LogLayoutUV:Display: FindCharts: 4 ms
+[2015.03.08-23.25.52:678][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.08-23.25.52:678][  0]LogLayoutUV:Display:   Rasterize: 4112
+[2015.03.08-23.25.52:678][  0]LogLayoutUV:Display:   Find: 1328
+[2015.03.08-23.25.52:681][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.08-23.25.52:681][  0]LogLayoutUV:Display:   Rasterize: 4479
+[2015.03.08-23.25.52:681][  0]LogLayoutUV:Display:   Find: 2082
+[2015.03.08-23.25.52:683][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.08-23.25.52:683][  0]LogLayoutUV:Display:   Rasterize: 4593
+[2015.03.08-23.25.52:683][  0]LogLayoutUV:Display:   Find: 1693
+[2015.03.08-23.25.52:685][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.08-23.25.52:685][  0]LogLayoutUV:Display:   Rasterize: 4062
+[2015.03.08-23.25.52:685][  0]LogLayoutUV:Display:   Find: 2105
+[2015.03.08-23.25.52:686][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.08-23.25.52:686][  0]LogLayoutUV:Display:   Rasterize: 4530
+[2015.03.08-23.25.52:686][  0]LogLayoutUV:Display:   Find: 2587
+[2015.03.08-23.25.52:688][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.08-23.25.52:688][  0]LogLayoutUV:Display:   Rasterize: 4197
+[2015.03.08-23.25.52:688][  0]LogLayoutUV:Display:   Find: 1518
+[2015.03.08-23.25.52:689][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.08-23.25.52:689][  0]LogLayoutUV:Display:   Rasterize: 4092
+[2015.03.08-23.25.52:689][  0]LogLayoutUV:Display:   Find: 1561
+[2015.03.08-23.25.52:693][  0]LogStaticMesh: Built static mesh [40.656139ms] /Game/zeke/Assets/sword.sword
+[2015.03.08-23.25.54:109][  0]LogStaticMesh: Building static mesh Building009...
+[2015.03.08-23.25.54:383][  0]LogLayoutUV:Display: FindCharts: 29 ms
+[2015.03.08-23.25.54:568][  0]LogLayoutUV:Display: PackCharts: 96 ms
+[2015.03.08-23.25.54:568][  0]LogLayoutUV:Display:   Rasterize: 80654
+[2015.03.08-23.25.54:568][  0]LogLayoutUV:Display:   Find: 287341
+[2015.03.08-23.25.55:067][  0]LogLayoutUV:Display: PackCharts: 89 ms
+[2015.03.08-23.25.55:067][  0]LogLayoutUV:Display:   Rasterize: 78071
+[2015.03.08-23.25.55:081][  0]LogLayoutUV:Display:   Find: 263615
+[2015.03.08-23.25.55:160][  0]LogLayoutUV:Display: PackCharts: 78 ms
+[2015.03.08-23.25.55:160][  0]LogLayoutUV:Display:   Rasterize: 72551
+[2015.03.08-23.25.55:160][  0]LogLayoutUV:Display:   Find: 227830
+[2015.03.08-23.25.56:081][  0]LogStaticMesh: Built static mesh [1972.486938ms] /Game/Zeke/Meshes/Building009.Building009
+[2015.03.08-23.25.56:776][  0]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.03.08-23.25.56:809][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.03.08-23.25.57:035][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.03.08-23.25.57:303][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.03.08-23.25.57:323][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.03.08-23.25.57:331][  0]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.03.08-23.25.57:349][  0]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.03.08-23.25.57:371][  0]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.03.08-23.25.57:389][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.03.08-23.25.57:596][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.03.08-23.25.57:615][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.03.08-23.25.57:701][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.03.08-23.25.57:773][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.03.08-23.25.57:779][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.03.08-23.25.57:781][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.03.08-23.25.57:787][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.03.08-23.25.57:800][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.03.08-23.25.57:816][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.03.08-23.25.57:884][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.03.08-23.25.57:887][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2015.03.08-23.25.57:896][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.03.08-23.25.57:953][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.03.08-23.25.58:004][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.03.08-23.25.58:047][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.03.08-23.25.58:049][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.03.08-23.25.58:147][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.08-23.25.58:175][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.03.08-23.25.58:187][  0]Cmd: MAP CHECKDEP
+[2015.03.08-23.25.58:187][  0]MapCheck: New page: Example_Map - Mar 8, 2015, 9:25:58 AM
+[2015.03.08-23.25.58:636][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 448.847ms to complete.
+[2015.03.08-23.25.58:637][  0]LogFileHelpers: Loading map 'Example_Map' took 10.570
+[2015.03.08-23.25.58:968][  0]LogCollectionManager: Loaded 0 collections in 0.003999 seconds
+[2015.03.08-23.25.59:624][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.08-23.25.59:661][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.08-23.25.59:715][  0]LogLoad: Full Startup: 26.70 seconds (BP compile: 0.22 seconds)
+[2015.03.08-23.25.59:728][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Meshes'
+[2015.03.08-23.26.00:602][  0]LogRenderer:Warning: Reallocating scene render targets to support 1288x896.
+[2015.03.08-23.26.00:965][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.03.08-23.26.00:999][  1]Cmd: UpdateLandscapeEditorData
+[2015.03.08-23.26.01:535][  3]LogAssetRegistry: Asset discovery search completed in 15.3404 seconds
+[2015.03.08-23.26.23:386][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.03.08-23.27.22:003][954]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/level'
+[2015.03.08-23.27.22:975][ 23]LogUObjectGlobals:Warning: Guid is in use by Landscape /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0 and Landscape /Game/level/Scene.Scene:PersistentLevel.Landscape_0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:975][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_0 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:975][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_1 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_1, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:975][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_10 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_10, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:975][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_11 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_11, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:975][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_12 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_12, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:975][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_13 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_13, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:975][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_14 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_14, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:975][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_15 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_15, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:975][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_16 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_16, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:982][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_17 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_17, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:982][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_18 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_18, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:982][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_19 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_19, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:982][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_2 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:982][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_20 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_20, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:982][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_21 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_21, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:982][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_22 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_22, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:982][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_23 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_23, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:982][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_24 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_24, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:982][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_25 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_25, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:982][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_26 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_26, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:986][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_27 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_27, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:986][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_28 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_28, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:986][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_29 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_29, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:986][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_3 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_3, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:986][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_30 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_30, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:986][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_31 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_31, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:986][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_32 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_32, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:986][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_33 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_33, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:986][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_34 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_34, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:986][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_35 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_35, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:986][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_36 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_36, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:990][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_37 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_37, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:990][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_38 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_38, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:990][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_39 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_39, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:990][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_4 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_4, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:990][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_40 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_40, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:990][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_41 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_41, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:991][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_42 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_42, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:991][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_43 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_43, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:991][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_44 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_44, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:991][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_45 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_45, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:991][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_46 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_46, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:995][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_47 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_47, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:995][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_48 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_48, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:995][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_49 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_49, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:995][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_5 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_5, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:995][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_50 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_50, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:995][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_51 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_51, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:995][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_52 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_52, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:995][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_53 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_53, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:995][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_54 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_54, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:995][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_55 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_55, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:999][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_56 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_56, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:999][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_57 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_57, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:999][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_58 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_58, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:999][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_59 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_59, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:999][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_6 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_6, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:999][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_60 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_60, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:999][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_61 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_61, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:999][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_62 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_62, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:999][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_63 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_63, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:999][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_7 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_7, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.22:999][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_8 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_8, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:011][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeComponent_9 and LandscapeComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeComponent_9, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:023][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_0 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:023][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_1 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_1, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:023][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_10 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_10, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:023][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_11 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_11, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:023][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_12 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_12, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:023][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_13 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_13, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:023][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_14 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_14, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:023][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_15 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_15, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:027][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_16 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_16, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:027][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_17 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_17, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:027][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_18 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_18, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:027][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_19 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_19, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:027][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_2 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:027][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_20 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_20, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:027][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_21 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_21, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:027][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_22 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_22, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:027][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_23 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_23, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:032][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_24 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_24, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:032][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_25 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_25, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:032][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_26 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_26, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:032][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_27 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_27, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:032][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_28 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_28, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:032][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_29 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_29, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:032][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_3 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_3, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:032][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_30 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_30, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:032][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_31 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_31, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:036][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_32 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_32, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:036][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_33 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_33, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:036][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_34 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_34, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:036][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_35 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_35, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:037][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_36 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_36, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:037][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_37 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_37, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:037][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_38 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_38, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:037][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_39 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_39, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:037][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_4 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_4, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:042][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_40 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_40, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:042][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_41 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_41, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:042][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_42 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_42, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:042][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_43 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_43, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:042][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_44 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_44, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:042][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_45 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_45, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:042][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_46 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_46, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:042][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_47 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_47, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:042][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_48 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_48, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:046][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_49 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_49, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:046][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_5 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_5, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:046][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_50 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_50, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:046][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_51 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_51, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:046][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_52 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_52, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:046][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_53 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_53, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:046][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_54 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_54, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:046][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_55 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_55, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:051][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_56 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_56, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:051][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_57 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_57, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:051][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_58 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_58, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:051][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_59 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_59, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:051][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_6 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_6, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:051][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_60 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_60, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:051][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_61 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_61, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:051][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_62 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_62, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:051][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_63 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_63, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:055][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_7 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_7, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:055][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_8 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_8, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:055][ 23]LogUObjectGlobals:Warning: Guid is in use by LandscapeHeightfieldCollisionComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_9 and LandscapeHeightfieldCollisionComponent /Game/level/Scene.Scene:PersistentLevel.Landscape_0.LandscapeHeightfieldCollisionComponent_9, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.03.08-23.27.23:606][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.03.08-23.27.25:582][ 23]Cmd: MAP LOAD FILE="F:/Pre Production/Jessica/Zeke 4.6/Content/level/Scene.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.03.08-23.27.25:583][ 23]LightingResults: New page: Lighting Build
+[2015.03.08-23.27.25:608][ 23]LoadErrors: New page: Loading map: Scene.umap
+[2015.03.08-23.27.25:651][ 23]MapCheck: New page: Map Check
+[2015.03.08-23.27.25:651][ 23]LightingResults: New page: Lighting Build
+[2015.03.08-23.27.25:665][ 23]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019F12480
+[2015.03.08-23.27.25:688][ 23]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.08-23.27.25:688][ 23]LogAIModule: Creating AISystem for world Scene
+[2015.03.08-23.27.25:782][ 23]Cmd: MAP CHECKDEP
+[2015.03.08-23.27.25:782][ 23]MapCheck: New page: Scene - Mar 8, 2015, 9:27:25 AM
+[2015.03.08-23.27.26:047][ 23]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 264.197ms to complete.
+[2015.03.08-23.27.26:048][ 23]LogFileHelpers: Loading map 'Scene' took 0.469
+[2015.03.08-23.27.26:439][ 24]Cmd: UpdateLandscapeEditorData -warnings
+[2015.03.08-23.27.26:439][ 24]Cmd: UpdateLandscapeEditorData
+[2015.03.08-23.27.33:978][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building0006)
+[2015.03.08-23.27.34:403][504]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.35:479][545]Cmd: DELETE
+[2015.03.08-23.27.35:479][545]Cmd: ACTOR DELETE
+[2015.03.08-23.27.35:523][545]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.08-23.27.35:533][545]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.03.08-23.27.35:548][545]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2015.03.08-23.27.36:272][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building0002)
+[2015.03.08-23.27.36:282][606]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.36:457][620]Cmd: DELETE
+[2015.03.08-23.27.36:457][620]Cmd: ACTOR DELETE
+[2015.03.08-23.27.36:457][620]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.08-23.27.36:474][620]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2015.03.08-23.27.37:031][684]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building8)
+[2015.03.08-23.27.37:040][684]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.37:120][688]Cmd: DELETE
+[2015.03.08-23.27.37:120][688]Cmd: ACTOR DELETE
+[2015.03.08-23.27.37:128][688]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.08-23.27.37:143][688]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2015.03.08-23.27.37:694][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building0005)
+[2015.03.08-23.27.37:704][751]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.37:773][754]Cmd: DELETE
+[2015.03.08-23.27.37:773][754]Cmd: ACTOR DELETE
+[2015.03.08-23.27.37:773][754]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.08-23.27.37:788][754]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2015.03.08-23.27.38:232][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building0004)
+[2015.03.08-23.27.38:241][803]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.38:322][807]Cmd: DELETE
+[2015.03.08-23.27.38:322][807]Cmd: ACTOR DELETE
+[2015.03.08-23.27.38:322][807]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.08-23.27.38:336][807]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2015.03.08-23.27.39:095][888]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building0003)
+[2015.03.08-23.27.39:104][888]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.39:620][932]Cmd: DELETE
+[2015.03.08-23.27.39:620][932]Cmd: ACTOR DELETE
+[2015.03.08-23.27.39:620][932]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.08-23.27.39:635][932]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2015.03.08-23.27.39:958][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building0001)
+[2015.03.08-23.27.39:968][967]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.40:087][974]Cmd: DELETE
+[2015.03.08-23.27.40:087][974]Cmd: ACTOR DELETE
+[2015.03.08-23.27.40:087][974]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.08-23.27.40:101][974]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2015.03.08-23.27.40:926][ 70]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building009)
+[2015.03.08-23.27.40:935][ 70]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.42:538][206]Cmd: TRANSACTION UNDO
+[2015.03.08-23.27.42:538][206]LogEditorTransaction: Undo Move Actors
+[2015.03.08-23.27.42:548][206]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.43:280][227]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.43:301][227]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.46:460][463]Cmd: TRANSACTION UNDO
+[2015.03.08-23.27.46:460][463]LogEditorTransaction: Undo Move Actors
+[2015.03.08-23.27.46:470][463]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.47:328][512]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.47:348][512]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.49:399][679]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.49:420][679]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.52:011][887]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.52:031][887]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.55:809][116]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building009)
+[2015.03.08-23.27.55:818][116]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.56:180][128]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building10)
+[2015.03.08-23.27.56:189][128]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.56:605][163]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building11)
+[2015.03.08-23.27.56:614][163]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.57:137][211]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building12)
+[2015.03.08-23.27.57:146][211]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.58:386][330]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.27.58:406][330]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.08-23.28.04:127][640]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2015.03.08-23.28.39:607][285]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.08-23.28.39:607][285]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.08-23.28.39:702][285]LogPlayLevel: PIE:  Blueprint regeneration took 94 ms (1 blueprints)
+[2015.03.08-23.28.39:702][285]PIE: New page: PIE session: Scene (Mar 8, 2015, 9:28:39 AM)
+[2015.03.08-23.28.39:745][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042174s)
+[2015.03.08-23.28.39:746][285]LogPlayLevel: PIE: World Init took: (0.001229s)
+[2015.03.08-23.28.39:746][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.043712s)
+[2015.03.08-23.28.40:479][285]LogTexture:Display: Building textures: TempZeke_Body_diffuse (AutoDXT)
+[2015.03.08-23.28.41:726][285]LogTexture:Display: Building textures: TempZeke_Body_specular (AutoDXT)
+[2015.03.08-23.28.42:047][285]LogTexture:Display: Building textures: TempZeke_Body_normal (BC5)
+[2015.03.08-23.28.42:207][285]LogMaterial: Missing cached shader map for material Bodymat, compiling.
+[2015.03.08-23.28.42:224][285]LogMaterial: Missing cached shader map for material Bodymat_eyelashes, compiling.
+[2015.03.08-23.28.42:262][285]LogTexture:Display: Building textures: TempZeke_Bottom_diffuse (AutoDXT)
+[2015.03.08-23.28.42:588][285]LogTexture:Display: Building textures: TempZeke_Bottom_normal (BC5)
+[2015.03.08-23.28.42:633][285]LogTexture:Display: Building textures: TempZeke_Bottom_specular (AutoDXT)
+[2015.03.08-23.28.42:704][285]LogMaterial: Missing cached shader map for material Bottommat, compiling.
+[2015.03.08-23.28.42:751][285]LogTexture:Display: Building textures: TempZeke_Hair_normal (BC5)
+[2015.03.08-23.28.42:793][285]LogTexture:Display: Building textures: TempZeke_Hair_specular (AutoDXT)
+[2015.03.08-23.28.42:862][285]LogTexture:Display: Building textures: TempZeke_Hair_diffuse (AutoDXT)
+[2015.03.08-23.28.43:033][285]LogMaterial: Missing cached shader map for material Hairmat, compiling.
+[2015.03.08-23.28.43:081][285]LogTexture:Display: Building textures: TempZeke_Shoes_diffuse (AutoDXT)
+[2015.03.08-23.28.43:376][285]LogTexture:Display: Building textures: TempZeke_Shoes_normal (BC5)
+[2015.03.08-23.28.43:423][285]LogTexture:Display: Building textures: TempZeke_Shoes_specular (AutoDXT)
+[2015.03.08-23.28.43:482][285]LogMaterial: Missing cached shader map for material Shoesmat, compiling.
+[2015.03.08-23.28.43:514][285]LogWorld: Game class is 'MyGame_C'
+[2015.03.08-23.28.43:584][285]LogAIModule: Creating AISystem for world Scene
+[2015.03.08-23.28.43:589][285]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.08-23.28.43:590][285]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.08-16.28.43
+[2015.03.08-23.28.43:636][285]LogWorld: Bringing up level for play took: 0.052190
+[2015.03.08-23.28.43:668][285]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene 3.903
+[2015.03.08-23.28.44:751][346]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:480][446]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:498][447]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:517][448]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:533][449]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:548][450]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:563][451]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:577][452]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:592][453]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:622][454]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:638][455]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:653][456]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:669][457]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:685][458]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:701][459]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:718][460]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:733][461]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:753][462]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:767][463]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:782][464]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:798][465]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:813][466]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:831][467]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:847][468]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:865][469]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:879][470]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:894][471]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:909][472]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:923][473]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:937][474]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:953][475]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:968][476]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:980][477]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.46:993][478]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.47:006][479]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.47:018][480]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.47:031][481]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.47:044][482]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.47:056][483]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.47:069][484]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.47:083][485]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:258][584]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:273][585]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:287][586]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:302][587]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:317][588]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:331][589]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:347][590]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:362][591]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:381][592]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:400][593]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:414][594]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:432][595]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:447][596]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:462][597]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:477][598]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:492][599]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:506][600]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:519][601]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:534][602]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:548][603]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:562][604]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.48:579][605]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.49:556][670]LogBlueprintUserMessages: Damage
+[2015.03.08-23.28.50:408][720]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D09AE80
+[2015.03.08-23.28.54:324][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/Scene" FILE="F:/Pre Production/Jessica/Zeke 4.6/Content/level/Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.08-23.29.26:498][929]LogSavePackage: Save=30582.919922ms
+[2015.03.08-23.29.26:499][929]LogSavePackage: Moving 'F:/Pre Production/Jessica/Zeke 4.6/Saved/Scene114F69EA4C27B6CFB060878649E0CEE1.tmp' to 'F:/Pre Production/Jessica/Zeke 4.6/Content/level/Scene.umap'
+[2015.03.08-23.29.31:791][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/Meshes/Whole_City" FILE="F:/Pre Production/Jessica/Zeke 4.6/Content/Zeke/Meshes/Whole_City.uasset" SILENT=true
+[2015.03.08-23.29.32:578][174]LogSavePackage: Save=118.141884ms
+[2015.03.08-23.29.32:578][174]LogSavePackage: Moving 'F:/Pre Production/Jessica/Zeke 4.6/Saved/Whole_City059879CD4825D9F8B684DDA20CB482B2.tmp' to 'F:/Pre Production/Jessica/Zeke 4.6/Content/Zeke/Meshes/Whole_City.uasset'
+[2015.03.08-23.29.42:920][312]Cmd: QUIT_EDITOR
+[2015.03.08-23.29.43:617][312]LogExit: Preparing to exit.
+[2015.03.08-23.29.44:088][312]LogExit: Editor shut down
+[2015.03.08-23.29.44:088][312]LogExit: Transaction tracking system shut down
+[2015.03.08-23.29.44:090][312]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A309D00
+[2015.03.08-23.29.44:157][312]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000111F25C0
+[2015.03.08-23.29.44:157][312]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000369F2340
+[2015.03.08-23.29.44:157][312]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D2E7600
+[2015.03.08-23.29.44:157][312]LogExit: Object subsystem successfully closed.
+[2015.03.08-23.29.44:226][312]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.03.08-23.29.44:226][312]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.03.08-23.29.44:226][312]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.03.08-23.29.44:226][312]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.03.08-23.29.44:226][312]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.03.08-23.29.44:226][312]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.03.08-23.29.44:242][312]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.03.08-23.29.44:242][312]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.03.08-23.29.44:242][312]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.03.08-23.29.44:242][312]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.03.08-23.29.44:242][312]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.03.08-23.29.44:242][312]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.03.08-23.29.44:243][312]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.03.08-23.29.44:243][312]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.03.08-23.29.44:243][312]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.03.08-23.29.44:243][312]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.03.08-23.29.44:243][312]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.03.08-23.29.44:243][312]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.03.08-23.29.44:243][312]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.03.08-23.29.44:243][312]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.03.08-23.29.44:243][312]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.03.08-23.29.44:243][312]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.03.08-23.29.44:243][312]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.03.08-23.29.44:243][312]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.03.08-23.29.44:243][312]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.03.08-23.29.44:243][312]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.03.08-23.29.44:243][312]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.03.08-23.29.44:252][312]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.03.08-23.29.44:252][312]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.03.08-23.29.44:252][312]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.03.08-23.29.44:252][312]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.03.08-23.29.44:252][312]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.03.08-23.29.44:252][312]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.03.08-23.29.44:252][312]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.03.08-23.29.44:252][312]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.03.08-23.29.44:252][312]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.03.08-23.29.44:252][312]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.03.08-23.29.44:252][312]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.03.08-23.29.44:252][312]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.03.08-23.29.44:252][312]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.03.08-23.29.44:252][312]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.03.08-23.29.44:253][312]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.03.08-23.29.44:253][312]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.03.08-23.29.44:253][312]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.03.08-23.29.44:253][312]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.03.08-23.29.44:253][312]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.03.08-23.29.44:253][312]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.03.08-23.29.44:253][312]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.03.08-23.29.44:621][312]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.03.08-23.29.44:621][312]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.03.08-23.29.44:621][312]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.03.08-23.29.44:621][312]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.03.08-23.29.44:621][312]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.03.08-23.29.44:621][312]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.03.08-23.29.44:621][312]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.03.08-23.29.44:621][312]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.03.08-23.29.44:621][312]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.03.08-23.29.44:621][312]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.03.08-23.29.44:621][312]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.03.08-23.29.44:621][312]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.03.08-23.29.44:621][312]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.03.08-23.29.44:622][312]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.03.08-23.29.44:622][312]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.03.08-23.29.44:622][312]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.03.08-23.29.44:622][312]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.03.08-23.29.44:626][312]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.03.08-23.29.44:676][312]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.03.08-23.29.44:677][312]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.03.08-23.29.44:677][312]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.03.08-23.29.44:677][312]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.03.08-23.29.44:677][312]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.03.08-23.29.44:677][312]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.03.08-23.29.44:677][312]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.03.08-23.29.44:678][312]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.03.08-23.29.44:678][312]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.03.08-23.29.44:678][312]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.03.08-23.29.44:678][312]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.03.08-23.29.44:778][312]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.03.08-23.29.44:778][312]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.03.08-23.29.44:778][312]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.03.08-23.29.44:781][312]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.03.08-23.29.44:781][312]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.03.08-23.29.44:781][312]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.03.08-23.29.44:781][312]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.03.08-23.29.44:791][312]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.03.08-23.29.44:791][312]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.03.08-23.29.44:791][312]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.03.08-23.29.44:791][312]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.03.08-23.29.44:791][312]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.03.08-23.29.44:791][312]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.03.08-23.29.44:791][312]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.03.08-23.29.44:791][312]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.03.08-23.29.44:791][312]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.03.08-23.29.44:791][312]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.03.08-23.29.44:791][312]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.03.08-23.29.44:795][312]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.03.08-23.29.44:795][312]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.03.08-23.29.44:795][312]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.03.08-23.29.44:795][312]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.03.08-23.29.44:795][312]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.03.08-23.29.44:795][312]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.03.08-23.29.44:795][312]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.03.08-23.29.44:795][312]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.03.08-23.29.44:795][312]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.03.08-23.29.44:795][312]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.03.08-23.29.44:866][312]LogDerivedDataCache: Shutdown
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.08-23.29.44:866][312]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.08-23.29.44:870][312]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.08-23.29.44:871][312]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.08-23.29.44:871][312]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.08-23.29.44:871][312]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.08-23.29.44:871][312]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.08-23.29.44:871][312]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.08-23.29.44:871][312]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.08-23.29.44:871][312]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.08-23.29.44:871][312]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.08-23.29.44:871][312]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.08-23.29.44:872][312]LogExit: Exiting.
+[2015.03.08-23.29.44:894][312]Log file closed, 03/08/15 16:29:44
