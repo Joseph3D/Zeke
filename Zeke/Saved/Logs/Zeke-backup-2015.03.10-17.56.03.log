@@ -1,0 +1,734 @@
+﻿Log file open, 03/10/15 17:31:54
+LogInit:Display: Running engine for game: Zeke
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.11-00.31.54:987][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.11-00.31.55:036][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.11-00.31.55:053][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.11-00.31.55:061][  0]LogInit: Object subsystem initialized
+[2015.03.11-00.31.55:063][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.11-00.31.55:063][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Zeke/Zeke/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.11-00.31.55:063][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.11-00.31.55:063][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Zeke/Zeke/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.11-00.31.55:063][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.03.11-00.31.55:063][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.11-00.31.55:063][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.11-00.31.55:069][  0]LogInit: Computer: AI251LAB0234P17
+[2015.03.11-00.31.55:069][  0]LogInit: User: student
+[2015.03.11-00.31.55:069][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.11-00.31.55:069][  0]LogInit: High frequency timer resolution =3.507197 MHz
+[2015.03.11-00.31.55:069][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.03.11-00.31.55:069][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.11-00.31.55:069][  0]LogMemory: Process Physical Memory: 48.16 MB used, 48.16 MB peak
+[2015.03.11-00.31.55:069][  0]LogMemory: Process Virtual Memory: 24.03 MB used, 24.03 MB peak
+[2015.03.11-00.31.55:069][  0]LogMemory: Physical Memory: 2861.67 MB used, 8115.79 MB total
+[2015.03.11-00.31.55:069][  0]LogMemory: Virtual Memory: 261.90 MB used, 8388608.00 MB total
+[2015.03.11-00.31.55:092][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K2000 (Feature Level 11_0)
+[2015.03.11-00.31.55:092][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 3801MB of shared system memory, 1 output[s]
+[2015.03.11-00.31.55:092][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.11-00.31.55:096][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.11-00.31.55:103][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.11-00.31.55:154][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.11-00.31.55:278][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.11-00.32.00:527][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.11-00.32.00:912][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.11-00.32.00:960][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.11-00.32.00:995][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.03.11-00.32.00:995][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/student/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.03.11-00.32.00:995][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Zeke/Zeke/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.11-00.32.00:995][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.11-00.32.01:059][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.03.11-00.32.01:070][  0]LogDerivedDataCache: Using Local data cache path C:/Users/student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.11-00.32.01:191][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.03.11-00.32.01:323][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.11-00.32.01:323][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.11-00.32.01:656][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.11-00.32.01:708][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.11-00.32.02:423][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.11-00.32.02:571][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for D:/Zeke/Zeke/Binaries/Win64. Error: 0
+[2015.03.11-00.32.02:703][  0]SourceControl: Info Source control is disabled
+[2015.03.11-00.32.02:703][  0]SourceControl: Info Source control is disabled
+[2015.03.11-00.32.02:710][  0]SourceControl: Info Source control is disabled
+[2015.03.11-00.32.02:819][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.03.11-00.32.02:819][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.03.11-00.32.02:868][  0]LogEngine: Initializing Engine...
+[2015.03.11-00.32.02:998][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.03.11-00.32.03:018][  0]LogInit: FAudioDevice initialized.
+[2015.03.11-00.32.03:036][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.11-00.32.03:054][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.03.11-00.32.03:059][  0]LogInit: Texture streaming: Enabled
+[2015.03.11-00.32.03:084][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.11-00.32.03:084][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.03.11-00.32.03:085][  0]LogAnalytics: SetUserId aac480f1ef3f93ca7eef73a34b96b99b
+[2015.03.11-00.32.03:085][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.11-00.32.03:101][  0]LogInit: Transaction tracking system initialized
+[2015.03.11-00.32.03:185][  0]BlueprintLog: New page: Editor Load
+[2015.03.11-00.32.03:212][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.03.11-00.32.03:212][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.11-00.32.03:622][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.11-00.32.03:923][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.11-00.32.04:082][  0]LogConsoleResponse:Display: 
+[2015.03.11-00.32.04:124][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.03.11-00.32.04:292][  0]SourceControl: Info Source control is disabled
+[2015.03.11-00.32.04:293][  0]Cmd: MAP LOAD FILE="D:/Zeke/Zeke/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.03.11-00.32.04:294][  0]LightingResults: New page: Lighting Build
+[2015.03.11-00.32.04:302][  0]MapCheck: New page: Map Check
+[2015.03.11-00.32.04:302][  0]LightingResults: New page: Lighting Build
+[2015.03.11-00.32.04:309][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012EBD9E0
+[2015.03.11-00.32.05:094][  0]LogTexture:Display: Building textures: PoPo_Body_diffuse (AutoDXT)
+[2015.03.11-00.32.05:888][  0]LogTexture:Display: Building textures: PoPo_Body_normal (BC5)
+[2015.03.11-00.32.06:015][  0]LogTexture:Display: Building textures: PoPo_Body_specular (AutoDXT)
+[2015.03.11-00.32.06:184][  0]LogMaterial: Missing cached shader map for material Bodymat_eyelashes_Popo, compiling.
+[2015.03.11-00.32.06:220][  0]LogMaterial: Missing cached shader map for material Bodymat_popo, compiling.
+[2015.03.11-00.32.06:242][  0]LogTexture:Display: Building textures: PoPo_Bottom_diffuse (AutoDXT)
+[2015.03.11-00.32.06:549][  0]LogTexture:Display: Building textures: PoPo_Bottom_normal (BC5)
+[2015.03.11-00.32.06:591][  0]LogTexture:Display: Building textures: PoPo_Bottom_specular (AutoDXT)
+[2015.03.11-00.32.06:770][  0]LogMaterial: Missing cached shader map for material Bottommat_popo, compiling.
+[2015.03.11-00.32.06:798][  0]LogTexture:Display: Building textures: PoPo_Shoes_diffuse (AutoDXT)
+[2015.03.11-00.32.07:022][  0]LogTexture:Display: Building textures: PoPo_Shoes_normal (BC5)
+[2015.03.11-00.32.07:061][  0]LogTexture:Display: Building textures: PoPo_Shoes_specular (AutoDXT)
+[2015.03.11-00.32.07:125][  0]LogMaterial: Missing cached shader map for material Shoesmat_Popo, compiling.
+[2015.03.11-00.32.07:157][  0]LogTexture:Display: Building textures: PoPo_Top_diffuse (AutoDXT)
+[2015.03.11-00.32.07:400][  0]LogTexture:Display: Building textures: PoPo_Top_normal (BC5)
+[2015.03.11-00.32.07:445][  0]LogTexture:Display: Building textures: PoPo_Top_specular (AutoDXT)
+[2015.03.11-00.32.07:493][  0]LogMaterial: Missing cached shader map for material Topmat, compiling.
+[2015.03.11-00.32.07:528][  0]LogStaticMesh: Building static mesh sword...
+[2015.03.11-00.32.07:531][  0]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.03.11-00.32.07:533][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.11-00.32.07:533][  0]LogLayoutUV:Display:   Rasterize: 3931
+[2015.03.11-00.32.07:533][  0]LogLayoutUV:Display:   Find: 1239
+[2015.03.11-00.32.07:536][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.11-00.32.07:536][  0]LogLayoutUV:Display:   Rasterize: 4085
+[2015.03.11-00.32.07:536][  0]LogLayoutUV:Display:   Find: 1880
+[2015.03.11-00.32.07:538][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.11-00.32.07:538][  0]LogLayoutUV:Display:   Rasterize: 4204
+[2015.03.11-00.32.07:538][  0]LogLayoutUV:Display:   Find: 2000
+[2015.03.11-00.32.07:540][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.11-00.32.07:540][  0]LogLayoutUV:Display:   Rasterize: 4217
+[2015.03.11-00.32.07:540][  0]LogLayoutUV:Display:   Find: 1825
+[2015.03.11-00.32.07:542][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.11-00.32.07:542][  0]LogLayoutUV:Display:   Rasterize: 4437
+[2015.03.11-00.32.07:542][  0]LogLayoutUV:Display:   Find: 2163
+[2015.03.11-00.32.07:544][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.11-00.32.07:544][  0]LogLayoutUV:Display:   Rasterize: 4419
+[2015.03.11-00.32.07:544][  0]LogLayoutUV:Display:   Find: 1757
+[2015.03.11-00.32.07:546][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.11-00.32.07:546][  0]LogLayoutUV:Display:   Rasterize: 4428
+[2015.03.11-00.32.07:546][  0]LogLayoutUV:Display:   Find: 1813
+[2015.03.11-00.32.07:550][  0]LogStaticMesh: Built static mesh [32.295021ms] /Game/zeke/Assets/sword.sword
+[2015.03.11-00.32.07:616][  0]LogStaticMesh: Building static mesh Building0006...
+[2015.03.11-00.32.09:940][  0]LogLayoutUV:Display: FindCharts: 254 ms
+[2015.03.11-00.32.40:103][  0]LogStaticMesh: Built static mesh [32492.500000ms] /Game/Zeke/Meshes/Building0006.Building0006
+[2015.03.11-00.32.41:207][  0]LogStaticMesh: Building static mesh Building0001...
+[2015.03.11-00.32.41:703][  0]LogLayoutUV:Display: FindCharts: 65 ms
+[2015.03.11-00.32.48:205][  0]LogStaticMesh: Built static mesh [7004.150391ms] /Game/Zeke/Meshes/Building0001.Building0001
+[2015.03.11-00.32.48:629][  0]LogStaticMesh: Building static mesh Building0002...
+[2015.03.11-00.32.49:533][  0]LogLayoutUV:Display: FindCharts: 142 ms
+[2015.03.11-00.33.17:033][  0]LogStaticMesh: Built static mesh [28409.412109ms] /Game/Zeke/Meshes/Building0002.Building0002
+[2015.03.11-00.33.17:938][  0]LogStaticMesh: Building static mesh Building0003...
+[2015.03.11-00.33.18:616][  0]LogLayoutUV:Display: FindCharts: 116 ms
+[2015.03.11-00.33.42:363][  0]LogStaticMesh: Built static mesh [24434.828125ms] /Game/Zeke/Meshes/Building0003.Building0003
+[2015.03.11-00.33.43:175][  0]LogStaticMesh: Building static mesh Building0004...
+[2015.03.11-00.33.43:309][  0]LogLayoutUV:Display: FindCharts: 10 ms
+[2015.03.11-00.33.43:429][  0]LogLayoutUV:Display: PackCharts: 50 ms
+[2015.03.11-00.33.43:429][  0]LogLayoutUV:Display:   Rasterize: 37934
+[2015.03.11-00.33.43:429][  0]LogLayoutUV:Display:   Find: 133625
+[2015.03.11-00.33.43:484][  0]LogLayoutUV:Display: PackCharts: 54 ms
+[2015.03.11-00.33.43:484][  0]LogLayoutUV:Display:   Rasterize: 37952
+[2015.03.11-00.33.43:484][  0]LogLayoutUV:Display:   Find: 147652
+[2015.03.11-00.33.43:542][  0]LogLayoutUV:Display: PackCharts: 57 ms
+[2015.03.11-00.33.43:542][  0]LogLayoutUV:Display:   Rasterize: 38160
+[2015.03.11-00.33.43:542][  0]LogLayoutUV:Display:   Find: 158119
+[2015.03.11-00.33.43:604][  0]LogLayoutUV:Display: PackCharts: 61 ms
+[2015.03.11-00.33.43:604][  0]LogLayoutUV:Display:   Rasterize: 38063
+[2015.03.11-00.33.43:604][  0]LogLayoutUV:Display:   Find: 173411
+[2015.03.11-00.33.43:785][  0]LogLayoutUV:Display: PackCharts: 62 ms
+[2015.03.11-00.33.43:785][  0]LogLayoutUV:Display:   Rasterize: 38344
+[2015.03.11-00.33.43:785][  0]LogLayoutUV:Display:   Find: 175962
+[2015.03.11-00.33.43:848][  0]LogLayoutUV:Display: PackCharts: 62 ms
+[2015.03.11-00.33.43:848][  0]LogLayoutUV:Display:   Rasterize: 38198
+[2015.03.11-00.33.43:848][  0]LogLayoutUV:Display:   Find: 175638
+[2015.03.11-00.33.44:223][  0]LogStaticMesh: Built static mesh [1058.073486ms] /Game/Zeke/Meshes/Building0004.Building0004
+[2015.03.11-00.33.44:296][  0]LogStaticMesh: Building static mesh Building0005...
+[2015.03.11-00.33.45:084][  0]LogLayoutUV:Display: FindCharts: 133 ms
+[2015.03.11-00.34.08:185][  0]LogStaticMesh: Built static mesh [23888.392578ms] /Game/Zeke/Meshes/Building0005.Building0005
+[2015.03.11-00.34.09:103][  0]LogTexture:Display: Building textures: BrickTile (AutoDXT)
+[2015.03.11-00.34.13:502][  0]LogStaticMesh: Building static mesh Building0007...
+[2015.03.11-00.34.14:457][  0]LogLayoutUV:Display: FindCharts: 151 ms
+[2015.03.11-00.34.55:383][  0]LogStaticMesh: Built static mesh [41879.464844ms] /Game/Zeke/Meshes/Building0007.Building0007
+[2015.03.11-00.34.56:580][  0]LogTexture:Display: Building textures: BrickTileNRML (BC5)
+[2015.03.11-00.34.57:125][  0]LogMaterial: Missing cached shader map for material Brick, compiling.
+[2015.03.11-00.34.57:154][  0]LogMaterial: Missing cached shader map for material Glass, compiling.
+[2015.03.11-00.34.57:286][  0]LogTexture:Display: Building textures: ConcreteTile (AutoDXT)
+[2015.03.11-00.35.03:518][  0]LogMaterial: Missing cached shader map for material Concretre, compiling.
+[2015.03.11-00.35.03:552][  0]LogStaticMesh: Building static mesh Building009...
+[2015.03.11-00.35.03:672][  0]LogLayoutUV:Display: FindCharts: 21 ms
+[2015.03.11-00.35.03:866][  0]LogLayoutUV:Display: PackCharts: 111 ms
+[2015.03.11-00.35.03:866][  0]LogLayoutUV:Display:   Rasterize: 77700
+[2015.03.11-00.35.03:866][  0]LogLayoutUV:Display:   Find: 307457
+[2015.03.11-00.35.04:522][  0]LogLayoutUV:Display: PackCharts: 114 ms
+[2015.03.11-00.35.04:522][  0]LogLayoutUV:Display:   Rasterize: 81031
+[2015.03.11-00.35.04:522][  0]LogLayoutUV:Display:   Find: 313420
+[2015.03.11-00.35.04:637][  0]LogLayoutUV:Display: PackCharts: 114 ms
+[2015.03.11-00.35.04:637][  0]LogLayoutUV:Display:   Rasterize: 76244
+[2015.03.11-00.35.04:637][  0]LogLayoutUV:Display:   Find: 321232
+[2015.03.11-00.35.05:535][  0]LogStaticMesh: Built static mesh [2000.939453ms] /Game/Zeke/Meshes/Building009.Building009
+[2015.03.11-00.35.05:724][  0]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.03.11-00.35.05:753][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.03.11-00.35.05:971][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.03.11-00.35.06:226][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.03.11-00.35.06:250][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.03.11-00.35.06:259][  0]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.03.11-00.35.06:279][  0]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.03.11-00.35.06:302][  0]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.03.11-00.35.06:316][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.03.11-00.35.06:514][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.03.11-00.35.06:535][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.03.11-00.35.06:598][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.03.11-00.35.06:655][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.03.11-00.35.06:660][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.03.11-00.35.06:662][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.03.11-00.35.06:668][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.03.11-00.35.06:686][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.03.11-00.35.06:701][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.03.11-00.35.06:755][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.03.11-00.35.06:757][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2015.03.11-00.35.06:765][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.03.11-00.35.06:801][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.03.11-00.35.06:833][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.03.11-00.35.06:863][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.03.11-00.35.06:864][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.03.11-00.35.07:054][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.11-00.35.07:072][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.03.11-00.35.07:073][  0]Cmd: MAP CHECKDEP
+[2015.03.11-00.35.07:073][  0]MapCheck: New page: Example_Map - Mar 10, 2015, 10:35:07 AM
+[2015.03.11-00.35.07:161][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.639ms to complete.
+[2015.03.11-00.35.07:161][  0]LogFileHelpers: Loading map 'Example_Map' took 182.860
+[2015.03.11-00.35.07:340][  0]LogCollectionManager: Loaded 0 collections in 0.000811 seconds
+[2015.03.11-00.35.07:523][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.11-00.35.07:527][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.11-00.35.07:553][  0]LogLoad: Full Startup: 194.42 seconds (BP compile: 0.14 seconds)
+[2015.03.11-00.35.07:565][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/buildings/Textures'
+[2015.03.11-00.35.08:017][  0]LogRenderer:Warning: Reallocating scene render targets to support 968x1024.
+[2015.03.11-00.35.08:182][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.03.11-00.35.08:182][  1]Cmd: UpdateLandscapeEditorData
+[2015.03.11-00.35.08:485][  2]LogAssetRegistry: Asset discovery search completed in 185.2738 seconds
+[2015.03.11-00.35.54:581][335]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/level'
+[2015.03.11-00.35.55:358][354]LogTexture:Display: Building textures: RD_1w-trp (AutoDXT)
+[2015.03.11-00.35.55:887][354]LogMaterial: Missing cached shader map for material RD_1w-trp_Mat, compiling.
+[2015.03.11-00.35.55:974][354]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.03.11-00.35.55:995][354]Cmd: MAP LOAD FILE="D:/Zeke/Zeke/Content/level/Scene.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.03.11-00.35.55:995][354]LightingResults: New page: Lighting Build
+[2015.03.11-00.35.56:018][354]LoadErrors: New page: Loading map: Scene.umap
+[2015.03.11-00.35.56:047][354]MapCheck: New page: Map Check
+[2015.03.11-00.35.56:047][354]LightingResults: New page: Lighting Build
+[2015.03.11-00.35.56:058][354]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000191F2980
+[2015.03.11-00.35.56:070][354]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.11-00.35.56:071][354]LogAIModule: Creating AISystem for world Scene
+[2015.03.11-00.35.56:087][354]Cmd: MAP CHECKDEP
+[2015.03.11-00.35.56:087][354]MapCheck: New page: Scene - Mar 10, 2015, 10:35:56 AM
+[2015.03.11-00.35.56:200][354]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 113.006ms to complete.
+[2015.03.11-00.35.56:202][354]LogFileHelpers: Loading map 'Scene' took 0.209
+[2015.03.11-00.35.56:336][355]Cmd: UpdateLandscapeEditorData -warnings
+[2015.03.11-00.35.56:337][355]Cmd: UpdateLandscapeEditorData
+[2015.03.11-00.36.05:759][663]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.03.11-00.36.07:104][703]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.03.11-00.36.07:615][718]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2015.03.11-00.36.45:216][816]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.03.11-00.36.50:486][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/Scene" FILE="D:/Zeke/Zeke/Content/level/Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.11-00.36.50:603][816]LogSavePackage: Save=96.143730ms
+[2015.03.11-00.36.50:603][816]LogSavePackage: Moving 'D:/Zeke/Zeke/Saved/Scene8EADC8BB413DC154B78FCB8FF775CE78.tmp' to 'D:/Zeke/Zeke/Content/level/Scene.umap'
+[2015.03.11-00.36.50:619][816]LogFileHelpers: Saving map 'Scene' took 0.222
+[2015.03.11-00.37.27:368][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/Scene" FILE="D:/Zeke/Zeke/Content/level/Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.11-00.37.27:491][914]LogSavePackage: Save=86.389214ms
+[2015.03.11-00.37.27:491][914]LogSavePackage: Moving 'D:/Zeke/Zeke/Saved/Scene976C1DD24C63AD637D7E3E9C4598591E.tmp' to 'D:/Zeke/Zeke/Content/level/Scene.umap'
+[2015.03.11-00.42.59:567][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building009)
+[2015.03.11-00.42.59:575][882]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.00:248][902]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building18)
+[2015.03.11-00.43.00:256][902]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.00:695][914]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building14)
+[2015.03.11-00.43.00:702][914]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.01:259][931]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building10)
+[2015.03.11-00.43.01:266][931]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.01:708][944]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building15)
+[2015.03.11-00.43.01:715][944]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.02:349][963]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building16)
+[2015.03.11-00.43.02:356][963]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.02:862][977]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building17)
+[2015.03.11-00.43.02:870][977]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.03:961][  9]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building13)
+[2015.03.11-00.43.03:969][  9]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.04:457][ 23]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building12)
+[2015.03.11-00.43.04:465][ 23]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.06:306][ 74]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building11)
+[2015.03.11-00.43.06:314][ 74]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.09:126][153]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.09:143][153]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.16:025][331]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.16:870][355]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.21:180][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building23)
+[2015.03.11-00.43.21:187][478]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.21:615][490]Cmd: DELETE
+[2015.03.11-00.43.21:615][490]Cmd: ACTOR DELETE
+[2015.03.11-00.43.21:615][490]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.11-00.43.21:625][490]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2015.03.11-00.43.22:105][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building22)
+[2015.03.11-00.43.22:113][504]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.22:209][505]Cmd: DELETE
+[2015.03.11-00.43.22:209][505]Cmd: ACTOR DELETE
+[2015.03.11-00.43.22:209][505]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.11-00.43.22:218][505]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2015.03.11-00.43.24:079][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building21)
+[2015.03.11-00.43.24:088][561]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.25:085][589]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.25:102][589]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.30:747][738]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building27)
+[2015.03.11-00.43.30:754][738]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.31:141][750]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building26)
+[2015.03.11-00.43.31:148][750]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.31:529][760]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building25)
+[2015.03.11-00.43.31:536][760]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.31:892][770]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building24)
+[2015.03.11-00.43.31:900][770]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.33:310][811]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building28)
+[2015.03.11-00.43.33:317][811]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.33:707][821]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building19)
+[2015.03.11-00.43.33:714][821]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.34:066][825]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building20)
+[2015.03.11-00.43.34:074][825]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.34:509][835]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building21)
+[2015.03.11-00.43.34:517][835]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.38:290][939]Cmd: TRANSACTION UNDO
+[2015.03.11-00.43.38:290][939]LogEditorTransaction: Undo Move Actors
+[2015.03.11-00.43.38:349][939]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.39:462][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building22)
+[2015.03.11-00.43.39:469][964]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.40:948][  5]Cmd: TRANSACTION UNDO
+[2015.03.11-00.43.40:948][  5]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.11-00.43.40:956][  5]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.41:628][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building22)
+[2015.03.11-00.43.41:636][ 23]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.42:470][ 47]Cmd: TRANSACTION UNDO
+[2015.03.11-00.43.42:470][ 47]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.11-00.43.42:478][ 47]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.42:988][ 61]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.44:290][ 96]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.44:307][ 96]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.43.48:185][189]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.44.11:098][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/Scene" FILE="D:/Zeke/Zeke/Content/level/Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.11-00.44.11:211][745]LogSavePackage: Save=91.733940ms
+[2015.03.11-00.44.11:211][745]LogSavePackage: Moving 'D:/Zeke/Zeke/Saved/SceneD0DEA30E4B9F681BCF9DB5A9CDC914DC.tmp' to 'D:/Zeke/Zeke/Content/level/Scene.umap'
+[2015.03.11-00.44.11:227][745]LogFileHelpers: Saving map 'Scene' took 0.221
+[2015.03.11-00.44.14:597][849]MapCheck: New page: Map Check
+[2015.03.11-00.44.14:633][849]Cmd: MAP REBUILD ALLVISIBLE
+[2015.03.11-00.44.14:633][849]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.03.11-00.44.14:634][849]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2015.03.11-00.44.17:989][849]LightingResults: New page: Lighting Build - Mar 10, 2015, 10:44:17 AM
+[2015.03.11-00.44.27:886][849]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.03.11-00.44.27:886][849]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.03.11-00.44.27:886][849]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.03.11-00.44.27:886][849]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.03.11-00.44.27:886][849]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.03.11-00.44.28:822][849]LogEditorBuildUtils: Build time 0:00:14
+[2015.03.11-00.44.28:824][849]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_28, compiling.
+[2015.03.11-00.44.28:850][849]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_28, compiling.
+[2015.03.11-00.44.28:916][850]Cmd: UpdateLandscapeEditorData
+[2015.03.11-00.44.28:932][850]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_66, compiling.
+[2015.03.11-00.44.28:953][850]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_66, compiling.
+[2015.03.11-00.44.28:968][851]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_77, compiling.
+[2015.03.11-00.44.28:970][851]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_77, compiling.
+[2015.03.11-00.44.28:972][851]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_68, compiling.
+[2015.03.11-00.44.28:974][851]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_68, compiling.
+[2015.03.11-00.44.28:976][851]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_69, compiling.
+[2015.03.11-00.44.28:978][851]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_69, compiling.
+[2015.03.11-00.44.29:001][852]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_70, compiling.
+[2015.03.11-00.44.29:002][852]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_70, compiling.
+[2015.03.11-00.44.29:004][852]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_71, compiling.
+[2015.03.11-00.44.29:007][852]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_71, compiling.
+[2015.03.11-00.44.29:008][852]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_72, compiling.
+[2015.03.11-00.44.29:010][852]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_72, compiling.
+[2015.03.11-00.44.29:134][853]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_73, compiling.
+[2015.03.11-00.44.29:135][853]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_73, compiling.
+[2015.03.11-00.44.29:137][853]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_74, compiling.
+[2015.03.11-00.44.29:138][853]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_74, compiling.
+[2015.03.11-00.44.29:140][853]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_75, compiling.
+[2015.03.11-00.44.29:142][853]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_75, compiling.
+[2015.03.11-00.44.29:143][853]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_76, compiling.
+[2015.03.11-00.44.29:145][853]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_76, compiling.
+[2015.03.11-00.44.29:170][854]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_78, compiling.
+[2015.03.11-00.44.29:173][854]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_78, compiling.
+[2015.03.11-00.44.29:175][854]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_88, compiling.
+[2015.03.11-00.44.29:176][854]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_88, compiling.
+[2015.03.11-00.44.29:180][854]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_79, compiling.
+[2015.03.11-00.44.29:182][854]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_79, compiling.
+[2015.03.11-00.44.29:212][855]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_80, compiling.
+[2015.03.11-00.44.29:214][855]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_80, compiling.
+[2015.03.11-00.44.29:216][855]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_81, compiling.
+[2015.03.11-00.44.29:219][855]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_81, compiling.
+[2015.03.11-00.44.29:221][855]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_82, compiling.
+[2015.03.11-00.44.29:223][855]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_82, compiling.
+[2015.03.11-00.44.29:253][856]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_83, compiling.
+[2015.03.11-00.44.29:255][856]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_83, compiling.
+[2015.03.11-00.44.29:257][856]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_84, compiling.
+[2015.03.11-00.44.29:258][856]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_84, compiling.
+[2015.03.11-00.44.29:260][856]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_85, compiling.
+[2015.03.11-00.44.29:262][856]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_85, compiling.
+[2015.03.11-00.44.29:292][857]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_86, compiling.
+[2015.03.11-00.44.29:294][857]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_86, compiling.
+[2015.03.11-00.44.29:296][857]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_87, compiling.
+[2015.03.11-00.44.29:299][857]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_87, compiling.
+[2015.03.11-00.44.29:301][857]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_89, compiling.
+[2015.03.11-00.44.29:304][857]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_89, compiling.
+[2015.03.11-00.44.29:325][858]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_99, compiling.
+[2015.03.11-00.44.29:327][858]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_99, compiling.
+[2015.03.11-00.44.29:329][858]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_90, compiling.
+[2015.03.11-00.44.29:332][858]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_90, compiling.
+[2015.03.11-00.44.29:334][858]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_91, compiling.
+[2015.03.11-00.44.29:337][858]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_91, compiling.
+[2015.03.11-00.44.29:359][859]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_92, compiling.
+[2015.03.11-00.44.29:361][859]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_92, compiling.
+[2015.03.11-00.44.29:363][859]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_93, compiling.
+[2015.03.11-00.44.29:366][859]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_93, compiling.
+[2015.03.11-00.44.29:368][859]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_94, compiling.
+[2015.03.11-00.44.29:370][859]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_94, compiling.
+[2015.03.11-00.44.29:392][860]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_95, compiling.
+[2015.03.11-00.44.29:394][860]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_95, compiling.
+[2015.03.11-00.44.29:396][860]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_96, compiling.
+[2015.03.11-00.44.29:398][860]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_96, compiling.
+[2015.03.11-00.44.29:401][860]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_97, compiling.
+[2015.03.11-00.44.29:403][860]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_97, compiling.
+[2015.03.11-00.44.29:426][861]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_98, compiling.
+[2015.03.11-00.44.29:428][861]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_98, compiling.
+[2015.03.11-00.44.29:431][861]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_100, compiling.
+[2015.03.11-00.44.29:433][861]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_100, compiling.
+[2015.03.11-00.44.29:460][862]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_110, compiling.
+[2015.03.11-00.44.29:462][862]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_110, compiling.
+[2015.03.11-00.44.29:464][862]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_101, compiling.
+[2015.03.11-00.44.29:465][862]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_101, compiling.
+[2015.03.11-00.44.29:467][862]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_102, compiling.
+[2015.03.11-00.44.29:470][862]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_102, compiling.
+[2015.03.11-00.44.29:494][863]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_103, compiling.
+[2015.03.11-00.44.29:496][863]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_103, compiling.
+[2015.03.11-00.44.29:499][863]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_104, compiling.
+[2015.03.11-00.44.29:502][863]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_104, compiling.
+[2015.03.11-00.44.29:528][864]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_105, compiling.
+[2015.03.11-00.44.29:530][864]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_105, compiling.
+[2015.03.11-00.44.29:532][864]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_106, compiling.
+[2015.03.11-00.44.29:534][864]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_106, compiling.
+[2015.03.11-00.44.29:537][864]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_107, compiling.
+[2015.03.11-00.44.29:539][864]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_107, compiling.
+[2015.03.11-00.44.29:561][865]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_108, compiling.
+[2015.03.11-00.44.29:563][865]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_108, compiling.
+[2015.03.11-00.44.29:566][865]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_109, compiling.
+[2015.03.11-00.44.29:568][865]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_109, compiling.
+[2015.03.11-00.44.29:571][865]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_111, compiling.
+[2015.03.11-00.44.29:573][865]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_111, compiling.
+[2015.03.11-00.44.29:594][866]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_121, compiling.
+[2015.03.11-00.44.29:597][866]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_121, compiling.
+[2015.03.11-00.44.29:599][866]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_112, compiling.
+[2015.03.11-00.44.29:601][866]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_112, compiling.
+[2015.03.11-00.44.29:604][866]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_113, compiling.
+[2015.03.11-00.44.29:606][866]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_113, compiling.
+[2015.03.11-00.44.29:629][867]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_114, compiling.
+[2015.03.11-00.44.29:631][867]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_114, compiling.
+[2015.03.11-00.44.29:634][867]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_115, compiling.
+[2015.03.11-00.44.29:637][867]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_115, compiling.
+[2015.03.11-00.44.29:662][868]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_116, compiling.
+[2015.03.11-00.44.29:664][868]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_116, compiling.
+[2015.03.11-00.44.29:667][868]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_117, compiling.
+[2015.03.11-00.44.29:669][868]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_117, compiling.
+[2015.03.11-00.44.29:695][869]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_118, compiling.
+[2015.03.11-00.44.29:698][869]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_118, compiling.
+[2015.03.11-00.44.29:700][869]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_119, compiling.
+[2015.03.11-00.44.29:703][869]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_119, compiling.
+[2015.03.11-00.44.29:730][870]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_120, compiling.
+[2015.03.11-00.44.29:732][870]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_120, compiling.
+[2015.03.11-00.44.29:735][870]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_122, compiling.
+[2015.03.11-00.44.29:738][870]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_122, compiling.
+[2015.03.11-00.44.29:764][871]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_127, compiling.
+[2015.03.11-00.44.29:766][871]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_127, compiling.
+[2015.03.11-00.44.29:769][871]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_123, compiling.
+[2015.03.11-00.44.29:771][871]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_123, compiling.
+[2015.03.11-00.44.29:797][872]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_124, compiling.
+[2015.03.11-00.44.29:800][872]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_124, compiling.
+[2015.03.11-00.44.29:802][872]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_125, compiling.
+[2015.03.11-00.44.29:804][872]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_125, compiling.
+[2015.03.11-00.44.29:806][872]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_126, compiling.
+[2015.03.11-00.44.29:809][872]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_126, compiling.
+[2015.03.11-00.44.29:831][873]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_128, compiling.
+[2015.03.11-00.44.29:833][873]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_128, compiling.
+[2015.03.11-00.44.29:836][873]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_129, compiling.
+[2015.03.11-00.44.29:839][873]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_129, compiling.
+[2015.03.11-00.44.29:864][874]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_67, compiling.
+[2015.03.11-00.44.29:867][874]LogMaterial: Incomplete cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_67, compiling.
+[2015.03.11-00.44.29:870][874]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Brick, compiling.
+[2015.03.11-00.44.29:873][874]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Brick, compiling.
+[2015.03.11-00.44.29:899][875]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Concretre, compiling.
+[2015.03.11-00.44.29:901][875]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Concretre, compiling.
+[2015.03.11-00.44.29:904][875]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling.
+[2015.03.11-00.44.29:927][875]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling.
+[2015.03.11-00.45.13:828][881]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.13:828][881]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.13:963][885]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.13:963][885]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.14:131][890]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.14:131][890]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.14:132][890]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.14:132][890]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.14:165][891]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.14:165][891]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.14:507][901]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.14:507][901]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.14:644][905]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.14:644][905]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.14:788][909]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.14:788][909]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.14:815][910]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.14:815][910]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.14:815][910]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.14:815][910]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.15:117][919]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.15:117][919]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.15:319][925]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.15:319][925]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.15:454][929]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.15:454][929]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.15:488][930]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.15:488][930]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.15:488][930]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.15:488][930]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.15:824][940]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.15:824][940]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.15:992][945]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.15:992][945]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.16:093][948]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.16:093][948]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.16:127][949]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.16:127][949]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.16:161][950]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.16:161][950]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.16:463][959]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.16:464][959]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.16:665][965]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.16:665][965]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.16:766][968]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.16:766][968]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.18:010][  5]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.18:010][  5]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.18:280][ 13]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.18:280][ 13]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.18:315][ 14]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.18:315][ 14]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.18:416][ 17]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.11-00.45.18:416][ 17]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.11-00.45.36:466][521]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building13)
+[2015.03.11-00.45.36:475][521]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.45.37:170][538]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building12)
+[2015.03.11-00.45.37:178][538]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.45.38:106][563]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building11)
+[2015.03.11-00.45.38:114][563]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.45.38:558][574]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building10)
+[2015.03.11-00.45.38:567][574]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.45.38:955][584]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building009)
+[2015.03.11-00.45.38:964][584]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.45.40:369][622]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building24)
+[2015.03.11-00.45.40:378][622]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.45.41:445][652]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building25)
+[2015.03.11-00.45.41:454][652]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.45.41:987][669]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building26)
+[2015.03.11-00.45.41:996][669]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.45.42:459][683]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building27)
+[2015.03.11-00.45.42:468][683]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-00.45.48:449][855]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.11-00.45.51:168][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/Scene" FILE="D:/Zeke/Zeke/Content/level/Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.11-00.45.51:316][934]LogSavePackage: Save=99.509094ms
+[2015.03.11-00.45.51:316][934]LogSavePackage: Moving 'D:/Zeke/Zeke/Saved/Scene0198044A4F23D06808F5BB8D664D2BC7.tmp' to 'D:/Zeke/Zeke/Content/level/Scene.umap'
+[2015.03.11-00.47.37:971][919]Job has failed! Job is closed while Tasks are still RUNNING
+[2015.03.11-00.48.33:197][693]Cmd: QUIT_EDITOR
+[2015.03.11-00.48.33:522][693]LogExit: Preparing to exit.
+[2015.03.11-00.48.34:600][693]LogExit: Editor shut down
+[2015.03.11-00.48.34:601][693]LogExit: Transaction tracking system shut down
+[2015.03.11-00.48.34:602][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000195BAD40
+[2015.03.11-00.48.34:602][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000187A6200
+[2015.03.11-00.48.34:602][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000187A5EE0
+[2015.03.11-00.48.34:602][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000187A6D40
+[2015.03.11-00.48.34:664][693]LogExit: Object subsystem successfully closed.
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.03.11-00.48.34:732][693]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.03.11-00.48.34:733][693]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.03.11-00.48.34:820][693]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.03.11-00.48.34:948][693]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.03.11-00.48.34:949][693]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.03.11-00.48.34:949][693]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.03.11-00.48.34:949][693]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.03.11-00.48.34:949][693]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.03.11-00.48.34:949][693]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.03.11-00.48.34:949][693]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.03.11-00.48.34:949][693]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.03.11-00.48.34:949][693]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.03.11-00.48.35:049][693]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.03.11-00.48.35:049][693]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.03.11-00.48.35:049][693]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.03.11-00.48.35:051][693]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.03.11-00.48.35:051][693]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.03.11-00.48.35:051][693]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.03.11-00.48.35:051][693]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.03.11-00.48.35:051][693]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.03.11-00.48.35:051][693]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.03.11-00.48.35:051][693]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.03.11-00.48.35:051][693]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.03.11-00.48.35:051][693]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.03.11-00.48.35:051][693]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.03.11-00.48.35:051][693]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.03.11-00.48.35:051][693]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.03.11-00.48.35:051][693]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.03.11-00.48.35:051][693]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.03.11-00.48.35:051][693]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.03.11-00.48.35:055][693]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.03.11-00.48.35:055][693]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.03.11-00.48.35:055][693]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.03.11-00.48.35:055][693]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.03.11-00.48.35:055][693]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.03.11-00.48.35:055][693]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.03.11-00.48.35:055][693]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.03.11-00.48.35:055][693]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.03.11-00.48.35:055][693]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.03.11-00.48.35:055][693]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.03.11-00.48.35:092][693]LogDerivedDataCache: Shutdown
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.11-00.48.35:092][693]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.11-00.48.35:093][693]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.11-00.48.35:093][693]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.11-00.48.35:093][693]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.11-00.48.35:093][693]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.11-00.48.35:093][693]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.11-00.48.35:093][693]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.11-00.48.35:093][693]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.11-00.48.35:093][693]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.11-00.48.35:093][693]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.11-00.48.35:093][693]LogExit: Exiting.
+[2015.03.11-00.48.35:103][693]Log file closed, 03/10/15 17:48:35

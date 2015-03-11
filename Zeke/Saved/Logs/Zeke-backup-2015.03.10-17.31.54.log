@@ -1,0 +1,887 @@
+﻿Log file open, 03/08/15 17:30:15
+LogInit:Display: Running engine for game: Zeke
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: 
+LogInit: Base directory: E:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.09-00.30.15:817][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.09-00.30.15:870][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.09-00.30.15:896][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.09-00.30.15:906][  0]LogInit: Object subsystem initialized
+[2015.03.09-00.30.15:908][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.09-00.30.15:908][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.09-00.30.15:908][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.09-00.30.15:908][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.09-00.30.15:908][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.03.09-00.30.15:908][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.09-00.30.15:908][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.09-00.30.15:915][  0]LogInit: Computer: JOSEPH-PC
+[2015.03.09-00.30.15:915][  0]LogInit: User: Joseph
+[2015.03.09-00.30.15:915][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.09-00.30.15:915][  0]LogInit: High frequency timer resolution =3.919482 MHz
+[2015.03.09-00.30.15:915][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2015.03.09-00.30.15:915][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.09-00.30.15:915][  0]LogMemory: Process Physical Memory: 50.88 MB used, 50.88 MB peak
+[2015.03.09-00.30.15:915][  0]LogMemory: Process Virtual Memory: 27.51 MB used, 27.51 MB peak
+[2015.03.09-00.30.15:915][  0]LogMemory: Physical Memory: 4714.88 MB used, 16280.89 MB total
+[2015.03.09-00.30.15:915][  0]LogMemory: Virtual Memory: 266.41 MB used, 8388608.00 MB total
+[2015.03.09-00.30.15:944][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2015.03.09-00.30.15:944][  0]LogD3D11RHI: Adapter has 4073MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.03.09-00.30.15:944][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.09-00.30.15:954][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.09-00.30.15:960][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.03.09-00.30.16:021][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.09-00.30.16:158][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.09-00.30.21:500][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.09-00.30.22:100][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.09-00.30.22:166][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.09-00.30.22:228][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.03.09-00.30.22:228][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joseph/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.03.09-00.30.22:228][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.09-00.30.22:228][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.09-00.30.22:289][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.03.09-00.30.22:301][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joseph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.09-00.30.22:455][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.03.09-00.30.22:611][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.09-00.30.22:611][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.09-00.30.23:027][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.09-00.30.23:104][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.09-00.30.24:013][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.09-00.30.24:211][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Binaries/Win64. Error: 0
+[2015.03.09-00.30.24:387][  0]SourceControl: Info Source control is disabled
+[2015.03.09-00.30.24:387][  0]SourceControl: Info Source control is disabled
+[2015.03.09-00.30.24:398][  0]SourceControl: Info Source control is disabled
+[2015.03.09-00.30.24:567][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.03.09-00.30.24:567][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.03.09-00.30.24:632][  0]LogEngine: Initializing Engine...
+[2015.03.09-00.30.24:787][  0]LogInit: XAudio2 using '1 - LG ULTRAWIDE (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.03.09-00.30.24:823][  0]LogInit: FAudioDevice initialized.
+[2015.03.09-00.30.24:851][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.09-00.30.24:884][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Joseph/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.03.09-00.30.24:892][  0]LogInit: Texture streaming: Enabled
+[2015.03.09-00.30.24:931][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.09-00.30.24:931][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.03.09-00.30.24:932][  0]LogAnalytics: SetUserId 402b2bd15b9296f902c668936ab9f44f
+[2015.03.09-00.30.24:932][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.09-00.30.24:959][  0]LogInit: Transaction tracking system initialized
+[2015.03.09-00.30.25:089][  0]BlueprintLog: New page: Editor Load
+[2015.03.09-00.30.25:126][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2015.03.09-00.30.25:126][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.09-00.30.25:804][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.09-00.30.26:295][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.09-00.30.26:532][  0]LogConsoleResponse:Display: 
+[2015.03.09-00.30.26:578][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.03.09-00.30.26:800][  0]SourceControl: Info Source control is disabled
+[2015.03.09-00.30.26:800][  0]Cmd: MAP LOAD FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.03.09-00.30.26:800][  0]LightingResults: New page: Lighting Build
+[2015.03.09-00.30.26:813][  0]MapCheck: New page: Map Check
+[2015.03.09-00.30.26:813][  0]LightingResults: New page: Lighting Build
+[2015.03.09-00.30.26:824][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013445940
+[2015.03.09-00.30.28:291][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.09-00.30.28:291][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.03.09-00.30.28:292][  0]Cmd: MAP CHECKDEP
+[2015.03.09-00.30.28:292][  0]MapCheck: New page: Example_Map - Mar 8, 2015, 10:30:28 AM
+[2015.03.09-00.30.28:408][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 116.332ms to complete.
+[2015.03.09-00.30.28:408][  0]LogFileHelpers: Loading map 'Example_Map' took 1.609
+[2015.03.09-00.30.28:499][  0]LogCollectionManager: Loaded 0 collections in 0.001070 seconds
+[2015.03.09-00.30.28:617][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.09-00.30.28:623][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.09-00.30.28:650][  0]LogLoad: Full Startup: 14.92 seconds (BP compile: 0.14 seconds)
+[2015.03.09-00.30.28:663][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/level'
+[2015.03.09-00.30.29:282][  0]LogRenderer:Warning: Reallocating scene render targets to support 1288x896.
+[2015.03.09-00.30.29:491][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.03.09-00.30.29:492][  1]Cmd: UpdateLandscapeEditorData
+[2015.03.09-00.30.29:562][  2]LogAssetRegistry: Asset discovery search completed in 4.4460 seconds
+[2015.03.09-00.30.35:485][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.03.09-00.30.35:509][578]Cmd: MAP LOAD FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/level/Scene.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.03.09-00.30.35:509][578]LightingResults: New page: Lighting Build
+[2015.03.09-00.30.35:534][578]LoadErrors: New page: Loading map: Scene.umap
+[2015.03.09-00.30.35:578][578]MapCheck: New page: Map Check
+[2015.03.09-00.30.35:578][578]LightingResults: New page: Lighting Build
+[2015.03.09-00.30.35:592][578]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015C37F60
+[2015.03.09-00.30.35:599][578]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.09-00.30.35:599][578]LogAIModule: Creating AISystem for world Scene
+[2015.03.09-00.30.35:619][578]Cmd: MAP CHECKDEP
+[2015.03.09-00.30.35:619][578]MapCheck: New page: Scene - Mar 8, 2015, 10:30:35 AM
+[2015.03.09-00.30.35:726][578]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 106.851ms to complete.
+[2015.03.09-00.30.35:728][578]LogFileHelpers: Loading map 'Scene' took 0.221
+[2015.03.09-00.30.35:872][579]Cmd: UpdateLandscapeEditorData -warnings
+[2015.03.09-00.30.35:873][579]Cmd: UpdateLandscapeEditorData
+[2015.03.09-00.30.48:001][879]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/buildings/Mats'
+[2015.03.09-00.30.49:142][995]LogLinker:Warning: Can't find file '/Game/Zeke/Textures/BrickTile'
+[2015.03.09-00.30.49:142][995]LogLinker:Warning: Can't find file for asset '/Game/Zeke/Textures/BrickTile' while loading C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Brick.uasset.
+[2015.03.09-00.30.49:143][995]LoadErrors:Error: Error /Game/Zeke/buildings/Mats/Brick : Can't find file for asset. /Game/Zeke/Textures/BrickTile
+[2015.03.09-00.30.49:143][995]LogLinker:Warning: Can't find file '/Game/Zeke/Textures/BrickTileNRML'
+[2015.03.09-00.30.49:143][995]LogLinker:Warning: Can't find file for asset '/Game/Zeke/Textures/BrickTileNRML' while loading C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Brick.uasset.
+[2015.03.09-00.30.49:143][995]LoadErrors:Error: Error /Game/Zeke/buildings/Mats/Brick : Can't find file for asset. /Game/Zeke/Textures/BrickTileNRML
+[2015.03.09-00.30.49:143][995]LogLinker:Warning: Can't find file '/Game/Zeke/Textures/BrickTile'
+[2015.03.09-00.30.49:144][995]LogLinker:Warning: Can't find file for asset '/Game/Zeke/Textures/BrickTile' while loading C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Brick.uasset.
+[2015.03.09-00.30.49:144][995]LogLinker:Warning: Can't find file '/Game/Zeke/Textures/BrickTileNRML'
+[2015.03.09-00.30.49:144][995]LogLinker:Warning: Can't find file for asset '/Game/Zeke/Textures/BrickTileNRML' while loading C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Brick.uasset.
+[2015.03.09-00.30.49:145][995]LogLinker:Warning: Can't find file '/Game/Zeke/Textures/BrickTile'
+[2015.03.09-00.30.49:145][995]LoadErrors: Info Failed to load /Game/Zeke/Textures/BrickTile.BrickTile Referenced by MaterialExpressionTextureSample_1
+[2015.03.09-00.30.49:146][995]LogLinker:Warning: Can't find file for asset '/Game/Zeke/Textures/BrickTile' while loading NULL.
+[2015.03.09-00.30.49:146][995]LogLinker:Warning: Can't find file '/Game/Zeke/Textures/BrickTileNRML'
+[2015.03.09-00.30.49:146][995]LoadErrors: Info Failed to load /Game/Zeke/Textures/BrickTileNRML.BrickTileNRML Referenced by MaterialExpressionTextureSample_4
+[2015.03.09-00.30.49:146][995]LogLinker:Warning: Can't find file for asset '/Game/Zeke/Textures/BrickTileNRML' while loading NULL.
+[2015.03.09-00.30.49:146][995]LogLinker:Warning: Can't find file '/Game/Zeke/Textures/BrickTileNRML'
+[2015.03.09-00.30.49:147][995]LoadErrors: Info Failed to load /Game/Zeke/Textures/BrickTileNRML.BrickTileNRML Referenced by MaterialExpressionTextureSample_5
+[2015.03.09-00.30.49:147][995]LogLinker:Warning: Can't find file for asset '/Game/Zeke/Textures/BrickTileNRML' while loading NULL.
+[2015.03.09-00.30.49:149][995]LogMaterial: Missing cached shader map for material Brick, compiling.
+[2015.03.09-00.30.49:149][995]LogMaterial:Warning: Failed to compile Material /Game/Zeke/buildings/Mats/Brick.Brick for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.30.49:149][995]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.30.54:390][357]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.03.09-00.30.54:391][357]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.30.54:391][357]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.30.54:448][357]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.03.09-00.30.54:545][357]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.03.09-00.30.54:545][357]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.03.09-00.30.54:549][357]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.03.09-00.30.54:550][357]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.30.54:550][357]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.30.54:571][357]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2015.03.09-00.30.54:572][357]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2015.03.09-00.30.54:574][357]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2015.03.09-00.30.54:860][359]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.30.57:372][526]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/buildings/Textures'
+[2015.03.09-00.30.59:508][653]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.03.09-00.30.59:508][653]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.30.59:508][653]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.30.59:509][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2015.03.09-00.30.59:539][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2015.03.09-00.30.59:540][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2015.03.09-00.30.59:541][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2015.03.09-00.30.59:542][653]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2015.03.09-00.31.01:399][757]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.03.09-00.31.01:399][757]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.31.01:399][757]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.31.01:422][757]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2015.03.09-00.31.02:718][837]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.03.09-00.31.02:718][837]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.31.02:718][837]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.31.07:792][144]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.03.09-00.31.07:793][144]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.31.07:793][144]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.31.07:793][144]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2015.03.09-00.31.07:822][144]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2015.03.09-00.31.07:822][144]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2015.03.09-00.31.07:823][144]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2015.03.09-00.31.07:826][144]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2015.03.09-00.31.11:135][349]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.03.09-00.31.11:135][349]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.31.11:135][349]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.31.14:384][565]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.03.09-00.31.14:384][565]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.31.14:384][565]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.31.14:408][565]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2015.03.09-00.31.15:825][656]LogMaterialEditor: Applying material Brick
+[2015.03.09-00.31.19:103][656]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.03.09-00.31.19:103][656]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.31.19:103][656]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.31.19:144][656]LogMaterial: Missing cached shader map for material Brick, compiling.
+[2015.03.09-00.31.19:144][656]LogMaterial:Warning: Failed to compile Material /Game/Zeke/buildings/Mats/Brick.Brick for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.31.19:144][656]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.31.19:151][656]LogMaterial: Missing cached shader map for material Brick, compiling.
+[2015.03.09-00.31.19:152][656]LogMaterial:Warning: Failed to compile Material /Game/Zeke/buildings/Mats/Brick.Brick for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.31.19:152][656]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.31.19:155][656]LogMaterial: 0.003174 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.09-00.31.19:812][698]LogMaterialEditor: Saving and Compiling material Brick
+[2015.03.09-00.31.22:256][698]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2015.03.09-00.31.22:256][698]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.31.22:256][698]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.31.22:309][698]LogMaterial: Missing cached shader map for material Brick, compiling.
+[2015.03.09-00.31.22:309][698]LogMaterial:Warning: Failed to compile Material /Game/Zeke/buildings/Mats/Brick.Brick for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.31.22:309][698]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.31.22:311][698]LogMaterial: Missing cached shader map for material Brick, compiling.
+[2015.03.09-00.31.22:312][698]LogMaterial:Warning: Failed to compile Material /Game/Zeke/buildings/Mats/Brick.Brick for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.31.22:312][698]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.31.22:315][698]LogMaterial: 0.003015 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.09-00.31.22:390][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/buildings/Mats/Brick" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Brick.uasset" SILENT=true
+[2015.03.09-00.31.22:702][698]LogSavePackage: Save=278.096436ms
+[2015.03.09-00.31.22:702][698]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/BrickC437A28244B5D5B18AD3D0B88841B3A1.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Brick.uasset'
+[2015.03.09-00.31.25:815][959]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/buildings/Mats'
+[2015.03.09-00.31.34:641][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building17)
+[2015.03.09-00.31.34:705][630]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-00.31.35:385][653]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building16)
+[2015.03.09-00.31.35:393][653]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-00.31.35:833][691]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building15)
+[2015.03.09-00.31.35:841][691]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-00.31.36:359][737]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building14)
+[2015.03.09-00.31.36:368][737]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-00.31.36:692][764]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building18)
+[2015.03.09-00.31.36:701][764]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-00.31.52:870][797]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.03.09-00.31.52:870][797]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.31.52:870][797]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.31.52:877][797]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.03.09-00.31.52:935][797]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.03.09-00.31.52:935][797]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.03.09-00.31.52:935][797]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.03.09-00.31.52:935][797]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.03.09-00.31.52:939][797]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.03.09-00.31.52:940][797]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.31.52:940][797]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.31.52:962][797]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2015.03.09-00.31.52:967][797]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
+[2015.03.09-00.31.52:968][797]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2015.03.09-00.31.53:148][798]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.31.56:695][991]LogMaterialEditor: Saving and Compiling material Brick
+[2015.03.09-00.32.02:995][991]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.03.09-00.32.02:995][991]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.32.02:995][991]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.32.03:044][991]LogMaterial: Missing cached shader map for material Brick, compiling.
+[2015.03.09-00.32.03:045][991]LogMaterial:Warning: Failed to compile Material /Game/Zeke/buildings/Mats/Brick.Brick for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.32.03:045][991]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.32.03:046][991]LogMaterial: Missing cached shader map for material Brick, compiling.
+[2015.03.09-00.32.03:047][991]LogMaterial:Warning: Failed to compile Material /Game/Zeke/buildings/Mats/Brick.Brick for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.32.03:047][991]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.32.03:050][991]LogMaterial: 0.003118 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.09-00.32.03:125][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/buildings/Mats/Brick" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Brick.uasset" SILENT=true
+[2015.03.09-00.32.03:432][991]LogSavePackage: Save=276.941193ms
+[2015.03.09-00.32.03:432][991]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/BrickEA7FAE88486148EA37AA9FAB11A7D6F5.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Brick.uasset'
+[2015.03.09-00.32.06:290][131]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/buildings/Mats'
+[2015.03.09-00.32.15:533][655]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.09-00.32.15:538][655]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.03.09-00.32.15:538][655]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.32.15:539][655]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.32.15:604][656]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2015.03.09-00.32.19:447][858]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.03.09-00.32.19:561][858]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2015.03.09-00.32.19:564][858]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
+[2015.03.09-00.32.21:001][918]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.03.09-00.32.22:025][961]LogMaterialEditor: Applying material Brick
+[2015.03.09-00.32.23:622][961]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.03.09-00.32.23:794][961]LogMaterial: Missing cached shader map for material Brick, compiling.
+[2015.03.09-00.32.23:831][961]LogMaterial: Missing cached shader map for material Brick, compiling.
+[2015.03.09-00.32.23:855][961]LogMaterial: 0.004306 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.09-00.32.24:816][  2]LogMaterialEditor: Saving and Compiling material Brick
+[2015.03.09-00.32.26:466][  2]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2015.03.09-00.32.26:559][  2]LogMaterial: Missing cached shader map for material Brick, compiling.
+[2015.03.09-00.32.26:609][  2]LogMaterial: Missing cached shader map for material Brick, compiling.
+[2015.03.09-00.32.26:640][  2]LogMaterial: 0.004406 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.09-00.32.34:962][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/buildings/Mats/Brick" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Brick.uasset" SILENT=true
+[2015.03.09-00.32.35:107][  2]LogSavePackage: Save=114.489365ms
+[2015.03.09-00.32.35:107][  2]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/Brick17FF6AF1485BFCD39A5FBC91814E47B7.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Brick.uasset'
+[2015.03.09-00.32.35:173][  3]MaterialEditorStats: Info Base pass shader with static lighting: 106 instructions
+[2015.03.09-00.32.35:173][  3]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 75 instructions
+[2015.03.09-00.32.35:173][  3]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-00.32.35:173][  3]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.03.09-00.32.42:252][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building18)
+[2015.03.09-00.32.42:261][374]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-00.32.49:955][997]LogLinker:Warning: Can't find file '/Game/Zeke/Textures/ConcreteTile'
+[2015.03.09-00.32.49:955][997]LogLinker:Warning: Can't find file for asset '/Game/Zeke/Textures/ConcreteTile' while loading C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Concretre.uasset.
+[2015.03.09-00.32.49:955][997]LoadErrors:Error: Error /Game/Zeke/buildings/Mats/Concretre : Can't find file for asset. /Game/Zeke/Textures/ConcreteTile
+[2015.03.09-00.32.49:956][997]LogLinker:Warning: Can't find file '/Game/Zeke/Textures/ConcreteTile'
+[2015.03.09-00.32.49:956][997]LogLinker:Warning: Can't find file for asset '/Game/Zeke/Textures/ConcreteTile' while loading C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Concretre.uasset.
+[2015.03.09-00.32.49:957][997]LogLinker:Warning: Can't find file '/Game/Zeke/Textures/ConcreteTile'
+[2015.03.09-00.32.49:957][997]LoadErrors: Info Failed to load /Game/Zeke/Textures/ConcreteTile.ConcreteTile Referenced by MaterialExpressionTextureSample_2
+[2015.03.09-00.32.49:957][997]LogLinker:Warning: Can't find file for asset '/Game/Zeke/Textures/ConcreteTile' while loading NULL.
+[2015.03.09-00.32.49:960][997]LogMaterial: Missing cached shader map for material Concretre, compiling.
+[2015.03.09-00.32.49:960][997]LogMaterial:Warning: Failed to compile Material /Game/Zeke/buildings/Mats/Concretre.Concretre for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.32.49:960][997]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.32.56:925][581]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Building18)
+[2015.03.09-00.32.56:933][581]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-00.32.58:121][667]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.09-00.32.58:121][667]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Meshes'
+[2015.03.09-00.33.01:974][ 31]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Building18)
+[2015.03.09-00.33.01:983][ 31]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-00.33.02:906][100]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.09-00.33.02:906][100]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Meshes'
+[2015.03.09-00.33.05:017][273]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.09-00.33.05:017][273]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.09-00.33.05:026][273]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.09-00.33.05:026][273]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.09-00.33.05:047][273]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.09-00.33.05:047][273]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.09-00.33.08:460][502]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/buildings/Mats'
+[2015.03.09-00.33.13:187][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/Meshes/Building009" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/Meshes/Building009.uasset" SILENT=true
+[2015.03.09-00.33.13:361][818]LogSavePackage: Save=140.481323ms
+[2015.03.09-00.33.13:361][818]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/Building009CB83D8654DD96E0E091BEE84D7A2AD7C.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/Meshes/Building009.uasset'
+[2015.03.09-00.33.50:182][545]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.03.09-00.33.50:182][545]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.33.50:182][545]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.33.50:193][545]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.03.09-00.33.50:248][545]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.03.09-00.33.50:248][545]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.03.09-00.33.50:248][545]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.03.09-00.33.50:248][545]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.03.09-00.33.50:251][545]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.03.09-00.33.50:251][545]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.33.50:251][545]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.33.50:273][545]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2015.03.09-00.33.50:274][545]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.33.52:478][666]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/buildings/Textures'
+[2015.03.09-00.33.55:751][825]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.03.09-00.33.55:751][825]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.09-00.33.55:751][825]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.09-00.33.55:752][825]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2015.03.09-00.33.55:777][825]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2015.03.09-00.33.55:778][825]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2015.03.09-00.33.58:002][938]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.03.09-00.33.58:052][938]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
+[2015.03.09-00.33.59:332][994]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.03.09-00.34.01:658][ 96]MaterialEditorStats: Info Base pass shader with static lighting: 69 instructions
+[2015.03.09-00.34.01:658][ 96]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.03.09-00.34.01:658][ 96]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-00.34.01:658][ 96]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.09-00.34.11:180][439]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2015.03.09-00.34.11:261][439]LogMaterial: Missing cached shader map for material Concretre, compiling.
+[2015.03.09-00.34.11:299][439]LogMaterial: Missing cached shader map for material Concretre, compiling.
+[2015.03.09-00.34.11:318][439]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.09-00.34.11:318][439]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.09-00.34.11:321][439]LogMaterial: 0.003431 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.09-00.34.13:261][535]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/buildings/Mats'
+[2015.03.09-00.34.39:452][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building14)
+[2015.03.09-00.34.39:461][428]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-00.34.46:085][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building009)
+[2015.03.09-00.34.46:094][901]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-00.34.48:871][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building18)
+[2015.03.09-00.34.48:880][138]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-00.34.49:208][165]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Building18)
+[2015.03.09-00.34.49:217][165]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-00.34.50:603][268]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.09-00.34.50:603][268]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Meshes'
+[2015.03.09-00.34.53:472][509]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.09-00.34.53:472][509]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.09-00.34.53:480][509]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.09-00.34.53:480][509]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.09-00.34.53:482][509]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.09-00.34.53:482][509]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.09-00.34.54:359][563]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/buildings/Mats'
+[2015.03.09-00.35.04:574][236]LogMaterial: Missing cached shader map for material Glass, compiling.
+[2015.03.09-00.35.06:780][331]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2015.03.09-00.35.06:806][331]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.03.09-00.35.06:860][331]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.03.09-00.35.06:860][331]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.03.09-00.35.06:860][331]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.03.09-00.35.06:860][331]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.03.09-00.35.06:864][331]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2015.03.09-00.35.06:901][331]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling.
+[2015.03.09-00.35.10:491][483]MaterialEditorStats: Info Base pass shader with static lighting: 68 instructions
+[2015.03.09-00.35.10:491][483]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 37 instructions
+[2015.03.09-00.35.10:491][483]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.03.09-00.35.10:491][483]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.09-00.35.12:073][565]LogMaterialEditor: Saving and Compiling material Glass
+[2015.03.09-00.35.13:360][565]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2015.03.09-00.35.13:446][565]LogMaterial: Missing cached shader map for material Glass, compiling.
+[2015.03.09-00.35.13:484][565]LogMaterial: Missing cached shader map for material Glass, compiling.
+[2015.03.09-00.35.13:504][565]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.03.09-00.35.13:504][565]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.03.09-00.35.13:511][565]LogMaterial: 0.007795 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.09-00.35.18:718][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/buildings/Mats/Glass" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Glass.uasset" SILENT=true
+[2015.03.09-00.35.19:154][565]LogSavePackage: Save=404.995605ms
+[2015.03.09-00.35.19:154][565]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/Glass715A2A474CD2FD4D8952609B0F111A04.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Glass.uasset'
+[2015.03.09-00.35.19:162][565]MaterialEditorStats: Info Base pass shader with static lighting: 97 instructions
+[2015.03.09-00.35.19:162][565]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.03.09-00.35.19:162][565]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.03.09-00.35.19:162][565]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.09-00.35.59:704][787]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.09-00.36.00:776][873]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.09-00.36.01:737][955]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-00.36.01:740][955]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-00.36.12:974][862]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.03.09-00.36.12:987][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000317CEF20
+[2015.03.09-00.36.12:988][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011249DA0
+[2015.03.09-00.36.12:988][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E283420
+[2015.03.09-00.36.12:988][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B820900
+[2015.03.09-00.36.12:988][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B839760
+[2015.03.09-00.36.12:989][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C92EA20
+[2015.03.09-00.36.14:536][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/Scene" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/level/Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.09-00.36.14:816][862]LogSavePackage: Save=200.804855ms
+[2015.03.09-00.36.14:816][862]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/SceneF1C167254372B30C4F545F95841A0D1B.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/level/Scene.umap'
+[2015.03.09-00.36.14:845][862]LogFileHelpers: Saving map 'Scene' took 0.422
+[2015.03.09-00.36.14:869][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/buildings/Mats/Concretre" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Concretre.uasset" SILENT=true
+[2015.03.09-00.36.15:295][862]LogSavePackage: Save=399.658417ms
+[2015.03.09-00.36.15:295][862]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/ConcretreF6882C7A4157A35E11BCFD8193BD8C40.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/Concretre.uasset'
+[2015.03.09-00.36.15:320][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/buildings/Mats/NewMaterial" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/NewMaterial.uasset" SILENT=true
+[2015.03.09-00.36.15:596][862]LogSavePackage: Save=273.721375ms
+[2015.03.09-00.36.15:596][862]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/NewMaterialC2FFA68D418D4B2AEEDA12B88FB56748.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Mats/NewMaterial.uasset'
+[2015.03.09-00.36.15:620][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/Meshes/Building009" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/Meshes/Building009.uasset" SILENT=true
+[2015.03.09-00.36.15:798][862]LogSavePackage: Save=152.854385ms
+[2015.03.09-00.36.15:799][862]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/Building00973001D0940CD33971A64F9BC9A491943.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/Meshes/Building009.uasset'
+[2015.03.09-00.36.25:943][746]MapCheck: New page: Map Check
+[2015.03.09-00.36.25:959][746]Cmd: MAP REBUILD ALLVISIBLE
+[2015.03.09-00.36.25:959][746]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.03.09-00.36.25:960][746]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2015.03.09-00.36.26:326][746]LightingResults: New page: Lighting Build - Mar 8, 2015, 10:36:26 AM
+[2015.03.09-00.36.31:389][746]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.03.09-00.36.31:389][746]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.03.09-00.36.31:389][746]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.03.09-00.36.31:389][746]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.03.09-00.36.31:389][746]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.03.09-00.36.32:440][746]LogEditorBuildUtils: Build time 0:00:06
+[2015.03.09-00.36.32:511][747]Cmd: UpdateLandscapeEditorData
+[2015.03.09-00.36.35:519][756]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Brick, compiling.
+[2015.03.09-00.36.35:522][756]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Brick, compiling.
+[2015.03.09-00.36.35:525][756]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Concretre, compiling.
+[2015.03.09-00.36.35:527][756]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Concretre, compiling.
+[2015.03.09-00.36.35:850][757]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling.
+[2015.03.09-00.36.35:854][757]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling.
+[2015.03.09-00.37.36:710][426]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.09-00.37.36:710][426]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.09-00.37.37:711][429]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.09-00.37.37:711][429]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.09-00.37.38:377][431]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.09-00.37.38:377][431]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.09-00.37.38:377][431]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.09-00.37.38:377][431]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.09-00.37.38:712][432]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.09-00.37.38:712][432]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.09-00.37.38:712][432]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.09-00.37.38:712][432]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.09-00.37.39:044][433]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.09-00.37.39:044][433]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.09-00.37.39:377][434]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.09-00.37.39:377][434]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.09-00.37.39:377][434]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.09-00.37.39:377][434]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.09-00.37.40:044][436]LightingResults:Error: Error Building009 Object has overlapping UVs.
+[2015.03.09-00.37.40:044][436]LightingResults: Info Building009 Lightmap UV are overlapping by 74.1%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.09-00.46.10:212][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/Scene" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/Autosaves/Game/level/Scene_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.09-00.46.10:436][ 38]LogSavePackage: Save=180.955795ms
+[2015.03.09-00.46.10:436][ 38]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/Scene_Auto135CD987F47ABABE0B0265299F8FFD2B3.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/Autosaves/Game/level/Scene_Auto1.umap'
+[2015.03.09-00.46.10:442][ 38]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/level/Scene' took 0.292
+[2015.03.09-00.46.10:442][ 38]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.292
+[2015.03.09-01.09.14:544][ 63]Job has failed! Job is closed while Tasks are still RUNNING
+[2015.03.09-01.09.22:796][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building18)
+[2015.03.09-01.09.22:807][654]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-01.09.23:278][671]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building14)
+[2015.03.09-01.09.23:287][671]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-01.09.23:657][702]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building15)
+[2015.03.09-01.09.23:665][702]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-01.09.24:014][729]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building16)
+[2015.03.09-01.09.24:023][729]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-01.09.24:412][761]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building17)
+[2015.03.09-01.09.24:421][761]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-01.09.26:426][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building009)
+[2015.03.09-01.09.26:435][905]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-01.09.27:046][935]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building10)
+[2015.03.09-01.09.27:055][935]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-01.09.27:477][964]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building11)
+[2015.03.09-01.09.27:485][964]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-01.09.27:994][  7]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building12)
+[2015.03.09-01.09.28:003][  7]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-01.09.28:506][ 49]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building13)
+[2015.03.09-01.09.28:515][ 49]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-01.09.30:073][186]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Building0007)
+[2015.03.09-01.09.30:082][186]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.09-01.09.47:277][322]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.03.09-01.09.50:895][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/Scene" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/Autosaves/Game/level/Scene_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.03.09-01.09.51:042][510]LogSavePackage: Save=111.246841ms
+[2015.03.09-01.09.51:043][510]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/Scene_Auto2FF10F9D645FDD953875ABDAEFBA86D49.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/Autosaves/Game/level/Scene_Auto2.umap'
+[2015.03.09-01.09.51:051][510]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/level/Scene' took 0.206
+[2015.03.09-01.09.51:051][510]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.206
+[2015.03.09-01.10.08:289][794]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Mesh'
+[2015.03.09-01.10.13:264][268]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/buildings'
+[2015.03.09-01.10.15:198][461]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Meshes'
+[2015.03.09-01.11.25:600][836]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/buildings/Textures'
+[2015.03.09-01.11.37:094][951]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Chrome Downloads/RD_2w-dbl.jpg)
+[2015.03.09-01.11.37:135][951]0.000020 seconds to analyze Texture2D /Game/Zeke/buildings/Textures/RD_2w-dbl.RD_2w-dbl
+
+[2015.03.09-01.11.37:138][951]LogTexture:Display: Building textures: RD_2w-dbl (AutoDXT)
+[2015.03.09-01.11.37:718][951]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.09-01.11.37:718][951]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/buildings/Textures'
+[2015.03.09-01.11.40:947][ 78]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Chrome Downloads/RD_1w-trp.jpg)
+[2015.03.09-01.11.40:975][ 78]0.000020 seconds to analyze Texture2D /Game/Zeke/buildings/Textures/RD_1w-trp.RD_1w-trp
+
+[2015.03.09-01.11.40:979][ 78]LogTexture:Display: Building textures: RD_1w-trp (AutoDXT)
+[2015.03.09-01.11.41:686][ 78]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.09-01.11.41:686][ 78]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/buildings/Textures'
+[2015.03.09-01.12.04:507][951]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2015.03.09-01.12.23:796][566]LogMaterial: Missing cached shader map for material RD_1w-trp_Mat, compiling.
+[2015.03.09-01.12.23:901][566]LogMaterial: 0.011179 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.09-01.12.23:919][566]LogMaterial:Warning: Material /Game/Zeke/buildings/Textures/RD_1w-trp_Mat.RD_1w-trp_Mat needed to have new flag set bUsedWithLandscape !
+[2015.03.09-01.12.23:933][566]LogMaterial: Missing cached shader map for material RD_1w-trp_Mat, compiling.
+[2015.03.09-01.12.23:955][566]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.09-01.12.23:955][566]LogMaterial:Warning: Material /Game/Zeke/buildings/Textures/RD_1w-trp_Mat.RD_1w-trp_Mat needed to have new flag set bUsedWithStaticLighting !
+[2015.03.09-01.12.23:957][566]LogMaterial: Missing cached shader map for material RD_1w-trp_Mat, compiling.
+[2015.03.09-01.12.23:990][566]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.09-01.12.24:096][567]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.12.24:096][567]Cmd: UpdateLandscapeMIC
+[2015.03.09-01.12.30:207][880]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.03.09-01.12.30:308][882]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2015.03.09-01.12.40:556][547]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.12.40:567][547]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2015.03.09-01.12.40:612][547]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2015.03.09-01.12.40:612][547]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.03.09-01.12.40:612][547]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2015.03.09-01.12.40:612][547]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.03.09-01.12.40:615][547]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.12.40:642][547]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2015.03.09-01.12.41:362][572]MaterialEditorStats: Info Base pass shader with static lighting: 69 instructions
+[2015.03.09-01.12.41:362][572]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.03.09-01.12.41:362][572]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.12.41:362][572]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.09-01.12.56:956][394]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.12.57:783][434]MaterialEditorStats: Info Base pass shader with static lighting: 69 instructions
+[2015.03.09-01.12.57:784][434]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.03.09-01.12.57:784][434]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.12.57:784][434]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.09-01.12.59:797][553]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.12.59:823][553]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling.
+[2015.03.09-01.13.00:671][594]MaterialEditorStats: Info Base pass shader with static lighting: 69 instructions
+[2015.03.09-01.13.00:671][594]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.03.09-01.13.00:671][594]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.13.00:671][594]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.09-01.13.08:700][ 53]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.13.09:314][ 84]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.13.10:174][122]MaterialEditorStats: Info Base pass shader with static lighting: 70 instructions
+[2015.03.09-01.13.10:174][122]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.03.09-01.13.10:174][122]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.13.10:174][122]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.09-01.13.10:533][142]LogMaterialEditor: Applying material RD_1w-trp_Mat
+[2015.03.09-01.13.11:802][142]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.13.11:880][142]LogMaterial: Missing cached shader map for material RD_1w-trp_Mat, compiling.
+[2015.03.09-01.13.11:923][142]LogMaterial: Missing cached shader map for material RD_1w-trp_Mat, compiling.
+[2015.03.09-01.13.11:952][142]LogMaterial: 0.003810 seconds spent updating 1 materials, 1 interfaces, 65 instances, 0 with static permutations.
+[2015.03.09-01.13.18:518][406]MaterialEditorStats: Info Base pass shader with static lighting: 99 instructions
+[2015.03.09-01.13.18:519][406]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.03.09-01.13.18:519][406]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.13.18:519][406]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.03.09-01.13.22:608][630]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.13.23:366][666]MaterialEditorStats: Info Base pass shader with static lighting: 70 instructions
+[2015.03.09-01.13.23:366][666]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.03.09-01.13.23:366][666]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.13.23:366][666]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.09-01.13.27:214][892]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.13.28:024][932]MaterialEditorStats: Info Base pass shader with static lighting: 70 instructions
+[2015.03.09-01.13.28:024][932]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.03.09-01.13.28:024][932]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.13.28:024][932]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.09-01.13.29:114][995]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.13.29:872][ 31]MaterialEditorStats: Info Base pass shader with static lighting: 70 instructions
+[2015.03.09-01.13.29:872][ 31]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.03.09-01.13.29:872][ 31]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.13.29:872][ 31]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.09-01.13.30:372][ 58]LogMaterialEditor: Applying material RD_1w-trp_Mat
+[2015.03.09-01.13.31:631][ 58]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.13.31:736][ 58]LogMaterial: Missing cached shader map for material RD_1w-trp_Mat, compiling.
+[2015.03.09-01.13.31:777][ 58]LogMaterial: Missing cached shader map for material RD_1w-trp_Mat, compiling.
+[2015.03.09-01.13.31:803][ 58]LogMaterial: 0.003514 seconds spent updating 1 materials, 1 interfaces, 65 instances, 0 with static permutations.
+[2015.03.09-01.13.38:388][373]MaterialEditorStats: Info Base pass shader with static lighting: 99 instructions
+[2015.03.09-01.13.38:388][373]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.03.09-01.13.38:388][373]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.13.38:388][373]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.03.09-01.13.49:206][989]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.13.50:057][ 32]MaterialEditorStats: Info Base pass shader with static lighting: 70 instructions
+[2015.03.09-01.13.50:057][ 32]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.03.09-01.13.50:057][ 32]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.13.50:057][ 32]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.09-01.13.50:303][ 46]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.13.51:070][ 80]MaterialEditorStats: Info Base pass shader with static lighting: 70 instructions
+[2015.03.09-01.13.51:070][ 80]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.03.09-01.13.51:070][ 80]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.13.51:070][ 80]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.09-01.13.51:476][103]LogMaterialEditor: Applying material RD_1w-trp_Mat
+[2015.03.09-01.13.52:735][103]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.13.52:895][103]LogMaterial: Missing cached shader map for material RD_1w-trp_Mat, compiling.
+[2015.03.09-01.13.52:938][103]LogMaterial: Missing cached shader map for material RD_1w-trp_Mat, compiling.
+[2015.03.09-01.13.52:966][103]LogMaterial: 0.003532 seconds spent updating 1 materials, 1 interfaces, 65 instances, 0 with static permutations.
+[2015.03.09-01.13.59:379][404]MaterialEditorStats: Info Base pass shader with static lighting: 99 instructions
+[2015.03.09-01.13.59:379][404]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.03.09-01.13.59:379][404]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.13.59:379][404]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.03.09-01.14.01:433][523]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.03.09-01.14.03:408][643]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.03.09-01.14.04:825][750]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.03.09-01.14.10:636][138]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.09-01.14.11:464][199]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.09-01.14.11:877][228]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.03.09-01.14.19:117][794]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.14.19:634][814]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.14.23:199][ 45]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.14.23:393][ 47]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.14.26:362][240]Cmd: TRANSACTION UNDO
+[2015.03.09-01.14.26:362][240]LogEditorTransaction: Undo Set actor rotation
+[2015.03.09-01.14.26:436][240]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.14.26:560][241]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.14.27:667][271]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.14.27:804][275]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.14.27:912][280]MaterialEditorStats: Info Base pass shader with static lighting: 70 instructions
+[2015.03.09-01.14.27:912][280]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.03.09-01.14.27:912][280]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.14.27:913][280]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.09-01.14.30:757][470]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.14.42:370][323]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.14.44:077][414]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.15.24:175][596]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.15.27:247][821]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.15.35:138][404]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.15.38:410][629]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.15.40:623][769]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.15.44:682][ 56]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.15.50:717][491]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.15.57:226][970]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.16.04:863][525]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.16.07:734][718]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.16.08:843][774]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.16.13:302][111]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.16.18:212][427]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.09-01.16.18:212][427]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.09-01.16.18:255][427]LogPlayLevel: PIE:  Blueprint regeneration took 42 ms (1 blueprints)
+[2015.03.09-01.16.18:255][427]PIE: New page: PIE session: Scene (Mar 8, 2015, 11:16:18 AM)
+[2015.03.09-01.16.18:298][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043099s)
+[2015.03.09-01.16.18:299][427]LogPlayLevel: PIE: World Init took: (0.001227s)
+[2015.03.09-01.16.18:300][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.044660s)
+[2015.03.09-01.16.18:645][427]LogWorld: Game class is 'MyGame_C'
+[2015.03.09-01.16.18:648][427]LogAIModule: Creating AISystem for world Scene
+[2015.03.09-01.16.18:653][427]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.09-01.16.18:653][427]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.08-18.16.18
+[2015.03.09-01.16.18:654][427]LogWorld: Bringing up level for play took: 0.005070
+[2015.03.09-01.16.18:655][427]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene 1.101
+[2015.03.09-01.16.19:642][479]LogBlueprintUserMessages: Damage
+[2015.03.09-01.16.26:357][873]Set new viewmode: Wireframe
+[2015.03.09-01.16.27:115][935]Set new viewmode: Wireframe
+[2015.03.09-01.16.27:948][  5]Set new viewmode: Unlit
+[2015.03.09-01.16.28:486][ 49]Set new viewmode: Lit
+[2015.03.09-01.16.29:594][118]Error: view mode not recognized: detaillighting
+[2015.03.09-01.16.30:119][150]Set new viewmode: Lit
+[2015.03.09-01.16.30:940][199]Set new viewmode: Wireframe
+[2015.03.09-01.16.32:234][307]Set new viewmode: Lit
+[2015.03.09-01.16.32:981][347]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E1D8860
+[2015.03.09-01.16.39:461][811]Cmd: UpdateLandscapeEditorData
+[2015.03.09-01.16.46:974][357]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.09-01.16.46:974][357]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.09-01.16.47:020][357]LogPlayLevel: PIE:  Blueprint regeneration took 46 ms (1 blueprints)
+[2015.03.09-01.16.47:020][357]PIE: New page: PIE session: Scene (Mar 8, 2015, 11:16:47 AM)
+[2015.03.09-01.16.47:061][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040150s)
+[2015.03.09-01.16.47:063][357]LogPlayLevel: PIE: World Init took: (0.001674s)
+[2015.03.09-01.16.47:063][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.042094s)
+[2015.03.09-01.16.47:097][357]LogWorld: Game class is 'MyGame_C'
+[2015.03.09-01.16.47:100][357]LogAIModule: Creating AISystem for world Scene
+[2015.03.09-01.16.47:104][357]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.09-01.16.47:104][357]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.08-18.16.47
+[2015.03.09-01.16.47:105][357]LogWorld: Bringing up level for play took: 0.004887
+[2015.03.09-01.16.47:106][357]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene -0.447
+[2015.03.09-01.16.47:566][378]LogBlueprintUserMessages: Damage
+[2015.03.09-01.16.57:236][977]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003263D800
+[2015.03.09-01.17.02:540][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/Scene" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/level/Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.09-01.17.02:702][127]LogSavePackage: Save=110.184967ms
+[2015.03.09-01.17.02:702][127]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/Scene2082C00D4F25E36A2EF40792CE6C75F3.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/level/Scene.umap'
+[2015.03.09-01.17.02:735][127]LogFileHelpers: Saving map 'Scene' took 0.336
+[2015.03.09-01.17.02:749][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/buildings/Textures/RD_1w-trp" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Textures/RD_1w-trp.uasset" SILENT=true
+[2015.03.09-01.17.05:246][127]LogSavePackage: Save=2495.522949ms
+[2015.03.09-01.17.05:246][127]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/RD_1w-trpE0A45FDF4E033925187255B065258FE0.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Textures/RD_1w-trp.uasset'
+[2015.03.09-01.17.05:309][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/buildings/Textures/RD_1w-trp_Mat" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Textures/RD_1w-trp_Mat.uasset" SILENT=true
+[2015.03.09-01.17.05:696][127]LogSavePackage: Save=385.444305ms
+[2015.03.09-01.17.05:696][127]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/RD_1w-trp_Mat0152D88E4C21F92B62388ABDACE843FA.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Textures/RD_1w-trp_Mat.uasset'
+[2015.03.09-01.17.05:718][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/buildings/Textures/RD_2w-dbl" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Textures/RD_2w-dbl.uasset" SILENT=true
+[2015.03.09-01.17.08:061][127]LogSavePackage: Save=2340.385254ms
+[2015.03.09-01.17.08:061][127]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/RD_2w-dbl84A201C5403167B7BB1D0B964DA78109.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Textures/RD_2w-dbl.uasset'
+[2015.03.09-01.18.51:504][245]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.18.53:000][314]MaterialEditorStats: Info Base pass shader with static lighting: 70 instructions
+[2015.03.09-01.18.53:000][314]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.03.09-01.18.53:000][314]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.18.53:000][314]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.09-01.18.53:480][344]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.18.54:283][381]MaterialEditorStats: Info Base pass shader with static lighting: 69 instructions
+[2015.03.09-01.18.54:283][381]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2015.03.09-01.18.54:283][381]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.18.54:283][381]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.03.09-01.18.58:153][605]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.18.58:876][639]LogMaterialEditor: Applying material RD_1w-trp_Mat
+[2015.03.09-01.19.00:145][639]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2015.03.09-01.19.00:222][639]LogMaterial: Missing cached shader map for material RD_1w-trp_Mat, compiling.
+[2015.03.09-01.19.00:293][639]LogMaterial: Missing cached shader map for material RD_1w-trp_Mat, compiling.
+[2015.03.09-01.19.00:319][639]LogMaterial: 0.003750 seconds spent updating 1 materials, 1 interfaces, 65 instances, 0 with static permutations.
+[2015.03.09-01.19.07:016][936]MaterialEditorStats: Info Base pass shader with static lighting: 99 instructions
+[2015.03.09-01.19.07:016][936]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.03.09-01.19.07:016][936]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.09-01.19.07:016][936]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.03.09-01.19.49:489][378]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011312CA0
+[2015.03.09-01.19.50:872][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/Scene" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/level/Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.09-01.19.51:023][378]LogSavePackage: Save=110.910828ms
+[2015.03.09-01.19.51:023][378]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/Scene8B832FAC4FB73D02185C84AEF5A00F47.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/level/Scene.umap'
+[2015.03.09-01.19.51:050][378]LogFileHelpers: Saving map 'Scene' took 0.319
+[2015.03.09-01.19.51:075][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/buildings/Textures/RD_1w-trp_Mat" FILE="C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Textures/RD_1w-trp_Mat.uasset" SILENT=true
+[2015.03.09-01.19.51:485][378]LogSavePackage: Save=382.762573ms
+[2015.03.09-01.19.51:485][378]LogSavePackage: Moving 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Saved/RD_1w-trp_Mat96D96E6643018E30239266BA9B658A25.tmp' to 'C:/Users/Joseph/Documents/GitHub/Zeke/Zeke/Content/Zeke/buildings/Textures/RD_1w-trp_Mat.uasset'
+[2015.03.09-01.20.02:180][747]Cmd: QUIT_EDITOR
+[2015.03.09-01.20.02:512][747]LogExit: Preparing to exit.
+[2015.03.09-01.20.03:291][747]LogExit: Editor shut down
+[2015.03.09-01.20.03:292][747]LogExit: Transaction tracking system shut down
+[2015.03.09-01.20.03:294][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C9DC540
+[2015.03.09-01.20.03:294][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001553CAE0
+[2015.03.09-01.20.03:294][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000317CE340
+[2015.03.09-01.20.03:294][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000134E16C0
+[2015.03.09-01.20.03:294][747]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CB05080
+[2015.03.09-01.20.03:356][747]LogExit: Object subsystem successfully closed.
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (174)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module MaterialEditor (173)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.03.09-01.20.03:423][747]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.03.09-01.20.03:424][747]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.03.09-01.20.03:424][747]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.03.09-01.20.03:424][747]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.03.09-01.20.03:424][747]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.03.09-01.20.03:424][747]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.03.09-01.20.03:424][747]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.03.09-01.20.03:424][747]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.03.09-01.20.03:424][747]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.03.09-01.20.03:424][747]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.03.09-01.20.03:424][747]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.03.09-01.20.03:424][747]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.03.09-01.20.03:424][747]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.03.09-01.20.03:424][747]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.03.09-01.20.03:424][747]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.03.09-01.20.03:493][747]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.03.09-01.20.03:632][747]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.03.09-01.20.03:633][747]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.03.09-01.20.03:633][747]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.03.09-01.20.03:633][747]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.03.09-01.20.03:634][747]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.03.09-01.20.03:634][747]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.03.09-01.20.03:634][747]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.03.09-01.20.03:634][747]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.03.09-01.20.03:634][747]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.03.09-01.20.03:634][747]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.03.09-01.20.03:634][747]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.03.09-01.20.03:634][747]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.03.09-01.20.03:734][747]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.03.09-01.20.03:734][747]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.03.09-01.20.03:734][747]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.03.09-01.20.03:737][747]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.03.09-01.20.03:737][747]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.03.09-01.20.03:738][747]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.03.09-01.20.03:738][747]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.03.09-01.20.03:738][747]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.03.09-01.20.03:738][747]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.03.09-01.20.03:738][747]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.03.09-01.20.03:738][747]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.03.09-01.20.03:738][747]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.03.09-01.20.03:738][747]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.03.09-01.20.03:738][747]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.03.09-01.20.03:738][747]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.03.09-01.20.03:738][747]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.03.09-01.20.03:738][747]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.03.09-01.20.03:738][747]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.03.09-01.20.03:742][747]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.03.09-01.20.03:742][747]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.03.09-01.20.03:742][747]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.03.09-01.20.03:742][747]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.03.09-01.20.03:742][747]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.03.09-01.20.03:742][747]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.03.09-01.20.03:742][747]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.03.09-01.20.03:742][747]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.03.09-01.20.03:742][747]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.03.09-01.20.03:742][747]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.03.09-01.20.03:818][747]LogDerivedDataCache: Shutdown
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.09-01.20.03:818][747]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.09-01.20.03:820][747]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.09-01.20.03:820][747]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.09-01.20.03:820][747]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.09-01.20.03:820][747]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.09-01.20.03:820][747]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.09-01.20.03:820][747]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.09-01.20.03:820][747]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.09-01.20.03:820][747]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.09-01.20.03:820][747]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.09-01.20.03:820][747]LogExit: Exiting.
+[2015.03.09-01.20.03:832][747]Log file closed, 03/08/15 18:20:03
