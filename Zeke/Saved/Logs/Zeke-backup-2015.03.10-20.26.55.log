@@ -1,0 +1,282 @@
+﻿Log file open, 03/10/15 19:34:33
+LogInit:Display: Running engine for game: Zeke
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.11-02.34.33:056][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.11-02.34.33:104][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.11-02.34.33:122][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.11-02.34.33:129][  0]LogInit: Object subsystem initialized
+[2015.03.11-02.34.33:131][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.11-02.34.33:131][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Zeke/Zeke/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.11-02.34.33:131][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.11-02.34.33:131][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Zeke/Zeke/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.11-02.34.33:131][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.03.11-02.34.33:132][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.11-02.34.33:132][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.11-02.34.33:135][  0]LogInit: Computer: AI251LAB0234P17
+[2015.03.11-02.34.33:135][  0]LogInit: User: student
+[2015.03.11-02.34.33:135][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.11-02.34.33:135][  0]LogInit: High frequency timer resolution =3.507197 MHz
+[2015.03.11-02.34.33:136][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.03.11-02.34.33:136][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.11-02.34.33:136][  0]LogMemory: Process Physical Memory: 48.08 MB used, 48.08 MB peak
+[2015.03.11-02.34.33:136][  0]LogMemory: Process Virtual Memory: 24.03 MB used, 24.03 MB peak
+[2015.03.11-02.34.33:136][  0]LogMemory: Physical Memory: 3027.43 MB used, 8115.79 MB total
+[2015.03.11-02.34.33:136][  0]LogMemory: Virtual Memory: 261.90 MB used, 8388608.00 MB total
+[2015.03.11-02.34.33:160][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K2000 (Feature Level 11_0)
+[2015.03.11-02.34.33:160][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 3801MB of shared system memory, 1 output[s]
+[2015.03.11-02.34.33:160][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.11-02.34.33:164][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.11-02.34.33:172][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.11-02.34.33:224][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.11-02.34.33:351][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.11-02.34.38:664][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.11-02.34.39:060][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.11-02.34.39:108][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.11-02.34.39:157][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.03.11-02.34.39:157][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/student/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.03.11-02.34.39:157][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Zeke/Zeke/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.11-02.34.39:157][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.11-02.34.39:221][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.03.11-02.34.39:233][  0]LogDerivedDataCache: Using Local data cache path C:/Users/student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.11-02.34.39:355][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.03.11-02.34.39:489][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.11-02.34.39:489][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.11-02.34.39:830][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.11-02.34.39:883][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.11-02.34.40:599][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.11-02.34.40:746][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for D:/Zeke/Zeke/Binaries/Win64. Error: 0
+[2015.03.11-02.34.40:878][  0]SourceControl: Info Source control is disabled
+[2015.03.11-02.34.40:879][  0]SourceControl: Info Source control is disabled
+[2015.03.11-02.34.40:885][  0]SourceControl: Info Source control is disabled
+[2015.03.11-02.34.40:994][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.03.11-02.34.40:994][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.03.11-02.34.41:044][  0]LogEngine: Initializing Engine...
+[2015.03.11-02.34.41:176][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.03.11-02.34.41:197][  0]LogInit: FAudioDevice initialized.
+[2015.03.11-02.34.41:215][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.11-02.34.41:233][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.03.11-02.34.41:238][  0]LogInit: Texture streaming: Enabled
+[2015.03.11-02.34.41:263][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.11-02.34.41:263][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.03.11-02.34.41:264][  0]LogAnalytics: SetUserId aac480f1ef3f93ca7eef73a34b96b99b
+[2015.03.11-02.34.41:264][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.11-02.34.41:281][  0]LogInit: Transaction tracking system initialized
+[2015.03.11-02.34.41:365][  0]BlueprintLog: New page: Editor Load
+[2015.03.11-02.34.41:392][  0]LogAssetRegistry: FAssetRegistry took 0.0093 seconds to start up
+[2015.03.11-02.34.41:392][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.11-02.34.41:877][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.11-02.34.42:188][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.11-02.34.42:349][  0]LogConsoleResponse:Display: 
+[2015.03.11-02.34.42:391][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.03.11-02.34.42:564][  0]SourceControl: Info Source control is disabled
+[2015.03.11-02.34.42:564][  0]Cmd: MAP LOAD FILE="D:/Zeke/Zeke/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.03.11-02.34.42:564][  0]LightingResults: New page: Lighting Build
+[2015.03.11-02.34.42:573][  0]MapCheck: New page: Map Check
+[2015.03.11-02.34.42:573][  0]LightingResults: New page: Lighting Build
+[2015.03.11-02.34.42:579][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001315D9E0
+[2015.03.11-02.34.43:792][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.11-02.34.43:793][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.03.11-02.34.43:793][  0]Cmd: MAP CHECKDEP
+[2015.03.11-02.34.43:793][  0]MapCheck: New page: Example_Map - Mar 10, 2015, 12:34:43 PM
+[2015.03.11-02.34.43:885][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.236ms to complete.
+[2015.03.11-02.34.43:885][  0]LogFileHelpers: Loading map 'Example_Map' took 1.322
+[2015.03.11-02.34.43:952][  0]LogCollectionManager: Loaded 0 collections in 0.000786 seconds
+[2015.03.11-02.34.43:965][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.03.11-02.34.44:040][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.11-02.34.44:044][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.11-02.34.44:068][  0]LogLoad: Full Startup: 12.89 seconds (BP compile: 0.16 seconds)
+[2015.03.11-02.34.44:509][  0]LogRenderer:Warning: Reallocating scene render targets to support 968x1024.
+[2015.03.11-02.34.44:615][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.03.11-02.34.44:615][  1]Cmd: UpdateLandscapeEditorData
+[2015.03.11-02.34.44:679][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building0002)
+[2015.03.11-02.34.44:721][  2]LogAssetRegistry: Asset discovery search completed in 3.3381 seconds
+[2015.03.11-02.34.46:820][ 48]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/level'
+[2015.03.11-02.34.47:967][ 77]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.03.11-02.34.47:987][ 77]Cmd: MAP LOAD FILE="D:/Zeke/Zeke/Content/level/Scene.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.03.11-02.34.47:987][ 77]LightingResults: New page: Lighting Build
+[2015.03.11-02.34.48:010][ 77]LoadErrors: New page: Loading map: Scene.umap
+[2015.03.11-02.34.48:033][ 77]MapCheck: New page: Map Check
+[2015.03.11-02.34.48:033][ 77]LightingResults: New page: Lighting Build
+[2015.03.11-02.34.48:042][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000008FD1800
+[2015.03.11-02.34.48:051][ 77]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.11-02.34.48:054][ 77]LogAIModule: Creating AISystem for world Scene
+[2015.03.11-02.34.48:070][ 77]Cmd: MAP CHECKDEP
+[2015.03.11-02.34.48:070][ 77]MapCheck: New page: Scene - Mar 10, 2015, 12:34:48 PM
+[2015.03.11-02.34.48:160][ 77]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.774ms to complete.
+[2015.03.11-02.34.48:160][ 77]LogFileHelpers: Loading map 'Scene' took 0.175
+[2015.03.11-02.34.48:309][ 78]Cmd: UpdateLandscapeEditorData -warnings
+[2015.03.11-02.34.48:310][ 78]Cmd: UpdateLandscapeEditorData
+[2015.03.11-02.35.00:171][528]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.03.11-02.35.04:046][639]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.03.11-02.35.06:138][703]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.03.11-02.35.11:038][849]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke'
+[2015.03.11-02.35.14:176][957]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/blueprint'
+[2015.03.11-02.35.19:755][ 59]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.35.19:758][ 59]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.35.19:868][ 59]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.35.19:868][ 59]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.35.54:249][376]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.35.54:250][376]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.35.54:269][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.03.11-02.35.54:269][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.NavigationComponent_0) Not registered. Aborting.
+[2015.03.11-02.35.54:269][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.PathFollowingComponent_0) Not registered. Aborting.
+[2015.03.11-02.35.54:269][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnActionsComponent_0) Not registered. Aborting.
+[2015.03.11-02.35.54:269][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.03.11-02.35.55:831][424]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.35.55:832][424]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.35.55:850][424]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.03.11-02.36.53:035][534]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.03.11-02.37.38:218][622]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.37.38:219][622]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.37.38:238][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.03.11-02.37.38:238][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.03.11-02.37.41:461][769]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.37.41:461][769]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.37.52:257][129]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.37.52:258][129]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.37.53:715][174]BlueprintLog: New page: Compile Zeke_Character
+[2015.03.11-02.37.53:770][174]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.37.53:770][174]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.37.53:905][174]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.37.53:906][174]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.37.53:926][174]BlueprintEditorCompileResults: Info [0202.74] Compile of Zeke_Character successful! [in 193 ms]
+[2015.03.11-02.38.28:860][504]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.11-02.43.19:537][699]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.43.19:537][699]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.44.16:073][803]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.11-02.44.16:073][803]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.11-02.44.16:074][803]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2758.EdGraphPin_18476"''
+[2015.03.11-02.45.36:954][ 62]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.03.11-02.47.35:740][277]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke'
+[2015.03.11-02.47.41:045][446]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/blueprint'
+[2015.03.11-02.48.02:782][947]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/character'
+[2015.03.11-02.48.08:403][ 59]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.03.11-02.48.13:189][167]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2015.03.11-02.48.31:603][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/zeke/character/TempZeke_Skeleton" FILE="D:/Zeke/Zeke/Content/zeke/character/TempZeke_Skeleton.uasset" SILENT=true
+[2015.03.11-02.48.31:628][697]LogSavePackage: Save=1.934593ms
+[2015.03.11-02.48.31:628][697]LogSavePackage: Moving 'D:/Zeke/Zeke/Saved/TempZeke_Skeleton6D5E002B45A37719EC1A859CE2DE213E.tmp' to 'D:/Zeke/Zeke/Content/zeke/character/TempZeke_Skeleton.uasset'
+[2015.03.11-02.48.41:818][927]BlueprintLog: New page: Compile Zeke_Character
+[2015.03.11-02.48.41:884][927]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.48.41:885][927]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.48.41:944][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.03.11-02.48.41:944][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.03.11-02.48.41:944][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.NavigationComponent_1) Not registered. Aborting.
+[2015.03.11-02.48.41:944][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.PathFollowingComponent_1) Not registered. Aborting.
+[2015.03.11-02.48.41:944][927]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnActionsComponent_1) Not registered. Aborting.
+[2015.03.11-02.48.41:960][927]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004AB7D760
+[2015.03.11-02.48.42:001][927]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.48.42:001][927]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.48.42:022][927]BlueprintEditorCompileResults: Info [0850.80] Compile of Zeke_Character successful! [in 180 ms]
+[2015.03.11-02.48.43:607][966]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.11-02.48.43:610][966]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.03.11-02.48.43:652][966]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.11-02.48.43:797][966]LogPlayLevel: PIE:  Blueprint regeneration took 189 ms (2 blueprints)
+[2015.03.11-02.48.43:797][966]PIE: New page: PIE session: Scene (Mar 10, 2015, 12:48:43 PM)
+[2015.03.11-02.48.43:922][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.124154s)
+[2015.03.11-02.48.43:923][966]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2015.03.11-02.48.43:923][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.125145s)
+[2015.03.11-02.48.44:000][966]LogWorld: Game class is 'MyGame_C'
+[2015.03.11-02.48.44:002][966]LogAIModule: Creating AISystem for world Scene
+[2015.03.11-02.48.44:011][966]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.11-02.48.44:011][966]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.10-19.48.44
+[2015.03.11-02.48.44:012][966]LogWorld: Bringing up level for play took: 0.010227
+[2015.03.11-02.48.44:014][966]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene 0.949
+[2015.03.11-02.48.46:062][ 16]LogBlueprintUserMessages: 100
+[2015.03.11-02.48.47:489][ 51]LogBlueprintUserMessages: 75
+[2015.03.11-02.48.53:410][207]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000042ECFCE0
+[2015.03.11-02.49.00:244][394]BlueprintLog: New page: Compile Zeke_Character
+[2015.03.11-02.49.00:311][394]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.49.00:311][394]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.49.00:424][394]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.49.00:425][394]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.49.00:446][394]BlueprintEditorCompileResults: Info [0869.22] Compile of Zeke_Character successful! [in 178 ms]
+[2015.03.11-02.49.14:015][707]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.11-02.49.14:018][707]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.11-02.49.14:077][707]LogPlayLevel: PIE:  Blueprint regeneration took 62 ms (1 blueprints)
+[2015.03.11-02.49.14:077][707]PIE: New page: PIE session: Scene (Mar 10, 2015, 12:49:14 PM)
+[2015.03.11-02.49.14:201][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123733s)
+[2015.03.11-02.49.14:202][707]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2015.03.11-02.49.14:202][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.124717s)
+[2015.03.11-02.49.14:231][707]LogWorld: Game class is 'MyGame_C'
+[2015.03.11-02.49.14:232][707]LogAIModule: Creating AISystem for world Scene
+[2015.03.11-02.49.14:241][707]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.11-02.49.14:241][707]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.10-19.49.14
+[2015.03.11-02.49.14:243][707]LogWorld: Bringing up level for play took: 0.010187
+[2015.03.11-02.49.14:244][707]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene 1.178
+[2015.03.11-02.49.20:974][882]LogBlueprintUserMessages: 100
+[2015.03.11-02.49.23:254][942]LogBlueprintUserMessages: 52
+[2015.03.11-02.49.29:431][107]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005305DC60
+[2015.03.11-02.49.44:755][477]BlueprintLog: New page: Compile Zeke_Character
+[2015.03.11-02.49.44:821][477]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.49.44:822][477]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.49.44:935][477]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.49.44:936][477]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.49.44:957][477]BlueprintEditorCompileResults: Info [0913.73] Compile of Zeke_Character successful! [in 178 ms]
+[2015.03.11-02.49.59:565][768]BlueprintLog: New page: Compile Zeke_Character
+[2015.03.11-02.49.59:632][768]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.49.59:633][768]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.49.59:745][768]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.49.59:745][768]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.11-02.49.59:766][768]BlueprintEditorCompileResults: Info [0928.54] Compile of Zeke_Character successful! [in 176 ms]
+[2015.03.11-02.50.02:510][818]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.11-02.50.02:513][818]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.11-02.50.02:572][818]LogPlayLevel: PIE:  Blueprint regeneration took 62 ms (1 blueprints)
+[2015.03.11-02.50.02:572][818]PIE: New page: PIE session: Scene (Mar 10, 2015, 12:50:02 PM)
+[2015.03.11-02.50.02:702][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.129794s)
+[2015.03.11-02.50.02:703][818]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2015.03.11-02.50.02:703][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.130827s)
+[2015.03.11-02.50.02:736][818]LogWorld: Game class is 'MyGame_C'
+[2015.03.11-02.50.02:737][818]LogAIModule: Creating AISystem for world Scene
+[2015.03.11-02.50.02:747][818]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.11-02.50.02:747][818]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.10-19.50.02
+[2015.03.11-02.50.02:748][818]LogWorld: Bringing up level for play took: 0.010398
+[2015.03.11-02.50.02:750][818]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene -0.32
+[2015.03.11-02.50.10:771][ 29]LogBlueprintUserMessages: 100
+[2015.03.11-02.50.10:809][ 30]LogBlueprintUserMessages: 50
+[2015.03.11-02.50.10:847][ 31]LogBlueprintUserMessages: 0
+[2015.03.11-02.50.13:605][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005773B6A0
+[2015.03.11-02.50.15:994][166]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.11-02.50.15:997][166]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.11-02.50.16:056][166]LogPlayLevel: PIE:  Blueprint regeneration took 62 ms (1 blueprints)
+[2015.03.11-02.50.16:057][166]PIE: New page: PIE session: Scene (Mar 10, 2015, 12:50:16 PM)
+[2015.03.11-02.50.16:175][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118452s)
+[2015.03.11-02.50.16:176][166]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2015.03.11-02.50.16:176][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.119349s)
+[2015.03.11-02.50.16:204][166]LogWorld: Game class is 'MyGame_C'
+[2015.03.11-02.50.16:206][166]LogAIModule: Creating AISystem for world Scene
+[2015.03.11-02.50.16:215][166]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.11-02.50.16:215][166]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.10-19.50.16
+[2015.03.11-02.50.16:217][166]LogWorld: Bringing up level for play took: 0.010181
+[2015.03.11-02.50.16:218][166]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene 1.148
+[2015.03.11-02.50.19:665][254]LogBlueprintUserMessages: 100
+[2015.03.11-02.50.19:703][255]LogBlueprintUserMessages: 50
+[2015.03.11-02.50.19:741][256]LogBlueprintUserMessages: 0
+[2015.03.11-02.50.20:840][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000041137380
+[2015.03.11-02.50.22:835][333]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.11-02.50.22:838][333]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.11-02.50.22:898][333]LogPlayLevel: PIE:  Blueprint regeneration took 63 ms (1 blueprints)
+[2015.03.11-02.50.22:898][333]PIE: New page: PIE session: Scene (Mar 10, 2015, 12:50:22 PM)
+[2015.03.11-02.50.23:015][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117031s)
+[2015.03.11-02.50.23:016][333]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2015.03.11-02.50.23:016][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.117900s)
+[2015.03.11-02.50.23:050][333]LogWorld: Game class is 'MyGame_C'
+[2015.03.11-02.50.23:051][333]LogAIModule: Creating AISystem for world Scene
+[2015.03.11-02.50.23:060][333]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.11-02.50.23:061][333]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.10-19.50.23
+[2015.03.11-02.50.23:062][333]LogWorld: Bringing up level for play took: 0.010178
+[2015.03.11-02.50.23:064][333]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene -0.007
+[2015.03.11-02.50.27:502][447]LogBlueprintUserMessages: 100
+[2015.03.11-02.50.52:922][133]LogBlueprintUserMessages: 50
+[2015.03.11-02.50.56:422][230]LogBlueprintUserMessages: 0
+[2015.03.11-02.50.58:716][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057738B80
+[2015.03.11-02.51.19:318][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/blueprint/Zeke_Character" FILE="D:/Zeke/Zeke/Content/Zeke/blueprint/Zeke_Character.uasset" SILENT=true
+[2015.03.11-02.51.19:659][869]LogSavePackage: Save=331.542816ms
+[2015.03.11-02.51.19:659][869]LogSavePackage: Moving 'D:/Zeke/Zeke/Saved/Zeke_Character7C01C7CB43519B086566F98BB178FABB.tmp' to 'D:/Zeke/Zeke/Content/Zeke
