@@ -1,0 +1,423 @@
+﻿Log file open, 03/17/15 19:09:43
+LogInit:Display: Running engine for game: Zeke
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.18-02.09.43:573][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.18-02.09.43:621][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.18-02.09.43:638][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.18-02.09.43:646][  0]LogInit: Object subsystem initialized
+[2015.03.18-02.09.43:648][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.18-02.09.43:648][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.18-02.09.43:648][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.18-02.09.43:648][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.18-02.09.43:648][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.03.18-02.09.43:648][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.18-02.09.43:648][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.18-02.09.43:653][  0]LogInit: Computer: AI251LAB0234P13
+[2015.03.18-02.09.43:653][  0]LogInit: User: student
+[2015.03.18-02.09.43:653][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.18-02.09.43:653][  0]LogInit: High frequency timer resolution =3.507216 MHz
+[2015.03.18-02.09.43:653][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.03.18-02.09.43:653][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.18-02.09.43:653][  0]LogMemory: Process Physical Memory: 50.71 MB used, 50.71 MB peak
+[2015.03.18-02.09.43:653][  0]LogMemory: Process Virtual Memory: 27.13 MB used, 27.13 MB peak
+[2015.03.18-02.09.43:653][  0]LogMemory: Physical Memory: 3328.84 MB used, 8115.79 MB total
+[2015.03.18-02.09.43:653][  0]LogMemory: Virtual Memory: 264.96 MB used, 8388608.00 MB total
+[2015.03.18-02.09.43:676][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K2000 (Feature Level 11_0)
+[2015.03.18-02.09.43:676][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 3801MB of shared system memory, 1 output[s]
+[2015.03.18-02.09.43:676][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.18-02.09.43:680][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.18-02.09.43:687][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.18-02.09.43:739][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.18-02.09.43:866][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.18-02.09.49:155][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.18-02.09.49:538][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.18-02.09.49:586][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.18-02.09.49:620][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.03.18-02.09.49:620][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/student/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.03.18-02.09.49:621][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.18-02.09.49:621][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.18-02.09.49:684][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.03.18-02.09.49:696][  0]LogDerivedDataCache: Using Local data cache path C:/Users/student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.18-02.09.49:815][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.03.18-02.09.49:948][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.18-02.09.49:948][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.18-02.09.50:284][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.18-02.09.50:337][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.18-02.09.51:056][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.18-02.09.51:203][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Binaries/Win64. Error: 0
+[2015.03.18-02.09.51:337][  0]SourceControl: Info Source control is disabled
+[2015.03.18-02.09.51:337][  0]SourceControl: Info Source control is disabled
+[2015.03.18-02.09.51:344][  0]SourceControl: Info Source control is disabled
+[2015.03.18-02.09.51:453][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.03.18-02.09.51:453][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.03.18-02.09.51:502][  0]LogEngine: Initializing Engine...
+[2015.03.18-02.09.51:632][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.03.18-02.09.51:651][  0]LogInit: FAudioDevice initialized.
+[2015.03.18-02.09.51:669][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.18-02.09.51:687][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.03.18-02.09.51:692][  0]LogInit: Texture streaming: Enabled
+[2015.03.18-02.09.51:716][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.18-02.09.51:716][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.03.18-02.09.51:717][  0]LogAnalytics: SetUserId 2294b3ad454c126a3af4ca5d489fad32
+[2015.03.18-02.09.51:717][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.18-02.09.51:733][  0]LogInit: Transaction tracking system initialized
+[2015.03.18-02.09.51:816][  0]BlueprintLog: New page: Editor Load
+[2015.03.18-02.09.51:844][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2015.03.18-02.09.51:844][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.18-02.09.52:262][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.18-02.09.52:568][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.18-02.09.52:726][  0]LogConsoleResponse:Display: 
+[2015.03.18-02.09.52:768][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.03.18-02.09.52:935][  0]SourceControl: Info Source control is disabled
+[2015.03.18-02.09.52:936][  0]Cmd: MAP LOAD FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.03.18-02.09.52:936][  0]LightingResults: New page: Lighting Build
+[2015.03.18-02.09.52:944][  0]MapCheck: New page: Map Check
+[2015.03.18-02.09.52:944][  0]LightingResults: New page: Lighting Build
+[2015.03.18-02.09.52:950][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013951940
+[2015.03.18-02.09.53:692][  0]LogBlueprint:Error: [compiler] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.03.18-02.09.53:695][  0]LogBlueprint:Warning: [compiler] Warning [0011.99] Compile of Example_Map failed. 1 Fatal Issue(s) 0 Warning(s) [in 3 ms]
+[2015.03.18-02.09.53:696][  0]LogBlueprint:Error: [compiler] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.03.18-02.09.53:699][  0]LogBlueprint:Warning: [compiler] Warning [0011.99] Compile of Example_Map failed. 1 Fatal Issue(s) 0 Warning(s) [in 2 ms]
+[2015.03.18-02.09.53:699][  0]LogBlueprint:Warning: [compiler] Warning [0011.99] Compile of Example_Map failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.03.18-02.09.57:871][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.18-02.09.57:872][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.03.18-02.09.57:872][  0]Cmd: MAP CHECKDEP
+[2015.03.18-02.09.57:873][  0]MapCheck: New page: Example_Map - Mar 17, 2015, 12:09:57 PM
+[2015.03.18-02.09.57:968][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.157ms to complete.
+[2015.03.18-02.09.57:968][  0]LogFileHelpers: Loading map 'Example_Map' took 5.032
+[2015.03.18-02.09.58:075][  0]LogCollectionManager: Loaded 0 collections in 0.000824 seconds
+[2015.03.18-02.09.58:212][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.18-02.09.58:216][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.18-02.09.58:241][  0]LogLoad: Full Startup: 16.53 seconds (BP compile: 0.18 seconds)
+[2015.03.18-02.09.58:254][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/character'
+[2015.03.18-02.09.58:674][  0]LogRenderer:Warning: Reallocating scene render targets to support 968x1024.
+[2015.03.18-02.09.58:816][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.03.18-02.09.58:816][  1]Cmd: UpdateLandscapeEditorData
+[2015.03.18-02.09.59:022][  3]LogAssetRegistry: Asset discovery search completed in 7.1876 seconds
+[2015.03.18-02.10.05:929][174]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke'
+[2015.03.18-02.10.06:409][188]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/blueprint'
+[2015.03.18-02.10.06:794][198]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/materials'
+[2015.03.18-02.10.07:522][219]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/character'
+[2015.03.18-02.10.08:664][250]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Assets'
+[2015.03.18-02.10.23:711][886]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.18-02.10.23:711][886]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.03.18-02.10.23:779][886]LogBlueprint:Error: [compiler] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.03.18-02.10.23:836][886]LogBlueprint:Warning: [compiler] Warning [0042.13] Compile of Example_Map failed. 1 Fatal Issue(s) 0 Warning(s) [in 122 ms]
+[2015.03.18-02.10.23:836][886]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.03.18-02.10.23:851][886]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015E27C40
+[2015.03.18-02.10.23:857][886]LogPlayLevel: PIE:  Blueprint regeneration took 145 ms (1 blueprints)
+[2015.03.18-02.10.24:965][886]BlueprintLog: Info Blueprint Example_Map failed to compile
+[2015.03.18-02.10.27:331][ 60]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.18-02.10.27:331][ 60]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.03.18-02.10.27:336][ 60]LogBlueprint:Error: [compiler] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.03.18-02.10.27:382][ 60]LogBlueprint:Warning: [compiler] Warning [0045.67] Compile of Example_Map failed. 1 Fatal Issue(s) 0 Warning(s) [in 48 ms]
+[2015.03.18-02.10.27:391][ 60]LogPlayLevel: PIE:  Blueprint regeneration took 59 ms (1 blueprints)
+[2015.03.18-02.10.31:389][ 60]BlueprintLog: Info Blueprint Example_Map failed to compile
+[2015.03.18-02.10.31:389][ 60]PIE: New page: PIE session: Example_Map (Mar 17, 2015, 12:10:31 PM)
+[2015.03.18-02.10.31:416][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026201s)
+[2015.03.18-02.10.31:416][ 60]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2015.03.18-02.10.31:416][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.027118s)
+[2015.03.18-02.10.31:561][ 60]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Burst_M'
+[2015.03.18-02.10.31:561][ 60]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Burst_M' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_Burst.uasset.
+[2015.03.18-02.10.31:562][ 60]LoadErrors:Error: Error /Game/StarterContent/Particles/Materials/M_Burst : Can't find file for asset. /Game/StarterContent/Textures/T_Burst_M
+[2015.03.18-02.10.31:562][ 60]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Burst_M'
+[2015.03.18-02.10.31:562][ 60]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Burst_M' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_Burst.uasset.
+[2015.03.18-02.10.31:565][ 60]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Explosion_SubUV'
+[2015.03.18-02.10.31:565][ 60]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Explosion_SubUV' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset.
+[2015.03.18-02.10.31:565][ 60]LoadErrors:Error: Error /Game/StarterContent/Particles/Materials/M_explosion_subUV : Can't find file for asset. /Game/StarterContent/Textures/T_Explosion_SubUV
+[2015.03.18-02.10.31:566][ 60]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Explosion_SubUV'
+[2015.03.18-02.10.31:566][ 60]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Explosion_SubUV' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset.
+[2015.03.18-02.10.31:574][ 60]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_SubUV'
+[2015.03.18-02.10.31:574][ 60]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_SubUV' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset.
+[2015.03.18-02.10.31:575][ 60]LoadErrors:Error: Error /Game/StarterContent/Particles/Materials/M_smoke_subUV : Can't find file for asset. /Game/StarterContent/Textures/T_Smoke_SubUV
+[2015.03.18-02.10.31:575][ 60]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_Tiled_D'
+[2015.03.18-02.10.31:575][ 60]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_Tiled_D' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset.
+[2015.03.18-02.10.31:575][ 60]LoadErrors:Error: Error /Game/StarterContent/Particles/Materials/M_smoke_subUV : Can't find file for asset. /Game/StarterContent/Textures/T_Smoke_Tiled_D
+[2015.03.18-02.10.31:576][ 60]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_SubUV'
+[2015.03.18-02.10.31:576][ 60]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_SubUV' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset.
+[2015.03.18-02.10.31:576][ 60]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_Tiled_D'
+[2015.03.18-02.10.31:576][ 60]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_Tiled_D' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset.
+[2015.03.18-02.10.31:772][ 60]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Burst_M'
+[2015.03.18-02.10.31:772][ 60]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Burst_M.T_Burst_M Referenced by MaterialExpressionTextureSample_0
+[2015.03.18-02.10.31:773][ 60]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Burst_M' while loading NULL.
+[2015.03.18-02.10.31:773][ 60]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Explosion_SubUV'
+[2015.03.18-02.10.31:773][ 60]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Explosion_SubUV.T_Explosion_SubUV Referenced by MaterialExpressionParticleSubUV_0
+[2015.03.18-02.10.31:773][ 60]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Explosion_SubUV' while loading NULL.
+[2015.03.18-02.10.31:774][ 60]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_SubUV'
+[2015.03.18-02.10.31:774][ 60]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Smoke_SubUV.T_Smoke_SubUV Referenced by MaterialExpressionParticleSubUV_0
+[2015.03.18-02.10.31:774][ 60]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_SubUV' while loading NULL.
+[2015.03.18-02.10.31:775][ 60]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_Tiled_D'
+[2015.03.18-02.10.31:775][ 60]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Smoke_Tiled_D.T_Smoke_Tiled_D Referenced by MaterialExpressionTextureSample_0
+[2015.03.18-02.10.31:775][ 60]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_Tiled_D' while loading NULL.
+[2015.03.18-02.10.31:905][ 60]LogMaterial: Missing cached shader map for material M_Burst, compiling.
+[2015.03.18-02.10.31:906][ 60]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_Burst.M_Burst for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.18-02.10.31:906][ 60]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.18-02.10.31:907][ 60]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling.
+[2015.03.18-02.10.31:907][ 60]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_explosion_subUV.M_explosion_subUV for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.18-02.10.31:907][ 60]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2015.03.18-02.10.31:911][ 60]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling.
+[2015.03.18-02.10.31:912][ 60]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.18-02.10.31:912][ 60]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.18-02.10.31:912][ 60]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2015.03.18-02.10.32:002][ 60]LogWorld: Game class is 'MyGame_C'
+[2015.03.18-02.10.32:004][ 60]LogAIModule: Creating AISystem for world Example_Map
+[2015.03.18-02.10.32:008][ 60]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.18-02.10.32:008][ 60]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.03.17-19.10.32
+[2015.03.18-02.10.32:009][ 60]LogWorld: Bringing up level for play took: 0.004748
+[2015.03.18-02.10.32:011][ 60]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 4.549
+[2015.03.18-02.10.35:200][159]LogBlueprintUserMessages: Damage
+[2015.03.18-02.10.46:839][579]LogBlueprintUserMessages: 100
+[2015.03.18-02.10.47:002][581]LogBlueprintUserMessages: 58
+[2015.03.18-02.10.47:192][587]LogBlueprintUserMessages: 16
+[2015.03.18-02.10.47:289][590]LogBlueprintUserMessages: -26
+[2015.03.18-02.10.51:410][728]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000350C14E0
+[2015.03.18-02.11.39:254][899]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/character'
+[2015.03.18-02.11.42:098][956]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.03.18-02.11.43:979][990]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.03.18-02.11.47:561][ 68]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/blueprint'
+[2015.03.18-02.11.53:138][183]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.11.53:148][183]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.11.53:217][183]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.11.53:218][183]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.15.01:741][467]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.03.18-02.15.34:962][579]LogMaterial: Missing cached shader map for material Mat_Lightning, compiling.
+[2015.03.18-02.15.34:984][579]LogMaterial: Missing cached shader map for material Mat_Sparks, compiling.
+[2015.03.18-02.15.35:013][579]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.03.18-02.16.46:564][105]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.16.46:565][105]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.16.46:584][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.03.18-02.16.46:584][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.03.18-02.17.11:134][653]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.17.11:135][653]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.17.14:649][769]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.17.14:649][769]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.17.16:220][803]BlueprintLog: New page: Compile Zeke_Character
+[2015.03.18-02.17.16:294][803]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.17.16:294][803]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.17.16:426][803]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.17.16:427][803]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.17.16:447][803]BlueprintEditorCompileResults: Info [0454.71] Compile of Zeke_Character successful! [in 198 ms]
+[2015.03.18-02.18.21:123][569]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.03.18-02.20.32:833][891]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.020
+[2015.03.18-02.20.32:870][891]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Zeke/blueprint/Zeke_Character] ([1] browsable assets)...
+[2015.03.18-02.20.32:927][891]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Zeke/blueprint/Zeke_Character.Zeke_Character]
+[2015.03.18-02.20.32:927][891]OBJ SavePackage: Finished generating thumbnails for package [/Game/Zeke/blueprint/Zeke_Character]
+[2015.03.18-02.20.33:338][891]LogSavePackage: Save=379.683472ms
+[2015.03.18-02.20.33:338][891]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Zeke_Character_Auto1648085214553AE5A7B46BD99520AFBBE.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Autosaves/Game/Zeke/blueprint/Zeke_Character_Auto1.uasset'
+[2015.03.18-02.20.33:346][891]LogFileHelpers: Auto-saving content packages took 0.513
+[2015.03.18-02.20.39:318][ 80]LogMaterial: Missing cached shader map for material Mat_Aura, compiling.
+[2015.03.18-02.20.39:330][ 80]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.03.18-02.21.15:993][ 23]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/materials'
+[2015.03.18-02.21.16:584][ 36]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/character'
+[2015.03.18-02.21.18:669][ 70]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2015.03.18-02.24.32:633][469]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.24.32:634][469]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.24.32:654][469]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.03.18-02.24.46:648][810]BlueprintLog: New page: Compile Zeke_Character
+[2015.03.18-02.24.46:727][810]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.24.46:727][810]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.24.46:797][810]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000109E3EC0
+[2015.03.18-02.24.46:841][810]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.24.46:842][810]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-02.24.46:862][810]BlueprintEditorCompileResults: Info [0905.10] Compile of Zeke_Character successful! [in 182 ms]
+[2015.03.18-02.24.47:146][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/blueprint/Zeke_Character" FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/Zeke/blueprint/Zeke_Character.uasset" SILENT=true
+[2015.03.18-02.24.47:504][811]LogSavePackage: Save=345.666748ms
+[2015.03.18-02.24.47:504][811]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Zeke_Character900B421F43389769FACFCA98547E5128.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/Zeke/blueprint/Zeke_Character.uasset'
+[2015.03.18-02.24.53:816][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.03.18-02.24.53:867][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/zeke/character/TempZeke_Skeleton" FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/zeke/character/TempZeke_Skeleton.uasset" SILENT=true
+[2015.03.18-02.24.53:905][ 23]LogSavePackage: Save=2.571270ms
+[2015.03.18-02.24.53:905][ 23]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/TempZeke_Skeleton7FBD740A4B39485CDEA6849A8356BC85.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/zeke/character/TempZeke_Skeleton.uasset'
+[2015.03.18-02.24.57:945][165]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033F60360
+[2015.03.18-02.24.57:945][165]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F020A40
+[2015.03.18-02.24.59:663][203]Cmd: QUIT_EDITOR
+[2015.03.18-02.24.59:984][203]LogExit: Preparing to exit.
+[2015.03.18-02.25.00:277][203]LogExit: Editor shut down
+[2015.03.18-02.25.00:277][203]LogExit: Transaction tracking system shut down
+[2015.03.18-02.25.00:279][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000008EA6DE0
+[2015.03.18-02.25.00:280][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A31A200
+[2015.03.18-02.25.00:280][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028AEF7E0
+[2015.03.18-02.25.00:280][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028A7D8A0
+[2015.03.18-02.25.00:281][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028A7D580
+[2015.03.18-02.25.00:281][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033F61F80
+[2015.03.18-02.25.00:357][203]LogExit: Object subsystem successfully closed.
+[2015.03.18-02.25.00:415][203]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (173)
+[2015.03.18-02.25.00:415][203]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.03.18-02.25.00:415][203]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.03.18-02.25.00:415][203]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.03.18-02.25.00:415][203]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.03.18-02.25.00:415][203]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.03.18-02.25.00:415][203]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.03.18-02.25.00:416][203]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.03.18-02.25.00:417][203]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.03.18-02.25.00:417][203]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.03.18-02.25.00:417][203]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.03.18-02.25.00:417][203]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.03.18-02.25.00:417][203]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.03.18-02.25.00:417][203]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.03.18-02.25.00:417][203]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.03.18-02.25.00:417][203]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.03.18-02.25.00:452][203]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.03.18-02.25.00:561][203]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.03.18-02.25.00:562][203]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.03.18-02.25.00:562][203]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.03.18-02.25.00:562][203]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.03.18-02.25.00:562][203]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.03.18-02.25.00:562][203]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.03.18-02.25.00:562][203]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.03.18-02.25.00:562][203]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.03.18-02.25.00:562][203]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.03.18-02.25.00:662][203]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.03.18-02.25.00:662][203]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.03.18-02.25.00:662][203]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.03.18-02.25.00:664][203]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.03.18-02.25.00:664][203]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.03.18-02.25.00:664][203]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.03.18-02.25.00:664][203]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.03.18-02.25.00:664][203]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.03.18-02.25.00:664][203]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.03.18-02.25.00:664][203]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.03.18-02.25.00:664][203]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.03.18-02.25.00:664][203]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.03.18-02.25.00:664][203]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.03.18-02.25.00:664][203]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.03.18-02.25.00:664][203]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.03.18-02.25.00:664][203]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.03.18-02.25.00:664][203]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.03.18-02.25.00:664][203]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.03.18-02.25.00:668][203]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.03.18-02.25.00:668][203]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.03.18-02.25.00:668][203]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.03.18-02.25.00:668][203]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.03.18-02.25.00:668][203]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.03.18-02.25.00:668][203]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.03.18-02.25.00:668][203]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.03.18-02.25.00:668][203]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.03.18-02.25.00:668][203]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.03.18-02.25.00:668][203]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.03.18-02.25.00:752][203]LogDerivedDataCache: Shutdown
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.18-02.25.00:752][203]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.18-02.25.00:754][203]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.18-02.25.00:754][203]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.18-02.25.00:754][203]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.18-02.25.00:754][203]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.18-02.25.00:754][203]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.18-02.25.00:754][203]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.18-02.25.00:754][203]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.18-02.25.00:754][203]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.18-02.25.00:754][203]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.18-02.25.00:754][203]LogExit: Exiting.
+[2015.03.18-02.25.00:758][203]Log file closed, 03/17/15 19:25:00

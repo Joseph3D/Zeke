@@ -1,0 +1,1348 @@
+﻿Log file open, 03/17/15 17:29:45
+LogInit:Display: Running engine for game: Zeke
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.18-00.29.45:149][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.18-00.29.45:197][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.18-00.29.45:215][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.18-00.29.45:223][  0]LogInit: Object subsystem initialized
+[2015.03.18-00.29.45:224][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.18-00.29.45:224][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.18-00.29.45:224][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.18-00.29.45:224][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.18-00.29.45:225][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.03.18-00.29.45:225][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.18-00.29.45:225][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.18-00.29.45:232][  0]LogInit: Computer: AI251LAB0234P13
+[2015.03.18-00.29.45:232][  0]LogInit: User: student
+[2015.03.18-00.29.45:232][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.18-00.29.45:232][  0]LogInit: High frequency timer resolution =3.507216 MHz
+[2015.03.18-00.29.45:232][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.03.18-00.29.45:232][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.18-00.29.45:232][  0]LogMemory: Process Physical Memory: 50.08 MB used, 50.08 MB peak
+[2015.03.18-00.29.45:232][  0]LogMemory: Process Virtual Memory: 27.12 MB used, 27.12 MB peak
+[2015.03.18-00.29.45:232][  0]LogMemory: Physical Memory: 4020.96 MB used, 8115.79 MB total
+[2015.03.18-00.29.45:232][  0]LogMemory: Virtual Memory: 264.96 MB used, 8388608.00 MB total
+[2015.03.18-00.29.45:255][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K2000 (Feature Level 11_0)
+[2015.03.18-00.29.45:255][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 3801MB of shared system memory, 1 output[s]
+[2015.03.18-00.29.45:255][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.18-00.29.45:259][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.18-00.29.45:266][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.18-00.29.45:317][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.18-00.29.45:442][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.18-00.29.50:771][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.18-00.29.51:165][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.18-00.29.51:213][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.18-00.29.51:248][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.03.18-00.29.51:248][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/student/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.03.18-00.29.51:248][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.18-00.29.51:248][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.18-00.29.51:312][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.03.18-00.29.51:323][  0]LogDerivedDataCache: Using Local data cache path C:/Users/student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.18-00.29.51:447][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.03.18-00.29.51:581][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.18-00.29.51:581][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.18-00.29.51:934][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.18-00.29.51:987][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.18-00.29.52:717][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.18-00.29.52:865][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Binaries/Win64. Error: 0
+[2015.03.18-00.29.53:001][  0]SourceControl: Info Source control is disabled
+[2015.03.18-00.29.53:001][  0]SourceControl: Info Source control is disabled
+[2015.03.18-00.29.53:007][  0]SourceControl: Info Source control is disabled
+[2015.03.18-00.29.53:116][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.03.18-00.29.53:116][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2015.03.18-00.29.53:166][  0]LogEngine: Initializing Engine...
+[2015.03.18-00.29.53:297][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.03.18-00.29.53:317][  0]LogInit: FAudioDevice initialized.
+[2015.03.18-00.29.53:335][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.18-00.29.53:353][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/student/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.03.18-00.29.53:358][  0]LogInit: Texture streaming: Enabled
+[2015.03.18-00.29.53:384][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.18-00.29.53:384][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.03.18-00.29.53:384][  0]LogAnalytics: SetUserId 2294b3ad454c126a3af4ca5d489fad32
+[2015.03.18-00.29.53:384][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.18-00.29.53:396][  0]LogInit: Transaction tracking system initialized
+[2015.03.18-00.29.53:478][  0]BlueprintLog: New page: Editor Load
+[2015.03.18-00.29.53:505][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.03.18-00.29.53:505][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.18-00.29.53:938][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.18-00.29.54:395][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.18-00.29.54:549][  0]LogConsoleResponse:Display: 
+[2015.03.18-00.29.54:592][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.03.18-00.29.54:764][  0]SourceControl: Info Source control is disabled
+[2015.03.18-00.29.54:764][  0]Cmd: MAP LOAD FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.03.18-00.29.54:766][  0]LightingResults: New page: Lighting Build
+[2015.03.18-00.29.54:774][  0]MapCheck: New page: Map Check
+[2015.03.18-00.29.54:774][  0]LightingResults: New page: Lighting Build
+[2015.03.18-00.29.54:780][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013133E20
+[2015.03.18-00.29.55:780][  0]LogTexture:Display: Building textures: PoPo_Body_diffuse (AutoDXT)
+[2015.03.18-00.29.56:801][  0]LogTexture:Display: Building textures: PoPo_Body_normal (BC5)
+[2015.03.18-00.29.56:927][  0]LogTexture:Display: Building textures: PoPo_Body_specular (AutoDXT)
+[2015.03.18-00.29.57:081][  0]LogMaterial: Missing cached shader map for material Bodymat_eyelashes_Popo, compiling.
+[2015.03.18-00.29.57:144][  0]LogMaterial: Missing cached shader map for material Bodymat_popo, compiling.
+[2015.03.18-00.29.57:168][  0]LogTexture:Display: Building textures: PoPo_Bottom_diffuse (AutoDXT)
+[2015.03.18-00.29.57:418][  0]LogTexture:Display: Building textures: PoPo_Bottom_normal (BC5)
+[2015.03.18-00.29.57:448][  0]LogTexture:Display: Building textures: PoPo_Bottom_specular (AutoDXT)
+[2015.03.18-00.29.57:480][  0]LogMaterial: Missing cached shader map for material Bottommat_popo, compiling.
+[2015.03.18-00.29.57:500][  0]LogTexture:Display: Building textures: PoPo_Shoes_diffuse (AutoDXT)
+[2015.03.18-00.29.57:709][  0]LogTexture:Display: Building textures: PoPo_Shoes_normal (BC5)
+[2015.03.18-00.29.57:750][  0]LogTexture:Display: Building textures: PoPo_Shoes_specular (AutoDXT)
+[2015.03.18-00.29.57:798][  0]LogMaterial: Missing cached shader map for material Shoesmat_Popo, compiling.
+[2015.03.18-00.29.57:831][  0]LogTexture:Display: Building textures: PoPo_Top_diffuse (AutoDXT)
+[2015.03.18-00.29.58:059][  0]LogTexture:Display: Building textures: PoPo_Top_normal (BC5)
+[2015.03.18-00.29.58:098][  0]LogTexture:Display: Building textures: PoPo_Top_specular (AutoDXT)
+[2015.03.18-00.29.58:136][  0]LogMaterial: Missing cached shader map for material Topmat, compiling.
+[2015.03.18-00.29.58:170][  0]LogStaticMesh: Building static mesh sword...
+[2015.03.18-00.29.58:243][  0]LogLayoutUV:Display: FindCharts: 1 ms
+[2015.03.18-00.29.58:244][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.18-00.29.58:244][  0]LogLayoutUV:Display:   Rasterize: 3462
+[2015.03.18-00.29.58:244][  0]LogLayoutUV:Display:   Find: 836
+[2015.03.18-00.29.58:246][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.18-00.29.58:246][  0]LogLayoutUV:Display:   Rasterize: 2728
+[2015.03.18-00.29.58:246][  0]LogLayoutUV:Display:   Find: 1044
+[2015.03.18-00.29.58:247][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.18-00.29.58:247][  0]LogLayoutUV:Display:   Rasterize: 2845
+[2015.03.18-00.29.58:247][  0]LogLayoutUV:Display:   Find: 1111
+[2015.03.18-00.29.58:249][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.18-00.29.58:249][  0]LogLayoutUV:Display:   Rasterize: 2867
+[2015.03.18-00.29.58:249][  0]LogLayoutUV:Display:   Find: 994
+[2015.03.18-00.29.58:250][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.18-00.29.58:250][  0]LogLayoutUV:Display:   Rasterize: 2911
+[2015.03.18-00.29.58:250][  0]LogLayoutUV:Display:   Find: 1176
+[2015.03.18-00.29.58:251][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.18-00.29.58:251][  0]LogLayoutUV:Display:   Rasterize: 2922
+[2015.03.18-00.29.58:251][  0]LogLayoutUV:Display:   Find: 980
+[2015.03.18-00.29.58:252][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.18-00.29.58:252][  0]LogLayoutUV:Display:   Rasterize: 2938
+[2015.03.18-00.29.58:252][  0]LogLayoutUV:Display:   Find: 974
+[2015.03.18-00.29.58:255][  0]LogStaticMesh: Built static mesh [84.335556ms] /Game/zeke/Assets/sword.sword
+[2015.03.18-00.29.58:307][  0]LogTexture:Display: Building textures: M9_d (AutoDXT)
+[2015.03.18-00.29.58:540][  0]LogMaterial: Missing cached shader map for material M9_mat, compiling.
+[2015.03.18-00.29.58:547][  0]LogStaticMesh: Building static mesh Ammo...
+[2015.03.18-00.29.58:552][  0]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.03.18-00.29.58:552][  0]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.03.18-00.29.58:553][  0]LogLayoutUV:Display:   Rasterize: 3094
+[2015.03.18-00.29.58:553][  0]LogLayoutUV:Display:   Find: 5
+[2015.03.18-00.29.58:554][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.18-00.29.58:554][  0]LogLayoutUV:Display:   Rasterize: 4995
+[2015.03.18-00.29.58:554][  0]LogLayoutUV:Display:   Find: 12
+[2015.03.18-00.29.58:556][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.18-00.29.58:556][  0]LogLayoutUV:Display:   Rasterize: 5965
+[2015.03.18-00.29.58:556][  0]LogLayoutUV:Display:   Find: 10
+[2015.03.18-00.29.58:558][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.18-00.29.58:558][  0]LogLayoutUV:Display:   Rasterize: 5865
+[2015.03.18-00.29.58:558][  0]LogLayoutUV:Display:   Find: 10
+[2015.03.18-00.29.58:559][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.18-00.29.58:559][  0]LogLayoutUV:Display:   Rasterize: 5890
+[2015.03.18-00.29.58:559][  0]LogLayoutUV:Display:   Find: 13
+[2015.03.18-00.29.58:561][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.18-00.29.58:561][  0]LogLayoutUV:Display:   Rasterize: 5876
+[2015.03.18-00.29.58:561][  0]LogLayoutUV:Display:   Find: 11
+[2015.03.18-00.29.58:563][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.18-00.29.58:563][  0]LogLayoutUV:Display:   Rasterize: 5754
+[2015.03.18-00.29.58:563][  0]LogLayoutUV:Display:   Find: 11
+[2015.03.18-00.29.58:564][  0]LogLayoutUV:Display: PackCharts: 1 ms
+[2015.03.18-00.29.58:564][  0]LogLayoutUV:Display:   Rasterize: 5571
+[2015.03.18-00.29.58:564][  0]LogLayoutUV:Display:   Find: 11
+[2015.03.18-00.29.58:580][  0]LogStaticMesh: Built static mesh [33.057560ms] /Game/Zeke/Assets/Ammo.Ammo
+[2015.03.18-00.29.58:711][  0]LogTexture:Display: Building textures: BrickTile (AutoDXT)
+[2015.03.18-00.30.05:799][  0]LogTexture:Display: Building textures: BrickTileNRML (BC5)
+[2015.03.18-00.30.06:555][  0]LogMaterial: Missing cached shader map for material Brick, compiling.
+[2015.03.18-00.30.06:677][  0]LogTexture:Display: Building textures: M9_d (AutoDXT)
+[2015.03.18-00.30.06:982][  0]LogMaterial: Incomplete cached shader map for material M9_mat, compiling.
+[2015.03.18-00.30.06:989][  0]LogStaticMesh: Building static mesh Low_M9...
+[2015.03.18-00.30.06:998][  0]LogLayoutUV:Display: FindCharts: 1 ms
+[2015.03.18-00.30.07:005][  0]LogLayoutUV:Display: PackCharts: 3 ms
+[2015.03.18-00.30.07:005][  0]LogLayoutUV:Display:   Rasterize: 6702
+[2015.03.18-00.30.07:005][  0]LogLayoutUV:Display:   Find: 6716
+[2015.03.18-00.30.07:011][  0]LogLayoutUV:Display: PackCharts: 5 ms
+[2015.03.18-00.30.07:011][  0]LogLayoutUV:Display:   Rasterize: 7527
+[2015.03.18-00.30.07:011][  0]LogLayoutUV:Display:   Find: 11760
+[2015.03.18-00.30.07:015][  0]LogLayoutUV:Display: PackCharts: 3 ms
+[2015.03.18-00.30.07:015][  0]LogLayoutUV:Display:   Rasterize: 5628
+[2015.03.18-00.30.07:015][  0]LogLayoutUV:Display:   Find: 7679
+[2015.03.18-00.30.07:020][  0]LogLayoutUV:Display: PackCharts: 5 ms
+[2015.03.18-00.30.07:020][  0]LogLayoutUV:Display:   Rasterize: 6249
+[2015.03.18-00.30.07:020][  0]LogLayoutUV:Display:   Find: 12730
+[2015.03.18-00.30.07:026][  0]LogLayoutUV:Display: PackCharts: 5 ms
+[2015.03.18-00.30.07:026][  0]LogLayoutUV:Display:   Rasterize: 5957
+[2015.03.18-00.30.07:026][  0]LogLayoutUV:Display:   Find: 12373
+[2015.03.18-00.30.07:030][  0]LogLayoutUV:Display: PackCharts: 4 ms
+[2015.03.18-00.30.07:030][  0]LogLayoutUV:Display:   Rasterize: 5321
+[2015.03.18-00.30.07:030][  0]LogLayoutUV:Display:   Find: 8595
+[2015.03.18-00.30.07:039][  0]LogLayoutUV:Display: PackCharts: 6 ms
+[2015.03.18-00.30.07:039][  0]LogLayoutUV:Display:   Rasterize: 7971
+[2015.03.18-00.30.07:039][  0]LogLayoutUV:Display:   Find: 15410
+[2015.03.18-00.30.07:054][  0]LogStaticMesh: Built static mesh [64.803535ms] /Game/Zeke/Mesh/Low_M9.Low_M9
+[2015.03.18-00.30.07:244][  0]LogTexture:Display: Building textures: ConcreteTile (AutoDXT)
+[2015.03.18-00.30.13:545][  0]LogStaticMesh: Building static mesh Building0001...
+[2015.03.18-00.30.14:283][  0]LogLayoutUV:Display: FindCharts: 96 ms
+[2015.03.18-00.30.21:570][  0]LogStaticMesh: Built static mesh [8025.643066ms] /Game/Zeke/Meshes/Building0001.Building0001
+[2015.03.18-00.30.21:979][  0]LogStaticMesh: Building static mesh Building0002...
+[2015.03.18-00.30.22:876][  0]LogLayoutUV:Display: FindCharts: 141 ms
+[2015.03.18-00.30.50:436][  0]LogStaticMesh: Built static mesh [28454.902344ms] /Game/Zeke/Meshes/Building0002.Building0002
+[2015.03.18-00.30.51:277][  0]LogStaticMesh: Building static mesh Building0003...
+[2015.03.18-00.30.51:954][  0]LogLayoutUV:Display: FindCharts: 117 ms
+[2015.03.18-00.31.15:764][  0]LogStaticMesh: Built static mesh [24484.970703ms] /Game/Zeke/Meshes/Building0003.Building0003
+[2015.03.18-00.31.16:575][  0]LogStaticMesh: Building static mesh Building0004...
+[2015.03.18-00.31.16:716][  0]LogLayoutUV:Display: FindCharts: 11 ms
+[2015.03.18-00.31.16:835][  0]LogLayoutUV:Display: PackCharts: 49 ms
+[2015.03.18-00.31.16:835][  0]LogLayoutUV:Display:   Rasterize: 37490
+[2015.03.18-00.31.16:835][  0]LogLayoutUV:Display:   Find: 132085
+[2015.03.18-00.31.16:889][  0]LogLayoutUV:Display: PackCharts: 54 ms
+[2015.03.18-00.31.16:889][  0]LogLayoutUV:Display:   Rasterize: 37912
+[2015.03.18-00.31.16:889][  0]LogLayoutUV:Display:   Find: 147501
+[2015.03.18-00.31.16:947][  0]LogLayoutUV:Display: PackCharts: 57 ms
+[2015.03.18-00.31.16:947][  0]LogLayoutUV:Display:   Rasterize: 38362
+[2015.03.18-00.31.16:947][  0]LogLayoutUV:Display:   Find: 158239
+[2015.03.18-00.31.17:008][  0]LogLayoutUV:Display: PackCharts: 61 ms
+[2015.03.18-00.31.17:008][  0]LogLayoutUV:Display:   Rasterize: 38034
+[2015.03.18-00.31.17:008][  0]LogLayoutUV:Display:   Find: 172707
+[2015.03.18-00.31.17:189][  0]LogLayoutUV:Display: PackCharts: 62 ms
+[2015.03.18-00.31.17:190][  0]LogLayoutUV:Display:   Rasterize: 38090
+[2015.03.18-00.31.17:190][  0]LogLayoutUV:Display:   Find: 175067
+[2015.03.18-00.31.17:252][  0]LogLayoutUV:Display: PackCharts: 62 ms
+[2015.03.18-00.31.17:252][  0]LogLayoutUV:Display:   Rasterize: 38105
+[2015.03.18-00.31.17:252][  0]LogLayoutUV:Display:   Find: 175380
+[2015.03.18-00.31.17:626][  0]LogStaticMesh: Built static mesh [1050.392334ms] /Game/Zeke/Meshes/Building0004.Building0004
+[2015.03.18-00.31.17:692][  0]LogStaticMesh: Building static mesh Building0005...
+[2015.03.18-00.31.18:477][  0]LogLayoutUV:Display: FindCharts: 133 ms
+[2015.03.18-00.31.41:670][  0]LogStaticMesh: Built static mesh [23977.732422ms] /Game/Zeke/Meshes/Building0005.Building0005
+[2015.03.18-00.31.42:502][  0]LogStaticMesh: Building static mesh Building0006...
+[2015.03.18-00.31.44:025][  0]LogLayoutUV:Display: FindCharts: 170 ms
+[2015.03.18-00.32.11:791][  0]LogStaticMesh: Built static mesh [29288.580078ms] /Game/Zeke/Meshes/Building0006.Building0006
+[2015.03.18-00.32.12:936][  0]LogStaticMesh: Building static mesh Building0007...
+[2015.03.18-00.32.13:901][  0]LogLayoutUV:Display: FindCharts: 154 ms
+[2015.03.18-00.32.55:214][  0]LogStaticMesh: Built static mesh [42275.156250ms] /Game/Zeke/Meshes/Building0007.Building0007
+[2015.03.18-00.32.56:349][  0]LogMaterial: Missing cached shader map for material Concretre, compiling.
+[2015.03.18-00.32.56:368][  0]LogMaterial: Missing cached shader map for material Glass, compiling.
+[2015.03.18-00.32.56:385][  0]LogStaticMesh: Building static mesh Building009...
+[2015.03.18-00.32.56:504][  0]LogLayoutUV:Display: FindCharts: 21 ms
+[2015.03.18-00.32.56:629][  0]LogLayoutUV:Display: PackCharts: 65 ms
+[2015.03.18-00.32.56:629][  0]LogLayoutUV:Display:   Rasterize: 53330
+[2015.03.18-00.32.56:629][  0]LogLayoutUV:Display:   Find: 171625
+[2015.03.18-00.32.57:230][  0]LogLayoutUV:Display: PackCharts: 109 ms
+[2015.03.18-00.32.57:230][  0]LogLayoutUV:Display:   Rasterize: 73985
+[2015.03.18-00.32.57:230][  0]LogLayoutUV:Display:   Find: 305464
+[2015.03.18-00.32.57:332][  0]LogLayoutUV:Display: PackCharts: 101 ms
+[2015.03.18-00.32.57:332][  0]LogLayoutUV:Display:   Rasterize: 79209
+[2015.03.18-00.32.57:332][  0]LogLayoutUV:Display:   Find: 269908
+[2015.03.18-00.32.58:252][  0]LogStaticMesh: Built static mesh [1867.452759ms] /Game/Zeke/Meshes/Building009.Building009
+[2015.03.18-00.32.58:505][  0]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2015.03.18-00.32.58:535][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.03.18-00.32.58:786][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.03.18-00.32.59:056][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.03.18-00.32.59:075][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.03.18-00.32.59:085][  0]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.03.18-00.32.59:103][  0]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.03.18-00.32.59:127][  0]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.03.18-00.32.59:145][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.03.18-00.32.59:379][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.03.18-00.32.59:399][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.03.18-00.32.59:466][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.03.18-00.32.59:524][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.03.18-00.32.59:531][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.03.18-00.32.59:541][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.03.18-00.32.59:544][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.03.18-00.32.59:556][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.03.18-00.32.59:571][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.03.18-00.32.59:627][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.03.18-00.32.59:630][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2015.03.18-00.32.59:638][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.03.18-00.32.59:674][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.03.18-00.32.59:709][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.03.18-00.32.59:737][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.03.18-00.32.59:739][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.03.18-00.33.00:030][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.18-00.33.00:060][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.03.18-00.33.00:072][  0]Cmd: MAP CHECKDEP
+[2015.03.18-00.33.00:072][  0]MapCheck: New page: Example_Map - Mar 17, 2015, 10:33:00 AM
+[2015.03.18-00.33.00:213][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 140.767ms to complete.
+[2015.03.18-00.33.00:213][  0]LogFileHelpers: Loading map 'Example_Map' took 185.439
+[2015.03.18-00.33.00:756][  0]LogCollectionManager: Loaded 0 collections in 0.001660 seconds
+[2015.03.18-00.33.01:404][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.18-00.33.01:519][  0]LogLoad: Full Startup: 198.25 seconds (BP compile: 0.21 seconds)
+[2015.03.18-00.33.01:864][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/blueprint'
+[2015.03.18-00.33.02:779][  0]LogPackageName: SearchForPackageOnDisk took   0.111s to resolve LevelEditor.TutorialLaunchButton
+[2015.03.18-00.33.02:779][  0]LogUObjectGlobals:Warning: LoadPackage can't find package LevelEditor.TutorialLaunchButton.
+[2015.03.18-00.33.02:874][  0]LogPackageName: SearchForPackageOnDisk took   0.095s to resolve 
+[2015.03.18-00.33.02:874][  0]LogUObjectGlobals:Warning: LoadPackage can't find package .
+[2015.03.18-00.33.03:022][  0]LogRenderer:Warning: Reallocating scene render targets to support 968x1024.
+[2015.03.18-00.33.03:398][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2015.03.18-00.33.03:456][  1]Cmd: UpdateLandscapeEditorData
+[2015.03.18-00.33.04:128][  3]LogAssetRegistry: Asset discovery search completed in 190.6232 seconds
+[2015.03.18-00.33.50:974][255]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.03.18-00.33.57:659][476]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/level'
+[2015.03.18-00.33.58:523][498]LogTexture:Display: Building textures: RD_1w-trp (AutoDXT)
+[2015.03.18-00.33.59:055][498]LogMaterial: Missing cached shader map for material RD_1w-trp_Mat, compiling.
+[2015.03.18-00.33.59:129][498]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.03.18-00.33.59:321][498]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2015.03.18-00.33.59:340][498]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2015.03.18-00.33.59:359][498]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2015.03.18-00.33.59:377][498]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2015.03.18-00.33.59:395][498]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2015.03.18-00.33.59:414][498]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2015.03.18-00.33.59:430][498]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2015.03.18-00.33.59:448][498]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2015.03.18-00.33.59:467][498]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2015.03.18-00.33.59:486][498]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2015.03.18-00.33.59:503][498]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.03.18-00.33.59:561][498]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2015.03.18-00.33.59:577][498]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2015.03.18-00.33.59:598][498]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2015.03.18-00.33.59:613][498]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2015.03.18-00.33.59:632][498]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2015.03.18-00.33.59:649][498]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2015.03.18-00.33.59:667][498]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2015.03.18-00.33.59:683][498]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2015.03.18-00.33.59:701][498]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT)
+[2015.03.18-00.33.59:717][498]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2015.03.18-00.33.59:737][498]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.03.18-00.33.59:756][498]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2015.03.18-00.33.59:772][498]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT)
+[2015.03.18-00.33.59:790][498]LogTexture:Display: Building textures: HQ_Lightmap0_32 (AutoDXT)
+[2015.03.18-00.33.59:809][498]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT)
+[2015.03.18-00.33.59:831][498]LogTexture:Display: Building textures: HQ_Lightmap0_34 (AutoDXT)
+[2015.03.18-00.33.59:850][498]LogTexture:Display: Building textures: HQ_Lightmap0_35 (AutoDXT)
+[2015.03.18-00.33.59:869][498]LogTexture:Display: Building textures: HQ_Lightmap0_36 (AutoDXT)
+[2015.03.18-00.33.59:886][498]LogTexture:Display: Building textures: HQ_Lightmap0_37 (AutoDXT)
+[2015.03.18-00.33.59:904][498]LogTexture:Display: Building textures: HQ_Lightmap0_38 (AutoDXT)
+[2015.03.18-00.33.59:922][498]LogTexture:Display: Building textures: HQ_Lightmap0_39 (AutoDXT)
+[2015.03.18-00.33.59:943][498]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.03.18-00.33.59:963][498]LogTexture:Display: Building textures: HQ_Lightmap0_40 (AutoDXT)
+[2015.03.18-00.33.59:981][498]LogTexture:Display: Building textures: HQ_Lightmap0_41 (AutoDXT)
+[2015.03.18-00.33.59:999][498]LogTexture:Display: Building textures: HQ_Lightmap0_42 (AutoDXT)
+[2015.03.18-00.34.00:019][498]LogTexture:Display: Building textures: HQ_Lightmap0_43 (AutoDXT)
+[2015.03.18-00.34.00:036][498]LogTexture:Display: Building textures: HQ_Lightmap0_44 (AutoDXT)
+[2015.03.18-00.34.00:052][498]LogTexture:Display: Building textures: HQ_Lightmap0_45 (AutoDXT)
+[2015.03.18-00.34.00:069][498]LogTexture:Display: Building textures: HQ_Lightmap0_46 (AutoDXT)
+[2015.03.18-00.34.00:087][498]LogTexture:Display: Building textures: HQ_Lightmap0_48 (AutoDXT)
+[2015.03.18-00.34.00:106][498]LogTexture:Display: Building textures: HQ_Lightmap0_49 (AutoDXT)
+[2015.03.18-00.34.00:124][498]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.03.18-00.34.00:145][498]LogTexture:Display: Building textures: HQ_Lightmap0_50 (AutoDXT)
+[2015.03.18-00.34.00:164][498]LogTexture:Display: Building textures: HQ_Lightmap0_51 (AutoDXT)
+[2015.03.18-00.34.00:181][498]LogTexture:Display: Building textures: HQ_Lightmap0_52 (AutoDXT)
+[2015.03.18-00.34.00:201][498]LogTexture:Display: Building textures: HQ_Lightmap0_53 (AutoDXT)
+[2015.03.18-00.34.00:220][498]LogTexture:Display: Building textures: HQ_Lightmap0_54 (AutoDXT)
+[2015.03.18-00.34.00:239][498]LogTexture:Display: Building textures: HQ_Lightmap0_55 (AutoDXT)
+[2015.03.18-00.34.00:257][498]LogTexture:Display: Building textures: HQ_Lightmap0_56 (AutoDXT)
+[2015.03.18-00.34.00:273][498]LogTexture:Display: Building textures: HQ_Lightmap0_57 (AutoDXT)
+[2015.03.18-00.34.00:292][498]LogTexture:Display: Building textures: HQ_Lightmap0_58 (AutoDXT)
+[2015.03.18-00.34.00:310][498]LogTexture:Display: Building textures: HQ_Lightmap0_59 (AutoDXT)
+[2015.03.18-00.34.00:329][498]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.03.18-00.34.00:350][498]LogTexture:Display: Building textures: HQ_Lightmap0_60 (AutoDXT)
+[2015.03.18-00.34.00:369][498]LogTexture:Display: Building textures: HQ_Lightmap0_61 (AutoDXT)
+[2015.03.18-00.34.00:387][498]LogTexture:Display: Building textures: HQ_Lightmap0_62 (AutoDXT)
+[2015.03.18-00.34.00:405][498]LogTexture:Display: Building textures: HQ_Lightmap0_63 (AutoDXT)
+[2015.03.18-00.34.00:424][498]LogTexture:Display: Building textures: HQ_Lightmap0_64 (AutoDXT)
+[2015.03.18-00.34.00:440][498]LogTexture:Display: Building textures: HQ_Lightmap0_65 (AutoDXT)
+[2015.03.18-00.34.00:459][498]LogTexture:Display: Building textures: HQ_Lightmap0_66 (AutoDXT)
+[2015.03.18-00.34.00:476][498]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.03.18-00.34.00:494][498]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.03.18-00.34.00:512][498]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.03.18-00.34.00:530][498]LogTexture:Display: Building textures: HQ_Lightmap0_93 (AutoDXT)
+[2015.03.18-00.34.00:545][498]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.03.18-00.34.00:597][498]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2015.03.18-00.34.00:616][498]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2015.03.18-00.34.00:632][498]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2015.03.18-00.34.00:648][498]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2015.03.18-00.34.00:660][498]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2015.03.18-00.34.00:676][498]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2015.03.18-00.34.00:692][498]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2015.03.18-00.34.00:711][498]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2015.03.18-00.34.00:728][498]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2015.03.18-00.34.00:745][498]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2015.03.18-00.34.00:761][498]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.03.18-00.34.00:775][498]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2015.03.18-00.34.00:793][498]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2015.03.18-00.34.00:811][498]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2015.03.18-00.34.00:829][498]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2015.03.18-00.34.00:848][498]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2015.03.18-00.34.00:867][498]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2015.03.18-00.34.00:883][498]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2015.03.18-00.34.00:898][498]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2015.03.18-00.34.00:917][498]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1)
+[2015.03.18-00.34.00:936][498]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2015.03.18-00.34.00:952][498]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.03.18-00.34.00:969][498]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2015.03.18-00.34.00:985][498]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1)
+[2015.03.18-00.34.01:002][498]LogTexture:Display: Building textures: LQ_Lightmap_0_32 (DXT1)
+[2015.03.18-00.34.01:020][498]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1)
+[2015.03.18-00.34.01:037][498]LogTexture:Display: Building textures: LQ_Lightmap_0_34 (DXT1)
+[2015.03.18-00.34.01:054][498]LogTexture:Display: Building textures: LQ_Lightmap_0_35 (DXT1)
+[2015.03.18-00.34.01:071][498]LogTexture:Display: Building textures: LQ_Lightmap_0_36 (DXT1)
+[2015.03.18-00.34.01:086][498]LogTexture:Display: Building textures: LQ_Lightmap_0_37 (DXT1)
+[2015.03.18-00.34.01:105][498]LogTexture:Display: Building textures: LQ_Lightmap_0_38 (DXT1)
+[2015.03.18-00.34.01:121][498]LogTexture:Display: Building textures: LQ_Lightmap_0_39 (DXT1)
+[2015.03.18-00.34.01:139][498]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.03.18-00.34.01:151][498]LogTexture:Display: Building textures: LQ_Lightmap_0_40 (DXT1)
+[2015.03.18-00.34.01:167][498]LogTexture:Display: Building textures: LQ_Lightmap_0_41 (DXT1)
+[2015.03.18-00.34.01:181][498]LogTexture:Display: Building textures: LQ_Lightmap_0_42 (DXT1)
+[2015.03.18-00.34.01:200][498]LogTexture:Display: Building textures: LQ_Lightmap_0_43 (DXT1)
+[2015.03.18-00.34.01:220][498]LogTexture:Display: Building textures: LQ_Lightmap_0_44 (DXT1)
+[2015.03.18-00.34.01:238][498]LogTexture:Display: Building textures: LQ_Lightmap_0_45 (DXT1)
+[2015.03.18-00.34.01:255][498]LogTexture:Display: Building textures: LQ_Lightmap_0_46 (DXT1)
+[2015.03.18-00.34.01:272][498]LogTexture:Display: Building textures: LQ_Lightmap_0_48 (DXT1)
+[2015.03.18-00.34.01:289][498]LogTexture:Display: Building textures: LQ_Lightmap_0_49 (DXT1)
+[2015.03.18-00.34.01:301][498]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.03.18-00.34.01:317][498]LogTexture:Display: Building textures: LQ_Lightmap_0_50 (DXT1)
+[2015.03.18-00.34.01:327][498]LogTexture:Display: Building textures: LQ_Lightmap_0_51 (DXT1)
+[2015.03.18-00.34.01:344][498]LogTexture:Display: Building textures: LQ_Lightmap_0_52 (DXT1)
+[2015.03.18-00.34.01:362][498]LogTexture:Display: Building textures: LQ_Lightmap_0_53 (DXT1)
+[2015.03.18-00.34.01:381][498]LogTexture:Display: Building textures: LQ_Lightmap_0_54 (DXT1)
+[2015.03.18-00.34.01:399][498]LogTexture:Display: Building textures: LQ_Lightmap_0_55 (DXT1)
+[2015.03.18-00.34.01:416][498]LogTexture:Display: Building textures: LQ_Lightmap_0_56 (DXT1)
+[2015.03.18-00.34.01:432][498]LogTexture:Display: Building textures: LQ_Lightmap_0_57 (DXT1)
+[2015.03.18-00.34.01:452][498]LogTexture:Display: Building textures: LQ_Lightmap_0_58 (DXT1)
+[2015.03.18-00.34.01:467][498]LogTexture:Display: Building textures: LQ_Lightmap_0_59 (DXT1)
+[2015.03.18-00.34.01:485][498]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.03.18-00.34.01:503][498]LogTexture:Display: Building textures: LQ_Lightmap_0_60 (DXT1)
+[2015.03.18-00.34.01:521][498]LogTexture:Display: Building textures: LQ_Lightmap_0_61 (DXT1)
+[2015.03.18-00.34.01:538][498]LogTexture:Display: Building textures: LQ_Lightmap_0_62 (DXT1)
+[2015.03.18-00.34.01:555][498]LogTexture:Display: Building textures: LQ_Lightmap_0_63 (DXT1)
+[2015.03.18-00.34.01:573][498]LogTexture:Display: Building textures: LQ_Lightmap_0_64 (DXT1)
+[2015.03.18-00.34.01:591][498]LogTexture:Display: Building textures: LQ_Lightmap_0_65 (DXT1)
+[2015.03.18-00.34.01:602][498]LogTexture:Display: Building textures: LQ_Lightmap_0_66 (DXT1)
+[2015.03.18-00.34.01:616][498]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.03.18-00.34.01:634][498]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.03.18-00.34.01:652][498]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.03.18-00.34.01:669][498]LogTexture:Display: Building textures: LQ_Lightmap_0_93 (DXT1)
+[2015.03.18-00.34.01:679][498]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.03.18-00.34.01:705][498]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.03.18-00.34.01:706][498]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2015.03.18-00.34.01:707][498]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2015.03.18-00.34.01:708][498]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2015.03.18-00.34.01:708][498]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2015.03.18-00.34.01:709][498]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2015.03.18-00.34.01:710][498]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2015.03.18-00.34.01:711][498]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2015.03.18-00.34.01:712][498]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2015.03.18-00.34.01:713][498]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2015.03.18-00.34.01:714][498]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2015.03.18-00.34.01:715][498]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.03.18-00.34.01:716][498]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2015.03.18-00.34.01:717][498]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2015.03.18-00.34.01:718][498]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2015.03.18-00.34.01:719][498]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2015.03.18-00.34.01:719][498]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
+[2015.03.18-00.34.01:720][498]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2015.03.18-00.34.01:721][498]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8)
+[2015.03.18-00.34.01:722][498]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8)
+[2015.03.18-00.34.01:723][498]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8)
+[2015.03.18-00.34.01:724][498]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (BGRA8)
+[2015.03.18-00.34.01:725][498]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.03.18-00.34.01:726][498]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8)
+[2015.03.18-00.34.01:727][498]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (BGRA8)
+[2015.03.18-00.34.01:728][498]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8)
+[2015.03.18-00.34.01:729][498]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (BGRA8)
+[2015.03.18-00.34.01:730][498]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (BGRA8)
+[2015.03.18-00.34.01:731][498]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (BGRA8)
+[2015.03.18-00.34.01:731][498]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (BGRA8)
+[2015.03.18-00.34.01:732][498]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (BGRA8)
+[2015.03.18-00.34.01:733][498]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (BGRA8)
+[2015.03.18-00.34.01:734][498]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (BGRA8)
+[2015.03.18-00.34.01:735][498]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.03.18-00.34.01:736][498]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (BGRA8)
+[2015.03.18-00.34.01:737][498]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (BGRA8)
+[2015.03.18-00.34.01:738][498]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (BGRA8)
+[2015.03.18-00.34.01:739][498]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (BGRA8)
+[2015.03.18-00.34.01:740][498]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (BGRA8)
+[2015.03.18-00.34.01:741][498]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (BGRA8)
+[2015.03.18-00.34.01:742][498]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (BGRA8)
+[2015.03.18-00.34.01:743][498]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (BGRA8)
+[2015.03.18-00.34.01:744][498]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (BGRA8)
+[2015.03.18-00.34.01:745][498]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.03.18-00.34.01:746][498]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (BGRA8)
+[2015.03.18-00.34.01:747][498]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (BGRA8)
+[2015.03.18-00.34.01:748][498]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (BGRA8)
+[2015.03.18-00.34.01:749][498]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (BGRA8)
+[2015.03.18-00.34.01:750][498]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (BGRA8)
+[2015.03.18-00.34.01:751][498]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (BGRA8)
+[2015.03.18-00.34.01:752][498]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (BGRA8)
+[2015.03.18-00.34.01:752][498]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (BGRA8)
+[2015.03.18-00.34.01:753][498]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (BGRA8)
+[2015.03.18-00.34.01:754][498]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (BGRA8)
+[2015.03.18-00.34.01:755][498]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.03.18-00.34.01:756][498]LogTexture:Display: Building textures: ShadowMapTexture2D_60 (BGRA8)
+[2015.03.18-00.34.01:757][498]LogTexture:Display: Building textures: ShadowMapTexture2D_61 (BGRA8)
+[2015.03.18-00.34.01:758][498]LogTexture:Display: Building textures: ShadowMapTexture2D_62 (BGRA8)
+[2015.03.18-00.34.01:759][498]LogTexture:Display: Building textures: ShadowMapTexture2D_63 (BGRA8)
+[2015.03.18-00.34.01:760][498]LogTexture:Display: Building textures: ShadowMapTexture2D_64 (BGRA8)
+[2015.03.18-00.34.01:761][498]LogTexture:Display: Building textures: ShadowMapTexture2D_65 (BGRA8)
+[2015.03.18-00.34.01:762][498]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.03.18-00.34.01:763][498]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.03.18-00.34.01:763][498]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.03.18-00.34.01:764][498]LogTexture:Display: Building textures: ShadowMapTexture2D_92 (BGRA8)
+[2015.03.18-00.34.01:815][498]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.03.18-00.34.01:867][498]Cmd: MAP LOAD FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/level/Scene.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.03.18-00.34.01:868][498]LightingResults: New page: Lighting Build
+[2015.03.18-00.34.01:907][498]LoadErrors: New page: Loading map: Scene.umap
+[2015.03.18-00.34.01:950][498]MapCheck: New page: Map Check
+[2015.03.18-00.34.01:950][498]LightingResults: New page: Lighting Build
+[2015.03.18-00.34.01:963][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000188EB600
+[2015.03.18-00.34.01:986][498]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.18-00.34.01:991][498]LogAIModule: Creating AISystem for world Scene
+[2015.03.18-00.34.02:070][498]Cmd: MAP CHECKDEP
+[2015.03.18-00.34.02:070][498]MapCheck: New page: Scene - Mar 17, 2015, 10:34:02 AM
+[2015.03.18-00.34.02:198][498]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 127.34ms to complete.
+[2015.03.18-00.34.02:200][498]LogFileHelpers: Loading map 'Scene' took 0.334
+[2015.03.18-00.34.02:444][499]Cmd: UpdateLandscapeEditorData -warnings
+[2015.03.18-00.34.02:445][499]Cmd: UpdateLandscapeEditorData
+[2015.03.18-00.36.00:437][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building22)
+[2015.03.18-00.36.00:510][986]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-00.37.52:179][555]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2015.03.18-00.38.21:331][687]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/animations'
+[2015.03.18-00.38.22:997][724]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Assets'
+[2015.03.18-00.38.23:634][743]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/animations'
+[2015.03.18-00.38.29:881][850]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Assets'
+[2015.03.18-00.38.53:689][513]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/blueprint'
+[2015.03.18-00.39.00:353][746]LogPackageName: SearchForPackageOnDisk took   0.076s to resolve LevelEditor.TutorialLaunchButton
+[2015.03.18-00.39.00:353][746]LogUObjectGlobals:Warning: LoadPackage can't find package LevelEditor.TutorialLaunchButton.
+[2015.03.18-00.39.00:422][746]LogPackageName: SearchForPackageOnDisk took   0.069s to resolve 
+[2015.03.18-00.39.00:422][746]LogUObjectGlobals:Warning: LoadPackage can't find package .
+[2015.03.18-00.42.27:603][140]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/character'
+[2015.03.18-00.42.28:246][155]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/materials'
+[2015.03.18-00.42.32:880][290]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke'
+[2015.03.18-00.42.36:146][399]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/blueprint'
+[2015.03.18-00.42.45:967][662]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Burst_M'
+[2015.03.18-00.42.45:967][662]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Burst_M' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_Burst.uasset.
+[2015.03.18-00.42.45:967][662]LoadErrors:Error: Error /Game/StarterContent/Particles/Materials/M_Burst : Can't find file for asset. /Game/StarterContent/Textures/T_Burst_M
+[2015.03.18-00.42.45:967][662]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Burst_M'
+[2015.03.18-00.42.45:968][662]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Burst_M' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_Burst.uasset.
+[2015.03.18-00.42.45:983][662]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Explosion_SubUV'
+[2015.03.18-00.42.45:983][662]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Explosion_SubUV' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset.
+[2015.03.18-00.42.45:983][662]LoadErrors:Error: Error /Game/StarterContent/Particles/Materials/M_explosion_subUV : Can't find file for asset. /Game/StarterContent/Textures/T_Explosion_SubUV
+[2015.03.18-00.42.45:984][662]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Explosion_SubUV'
+[2015.03.18-00.42.45:984][662]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Explosion_SubUV' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset.
+[2015.03.18-00.42.46:029][662]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_SubUV'
+[2015.03.18-00.42.46:030][662]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_SubUV' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset.
+[2015.03.18-00.42.46:030][662]LoadErrors:Error: Error /Game/StarterContent/Particles/Materials/M_smoke_subUV : Can't find file for asset. /Game/StarterContent/Textures/T_Smoke_SubUV
+[2015.03.18-00.42.46:030][662]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_Tiled_D'
+[2015.03.18-00.42.46:030][662]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_Tiled_D' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset.
+[2015.03.18-00.42.46:030][662]LoadErrors:Error: Error /Game/StarterContent/Particles/Materials/M_smoke_subUV : Can't find file for asset. /Game/StarterContent/Textures/T_Smoke_Tiled_D
+[2015.03.18-00.42.46:031][662]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_SubUV'
+[2015.03.18-00.42.46:031][662]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_SubUV' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset.
+[2015.03.18-00.42.46:031][662]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_Tiled_D'
+[2015.03.18-00.42.46:031][662]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_Tiled_D' while loading ../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset.
+[2015.03.18-00.42.46:254][662]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Burst_M'
+[2015.03.18-00.42.46:254][662]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Burst_M.T_Burst_M Referenced by MaterialExpressionTextureSample_0
+[2015.03.18-00.42.46:254][662]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Burst_M' while loading NULL.
+[2015.03.18-00.42.46:254][662]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Explosion_SubUV'
+[2015.03.18-00.42.46:254][662]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Explosion_SubUV.T_Explosion_SubUV Referenced by MaterialExpressionParticleSubUV_0
+[2015.03.18-00.42.46:255][662]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Explosion_SubUV' while loading NULL.
+[2015.03.18-00.42.46:255][662]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_SubUV'
+[2015.03.18-00.42.46:255][662]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Smoke_SubUV.T_Smoke_SubUV Referenced by MaterialExpressionParticleSubUV_0
+[2015.03.18-00.42.46:256][662]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_SubUV' while loading NULL.
+[2015.03.18-00.42.46:256][662]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Smoke_Tiled_D'
+[2015.03.18-00.42.46:256][662]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Smoke_Tiled_D.T_Smoke_Tiled_D Referenced by MaterialExpressionTextureSample_0
+[2015.03.18-00.42.46:256][662]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Smoke_Tiled_D' while loading NULL.
+[2015.03.18-00.42.46:315][662]LogMaterial: Missing cached shader map for material M_Burst, compiling.
+[2015.03.18-00.42.46:315][662]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_Burst.M_Burst for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.18-00.42.46:315][662]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.18-00.42.46:316][662]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling.
+[2015.03.18-00.42.46:316][662]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_explosion_subUV.M_explosion_subUV for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.18-00.42.46:316][662]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2015.03.18-00.42.46:339][662]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling.
+[2015.03.18-00.42.46:339][662]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.18-00.42.46:339][662]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.03.18-00.42.46:339][662]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2015.03.18-00.42.46:418][662]LogTexture:Display: Building textures: TempZeke_Body_diffuse (AutoDXT)
+[2015.03.18-00.42.47:410][662]LogTexture:Display: Building textures: TempZeke_Body_specular (AutoDXT)
+[2015.03.18-00.42.47:598][662]LogTexture:Display: Building textures: TempZeke_Body_normal (BC5)
+[2015.03.18-00.42.47:703][662]LogMaterial: Missing cached shader map for material Bodymat, compiling.
+[2015.03.18-00.42.47:719][662]LogMaterial: Missing cached shader map for material Bodymat_eyelashes, compiling.
+[2015.03.18-00.42.47:753][662]LogTexture:Display: Building textures: TempZeke_Bottom_diffuse (AutoDXT)
+[2015.03.18-00.42.48:087][662]LogTexture:Display: Building textures: TempZeke_Bottom_normal (BC5)
+[2015.03.18-00.42.48:128][662]LogTexture:Display: Building textures: TempZeke_Bottom_specular (AutoDXT)
+[2015.03.18-00.42.48:181][662]LogMaterial: Missing cached shader map for material Bottommat, compiling.
+[2015.03.18-00.42.48:209][662]LogTexture:Display: Building textures: TempZeke_Hair_diffuse (AutoDXT)
+[2015.03.18-00.42.48:403][662]LogTexture:Display: Building textures: TempZeke_Hair_normal (BC5)
+[2015.03.18-00.42.48:442][662]LogTexture:Display: Building textures: TempZeke_Hair_specular (AutoDXT)
+[2015.03.18-00.42.48:482][662]LogMaterial: Missing cached shader map for material Hairmat, compiling.
+[2015.03.18-00.42.48:533][662]LogTexture:Display: Building textures: TempZeke_Shoes_diffuse (AutoDXT)
+[2015.03.18-00.42.48:844][662]LogTexture:Display: Building textures: TempZeke_Shoes_normal (BC5)
+[2015.03.18-00.42.48:882][662]LogTexture:Display: Building textures: TempZeke_Shoes_specular (AutoDXT)
+[2015.03.18-00.42.48:929][662]LogMaterial: Missing cached shader map for material Shoesmat, compiling.
+[2015.03.18-00.42.49:419][662]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-00.42.49:420][662]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-00.42.49:571][662]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-00.42.49:572][662]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-00.44.00:770][323]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.03.18-00.44.00:770][323]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.03.18-00.44.00:797][323]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/level/Scene' took 0.027
+[2015.03.18-00.44.00:853][323]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Zeke/blueprint/Pistol_BP] ([1] browsable assets)...
+[2015.03.18-00.44.00:917][323]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Zeke/blueprint/Pistol_BP.Pistol_BP]
+[2015.03.18-00.44.00:917][323]OBJ SavePackage: Finished generating thumbnails for package [/Game/Zeke/blueprint/Pistol_BP]
+[2015.03.18-00.44.01:326][323]LogSavePackage: Save=371.996490ms
+[2015.03.18-00.44.01:326][323]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Pistol_BP_Auto18A5378D2400275E06D300CAA9BA95EB5.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Autosaves/Game/Zeke/blueprint/Pistol_BP_Auto1.uasset'
+[2015.03.18-00.44.01:331][323]LogFileHelpers: Auto-saving content packages took 0.533
+[2015.03.18-00.44.27:960][299]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-00.44.27:961][299]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-00.44.28:005][299]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-00.44.28:006][299]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-00.44.28:046][299]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-00.44.28:047][299]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.05.07:906][331]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Meshes'
+[2015.03.18-01.05.08:379][340]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Mesh'
+[2015.03.18-01.05.08:715][350]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/materials'
+[2015.03.18-01.05.09:056][361]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/character'
+[2015.03.18-01.05.38:703][551]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.03.18-01.08.24:263][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.03.18-01.08.24:263][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.03.18-01.08.24:285][676]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/level/Scene' took 0.022
+[2015.03.18-01.08.24:339][676]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Zeke/blueprint/Pistol_BP] ([1] browsable assets)...
+[2015.03.18-01.08.24:383][676]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Zeke/blueprint/Pistol_BP.Pistol_BP]
+[2015.03.18-01.08.24:383][676]OBJ SavePackage: Finished generating thumbnails for package [/Game/Zeke/blueprint/Pistol_BP]
+[2015.03.18-01.08.24:745][676]LogSavePackage: Save=349.994141ms
+[2015.03.18-01.08.24:745][676]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Pistol_BP_Auto204FE595E42B02C859BA4BA9131AF1078.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Autosaves/Game/Zeke/blueprint/Pistol_BP_Auto2.uasset'
+[2015.03.18-01.08.24:750][676]LogFileHelpers: Auto-saving content packages took 0.465
+[2015.03.18-01.13.18:082][358]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.18-01.13.18:095][358]LogPlayLevel: [PIE] Compiling Pistol_BP before PIE...
+[2015.03.18-01.13.18:211][358]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.03.18-01.13.18:253][358]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.18-01.13.18:335][358]LogPlayLevel: PIE:  Blueprint regeneration took 253 ms (3 blueprints)
+[2015.03.18-01.13.18:335][358]PIE: New page: PIE session: Scene (Mar 17, 2015, 11:13:18 AM)
+[2015.03.18-01.13.18:468][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132019s)
+[2015.03.18-01.13.18:468][358]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2015.03.18-01.13.18:469][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.132990s)
+[2015.03.18-01.13.18:592][358]LogWorld: Game class is 'MyGame_C'
+[2015.03.18-01.13.18:593][358]LogAIModule: Creating AISystem for world Scene
+[2015.03.18-01.13.18:603][358]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.18-01.13.18:603][358]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.17-18.13.18
+[2015.03.18-01.13.18:670][358]LogWorld: Bringing up level for play took: 0.076386
+[2015.03.18-01.13.18:695][358]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene 1.244
+[2015.03.18-01.13.32:919][799]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.13.32:920][799]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.13.33:096][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044ED9940
+[2015.03.18-01.16.57:072][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/Scene" FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/level/Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.18-01.16.57:674][127]LogSavePackage: Save=538.059814ms
+[2015.03.18-01.16.57:674][127]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Scene0954ABAB429A1507363278B5012A9A2A.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/level/Scene.umap'
+[2015.03.18-01.16.57:719][127]LogFileHelpers: Saving map 'Scene' took 0.769
+[2015.03.18-01.16.57:738][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/blueprint/Pistol_BP" FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/Zeke/blueprint/Pistol_BP.uasset" SILENT=true
+[2015.03.18-01.16.58:066][127]LogSavePackage: Save=318.787048ms
+[2015.03.18-01.16.58:066][127]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Pistol_BP39DB57FD4B5C46CB1429AB877AC96192.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/Zeke/blueprint/Pistol_BP.uasset'
+[2015.03.18-01.17.06:222][382]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/materials'
+[2015.03.18-01.17.06:741][394]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Mesh'
+[2015.03.18-01.17.07:473][409]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Meshes'
+[2015.03.18-01.17.07:969][418]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/materials'
+[2015.03.18-01.17.08:343][427]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/animations'
+[2015.03.18-01.17.10:589][469]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke'
+[2015.03.18-01.17.11:055][482]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/animations'
+[2015.03.18-01.17.11:535][492]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Assets'
+[2015.03.18-01.17.11:999][502]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/animations'
+[2015.03.18-01.17.12:510][512]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke'
+[2015.03.18-01.17.12:785][519]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.03.18-01.17.16:494][617]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Mesh'
+[2015.03.18-01.17.17:732][652]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.03.18-01.17.19:059][688]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Mesh'
+[2015.03.18-01.17.21:445][753]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.03.18-01.17.21:854][765]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Mesh'
+[2015.03.18-01.17.23:171][804]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.03.18-01.17.23:861][824]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.03.18-01.17.25:199][861]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/level'
+[2015.03.18-01.17.25:611][873]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.03.18-01.17.25:985][884]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/level'
+[2015.03.18-01.17.26:587][901]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Maps'
+[2015.03.18-01.17.29:259][966]Cmd: MAP LOAD FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.03.18-01.17.29:259][966]LightingResults: New page: Lighting Build
+[2015.03.18-01.17.29:289][966]LoadErrors: New page: Loading map: Example_Map.umap
+[2015.03.18-01.17.29:755][966]MapCheck: New page: Map Check
+[2015.03.18-01.17.29:755][966]LightingResults: New page: Lighting Build
+[2015.03.18-01.17.29:772][966]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001828D300
+[2015.03.18-01.17.29:790][966]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.18-01.17.29:790][966]LogAIModule: Creating AISystem for world Example_Map
+[2015.03.18-01.17.29:845][966]Cmd: MAP CHECKDEP
+[2015.03.18-01.17.29:845][966]MapCheck: New page: Example_Map - Mar 17, 2015, 11:17:29 AM
+[2015.03.18-01.17.29:963][966]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 118.397ms to complete.
+[2015.03.18-01.17.29:963][966]LogFileHelpers: Loading map 'Example_Map' took 0.706
+[2015.03.18-01.17.30:234][967]Cmd: UpdateLandscapeEditorData -warnings
+[2015.03.18-01.17.30:235][967]Cmd: UpdateLandscapeEditorData
+[2015.03.18-01.17.34:838][114]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.17.34:838][114]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.18.05:733][309]BlueprintLog: New page: Compile Example_Map
+[2015.03.18-01.18.05:838][309]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.03.18-01.18.05:887][309]BlueprintEditorCompileResults: Info [2902.57] Compile of Example_Map successful! [in 127 ms]
+[2015.03.18-01.18.08:543][373]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.18-01.18.08:548][373]LogPlayLevel: [PIE] Compiling Example_Map before PIE...
+[2015.03.18-01.18.08:606][373]LogPlayLevel: PIE:  Blueprint regeneration took 62 ms (1 blueprints)
+[2015.03.18-01.18.08:606][373]PIE: New page: PIE session: Example_Map (Mar 17, 2015, 11:18:08 AM)
+[2015.03.18-01.18.08:632][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025619s)
+[2015.03.18-01.18.08:632][373]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2015.03.18-01.18.08:633][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.026487s)
+[2015.03.18-01.18.08:665][373]LogWorld: Game class is 'MyGame_C'
+[2015.03.18-01.18.08:667][373]LogAIModule: Creating AISystem for world Example_Map
+[2015.03.18-01.18.08:671][373]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.18-01.18.08:671][373]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.03.17-18.18.08
+[2015.03.18-01.18.08:672][373]LogWorld: Bringing up level for play took: 0.004843
+[2015.03.18-01.18.08:673][373]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.794
+[2015.03.18-01.18.14:508][520]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.18.14:509][520]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.18.14:629][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014D66F20
+[2015.03.18-01.25.52:898][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.18-01.25.52:978][ 42]LogBlueprint:Error: [compiler] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.03.18-01.25.53:093][ 42]LogBlueprint:Warning: [compiler] Warning [3369.77] Compile of Example_Map failed. 1 Fatal Issue(s) 0 Warning(s) [in 116 ms]
+[2015.03.18-01.25.53:327][ 42]LogSavePackage: Save=351.114960ms
+[2015.03.18-01.25.53:327][ 42]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Example_MapF7C9B6D34D5DE6712B4B9BAEE4992C9C.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/Maps/Example_Map.umap'
+[2015.03.18-01.25.53:386][ 42]LogFileHelpers: Saving map 'Example_Map' took 0.611
+[2015.03.18-01.25.56:887][125]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/level'
+[2015.03.18-01.25.58:113][144]Cmd: MAP LOAD FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/level/Scene.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.03.18-01.25.58:114][144]LightingResults: New page: Lighting Build
+[2015.03.18-01.25.58:142][144]LoadErrors: New page: Loading map: Scene.umap
+[2015.03.18-01.25.58:203][144]MapCheck: New page: Map Check
+[2015.03.18-01.25.58:203][144]LightingResults: New page: Lighting Build
+[2015.03.18-01.25.58:220][144]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000107374C0
+[2015.03.18-01.25.58:238][144]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.18-01.25.58:241][144]LogAIModule: Creating AISystem for world Scene
+[2015.03.18-01.25.58:277][144]Cmd: MAP CHECKDEP
+[2015.03.18-01.25.58:277][144]MapCheck: New page: Scene - Mar 17, 2015, 11:25:58 AM
+[2015.03.18-01.25.58:395][144]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 118.036ms to complete.
+[2015.03.18-01.25.58:397][144]LogFileHelpers: Loading map 'Scene' took 0.285
+[2015.03.18-01.25.58:547][145]Cmd: UpdateLandscapeEditorData -warnings
+[2015.03.18-01.25.58:547][145]Cmd: UpdateLandscapeEditorData
+[2015.03.18-01.35.27:046][708]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Mesh'
+[2015.03.18-01.35.28:460][747]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/animations'
+[2015.03.18-01.35.28:879][756]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/blueprint'
+[2015.03.18-01.36.07:109][892]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.03.18-01.36.52:155][171]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Paper2D'
+[2015.03.18-01.36.54:735][228]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/CharacterAI'
+[2015.03.18-01.36.56:080][265]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Paper2D'
+[2015.03.18-01.37.01:119][510]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.03.18-01.39.40:681][689]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Assets'
+[2015.03.18-01.39.42:060][721]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/blueprint'
+[2015.03.18-01.39.50:836][  4]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Assets'
+[2015.03.18-01.39.53:261][ 58]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/animations'
+[2015.03.18-01.39.53:905][ 71]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/blueprint'
+[2015.03.18-01.39.54:463][ 83]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/character'
+[2015.03.18-01.39.54:923][ 93]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/Mesh'
+[2015.03.18-01.42.55:427][931]LogEditorViewport: Clicking on Actor (LMB): Police_Character_C (Police_Character)
+[2015.03.18-01.42.55:457][931]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.42.55:458][931]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.42.57:231][972]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/character'
+[2015.03.18-01.42.57:650][981]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/materials'
+[2015.03.18-01.42.58:110][993]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/character'
+[2015.03.18-01.42.58:974][ 11]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/buildings'
+[2015.03.18-01.42.59:422][ 26]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/blueprint'
+[2015.03.18-01.43.25:673][822]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.43.25:674][822]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.43.25:695][822]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.03.18-01.43.25:695][822]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.03.18-01.43.28:555][895]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.43.28:556][895]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.43.28:576][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.03.18-01.43.33:486][ 74]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.43.33:487][ 74]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.43.33:507][ 74]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.03.18-01.44.57:775][598]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Zeke/character'
+[2015.03.18-01.45.02:740][705]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2015.03.18-01.45.22:368][213]LogEditorTransaction: Undo Edit Roll
+[2015.03.18-01.45.22:390][213]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.45.22:391][213]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.45.22:456][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.03.18-01.45.22:456][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.03.18-01.45.22:535][213]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.45.22:536][213]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.45.22:597][213]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.45.22:598][213]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.45.35:856][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/zeke/character/PoPo_Skeleton" FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/zeke/character/PoPo_Skeleton.uasset" SILENT=true
+[2015.03.18-01.45.35:888][621]LogSavePackage: Save=2.481170ms
+[2015.03.18-01.45.35:888][621]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/PoPo_Skeleton8C57F18C474CDC33DD857D8A98D06ED6.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/zeke/character/PoPo_Skeleton.uasset'
+[2015.03.18-01.46.13:156][802]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.03.18-01.46.13:879][802]LogSavePackage: Save=589.236877ms
+[2015.03.18-01.46.13:879][802]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Scene_Auto3FF89A9D74BFD9D2289AF1A85EDF2843A.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Autosaves/Game/level/Scene_Auto3.umap'
+[2015.03.18-01.46.13:885][802]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/level/Scene' took 0.729
+[2015.03.18-01.46.13:885][802]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.729
+[2015.03.18-01.46.13:894][802]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/zeke/blueprint/Police_Character] ([1] browsable assets)...
+[2015.03.18-01.46.13:910][802]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/zeke/blueprint/Police_Character.Police_Character]
+[2015.03.18-01.46.13:910][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/zeke/blueprint/Police_Character]
+[2015.03.18-01.46.14:269][802]LogSavePackage: Save=348.823669ms
+[2015.03.18-01.46.14:269][802]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Police_Character_Auto38E3B02BB40FF8357C10BD1B0DD708618.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Autosaves/Game/zeke/blueprint/Police_Character_Auto3.uasset'
+[2015.03.18-01.46.14:281][802]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/zeke/character/PoPo] ([1] browsable assets)...
+[2015.03.18-01.46.14:300][802]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/zeke/character/PoPo.PoPo]
+[2015.03.18-01.46.14:300][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/zeke/character/PoPo]
+[2015.03.18-01.46.14:664][802]LogSavePackage: Save=340.050903ms
+[2015.03.18-01.46.14:664][802]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/PoPo_Auto3C1A9A7384957E442D9CEEA9E55CD1363.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Autosaves/Game/zeke/character/PoPo_Auto3.uasset'
+[2015.03.18-01.46.14:676][802]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Zeke/blueprint/Pistol_BP] ([1] browsable assets)...
+[2015.03.18-01.46.14:691][802]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Zeke/blueprint/Pistol_BP.Pistol_BP]
+[2015.03.18-01.46.14:691][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/Zeke/blueprint/Pistol_BP]
+[2015.03.18-01.46.15:097][802]LogSavePackage: Save=395.069183ms
+[2015.03.18-01.46.15:097][802]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Pistol_BP_Auto39CD89A4C46F88276D4E07DB3870091D3.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Autosaves/Game/Zeke/blueprint/Pistol_BP_Auto3.uasset'
+[2015.03.18-01.46.15:111][802]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Zeke/blueprint/Ammo] ([1] browsable assets)...
+[2015.03.18-01.46.15:127][802]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Zeke/blueprint/Ammo.Ammo]
+[2015.03.18-01.46.15:127][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/Zeke/blueprint/Ammo]
+[2015.03.18-01.46.15:569][802]LogSavePackage: Save=430.238403ms
+[2015.03.18-01.46.15:569][802]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Ammo_Auto3D6E5D22F4F0772E3209F11A192B4B660.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Autosaves/Game/Zeke/blueprint/Ammo_Auto3.uasset'
+[2015.03.18-01.46.15:582][802]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Zeke/blueprint/Zeke_Character] ([1] browsable assets)...
+[2015.03.18-01.46.15:600][802]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Zeke/blueprint/Zeke_Character.Zeke_Character]
+[2015.03.18-01.46.15:600][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/Zeke/blueprint/Zeke_Character]
+[2015.03.18-01.46.16:028][802]LogSavePackage: Save=416.866821ms
+[2015.03.18-01.46.16:028][802]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Zeke_Character_Auto348E54F9C4DC74E716450D19FE289CC84.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Autosaves/Game/Zeke/blueprint/Zeke_Character_Auto3.uasset'
+[2015.03.18-01.46.16:033][802]LogFileHelpers: Auto-saving content packages took 2.148
+[2015.03.18-01.46.28:763][155]BlueprintLog: New page: Compile Police_Character
+[2015.03.18-01.46.28:797][155]LogBlueprint:Error: [compiler] Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.03.18-01.46.28:822][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.28:823][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.28:861][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.28:862][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.28:933][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.28:934][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.28:978][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.28:978][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.29:049][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.29:050][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.29:067][155]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.03.18-01.46.29:067][155]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.03.18-01.46.29:118][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.29:118][155]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.29:144][155]LogBlueprint:Warning: [compiler] Warning [4605.76] Compile of Police_Character failed. 1 Fatal Issue(s) 0 Warning(s) [in 360 ms]
+[2015.03.18-01.46.29:144][155]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a class specified.
+[2015.03.18-01.46.29:144][155]BlueprintEditorCompileResults:Warning: Warning [4605.76] Compile of Police_Character failed. 1 Fatal Issue(s) 0 Warning(s) [in 360 ms]
+[2015.03.18-01.46.44:717][539]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.03.18-01.46.52:116][806]BlueprintLog: New page: Compile Police_Character
+[2015.03.18-01.46.52:177][806]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.52:178][806]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.52:216][806]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.52:217][806]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.52:288][806]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.52:288][806]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.52:305][806]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.03.18-01.46.52:353][806]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.52:354][806]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.52:379][806]BlueprintEditorCompileResults: Info [4628.99] Compile of Police_Character successful! [in 242 ms]
+[2015.03.18-01.46.54:514][861]BlueprintLog: New page: Compile Police_Character
+[2015.03.18-01.46.54:575][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.54:576][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.54:615][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.54:616][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.54:687][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.54:687][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.54:704][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.03.18-01.46.54:754][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.54:754][861]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.54:779][861]BlueprintEditorCompileResults: Info [4631.39] Compile of Police_Character successful! [in 244 ms]
+[2015.03.18-01.46.58:881][977]BlueprintLog: New page: Compile Police_Character
+[2015.03.18-01.46.58:943][977]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.58:944][977]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.58:982][977]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.58:983][977]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.59:054][977]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.59:055][977]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.59:073][977]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.03.18-01.46.59:125][977]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.59:125][977]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.46.59:151][977]BlueprintEditorCompileResults: Info [4635.76] Compile of Police_Character successful! [in 248 ms]
+[2015.03.18-01.47.05:058][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:059][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:078][173]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.18-01.47.05:085][173]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.03.18-01.47.05:085][173]LogPlayLevel: [PIE] Compiling Ammo before PIE...
+[2015.03.18-01.47.05:207][173]LogPlayLevel: [PIE] Compiling Pistol_BP before PIE...
+[2015.03.18-01.47.05:282][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:283][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:325][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:326][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:350][173]LogPlayLevel: [PIE] Compiling Zeke_Character before PIE...
+[2015.03.18-01.47.05:419][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:420][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:494][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:495][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:519][173]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.18-01.47.05:576][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:577][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:602][173]LogPlayLevel: [PIE] Compiling Police_Character before PIE...
+[2015.03.18-01.47.05:663][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:664][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:702][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:703][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:775][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:776][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:810][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:811][173]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.05:862][173]LogPlayLevel: PIE:  Blueprint regeneration took 784 ms (5 blueprints)
+[2015.03.18-01.47.05:863][173]PIE: New page: PIE session: Scene (Mar 17, 2015, 11:47:05 AM)
+[2015.03.18-01.47.06:018][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.154913s)
+[2015.03.18-01.47.06:019][173]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2015.03.18-01.47.06:019][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.155867s)
+[2015.03.18-01.47.06:049][173]LogWorld: Game class is 'MyGame_C'
+[2015.03.18-01.47.06:051][173]LogAIModule: Creating AISystem for world Scene
+[2015.03.18-01.47.06:060][173]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.18-01.47.06:060][173]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.17-18.47.06
+[2015.03.18-01.47.06:061][173]LogWorld: Bringing up level for play took: 0.010253
+[2015.03.18-01.47.06:079][173]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene 0.517
+[2015.03.18-01.47.16:533][489]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.16:534][489]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.16:604][489]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.16:605][489]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.16:621][489]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.03.18-01.47.16:679][490]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006B2BF7E0
+[2015.03.18-01.47.45:389][124]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.18-01.47.45:389][124]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.18-01.47.45:447][124]LogPlayLevel: PIE:  Blueprint regeneration took 58 ms (1 blueprints)
+[2015.03.18-01.47.45:448][124]PIE: New page: SIE session: Scene (Mar 17, 2015, 11:47:45 AM)
+[2015.03.18-01.47.45:655][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.206699s)
+[2015.03.18-01.47.45:655][124]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2015.03.18-01.47.45:655][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.207569s)
+[2015.03.18-01.47.45:656][124]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.47.45:692][124]LogWorld: Game class is 'MyGame_C'
+[2015.03.18-01.47.45:694][124]LogAIModule: Creating AISystem for world Scene
+[2015.03.18-01.47.45:703][124]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.18-01.47.45:703][124]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.17-18.47.45
+[2015.03.18-01.47.45:704][124]LogWorld: Bringing up level for play took: 0.010180
+[2015.03.18-01.47.45:725][124]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene 0.16
+[2015.03.18-01.47.45:742][124]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.45:743][124]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.45:793][124]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.47.48:035][176]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.48:036][176]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.48:148][176]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.48:149][176]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.48:226][177]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006B2BF2E0
+[2015.03.18-01.47.54:818][351]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.18-01.47.54:818][351]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.18-01.47.54:876][351]LogPlayLevel: PIE:  Blueprint regeneration took 58 ms (1 blueprints)
+[2015.03.18-01.47.54:876][351]PIE: New page: SIE session: Scene (Mar 17, 2015, 11:47:54 AM)
+[2015.03.18-01.47.54:999][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.122751s)
+[2015.03.18-01.47.55:000][351]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2015.03.18-01.47.55:000][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.123706s)
+[2015.03.18-01.47.55:001][351]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.47.55:033][351]LogWorld: Game class is 'MyGame_C'
+[2015.03.18-01.47.55:034][351]LogAIModule: Creating AISystem for world Scene
+[2015.03.18-01.47.55:044][351]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.18-01.47.55:044][351]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.17-18.47.55
+[2015.03.18-01.47.55:045][351]LogWorld: Bringing up level for play took: 0.010114
+[2015.03.18-01.47.55:046][351]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene -0.519
+[2015.03.18-01.47.55:063][351]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.55:064][351]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.47.55:083][351]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.48.01:266][463]Cmd: SELECT NONE
+[2015.03.18-01.48.02:865][499]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.02:866][499]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.02:927][499]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.02:928][499]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.03:006][500]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018B3E480
+[2015.03.18-01.48.20:131][906]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.18-01.48.20:131][906]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.18-01.48.20:190][906]LogPlayLevel: PIE:  Blueprint regeneration took 58 ms (1 blueprints)
+[2015.03.18-01.48.20:190][906]PIE: New page: SIE session: Scene (Mar 17, 2015, 11:48:20 AM)
+[2015.03.18-01.48.20:312][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121825s)
+[2015.03.18-01.48.20:313][906]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2015.03.18-01.48.20:313][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.122818s)
+[2015.03.18-01.48.20:314][906]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.48.20:343][906]LogWorld: Game class is 'MyGame_C'
+[2015.03.18-01.48.20:344][906]LogAIModule: Creating AISystem for world Scene
+[2015.03.18-01.48.20:354][906]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.18-01.48.20:354][906]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.17-18.48.20
+[2015.03.18-01.48.20:355][906]LogWorld: Bringing up level for play took: 0.010115
+[2015.03.18-01.48.20:356][906]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene 0.79
+[2015.03.18-01.48.20:373][906]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.20:374][906]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.20:393][906]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.48.36:814][209]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.36:815][209]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.36:876][209]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.36:877][209]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.36:954][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E3FFD80
+[2015.03.18-01.48.51:486][563]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.18-01.48.51:486][563]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.18-01.48.51:545][563]LogPlayLevel: PIE:  Blueprint regeneration took 59 ms (1 blueprints)
+[2015.03.18-01.48.51:545][563]PIE: New page: SIE session: Scene (Mar 17, 2015, 11:48:51 AM)
+[2015.03.18-01.48.51:668][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.122425s)
+[2015.03.18-01.48.51:669][563]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2015.03.18-01.48.51:669][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.123353s)
+[2015.03.18-01.48.51:670][563]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.48.51:702][563]LogWorld: Game class is 'MyGame_C'
+[2015.03.18-01.48.51:703][563]LogAIModule: Creating AISystem for world Scene
+[2015.03.18-01.48.51:713][563]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.18-01.48.51:713][563]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.17-18.48.51
+[2015.03.18-01.48.51:714][563]LogWorld: Bringing up level for play took: 0.010202
+[2015.03.18-01.48.51:715][563]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene 0.147
+[2015.03.18-01.48.51:733][563]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.51:733][563]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.51:752][563]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.48.54:174][611]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.54:175][611]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.54:247][611]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.54:248][611]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.48.54:326][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D904FE0
+[2015.03.18-01.49.00:077][732]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.18-01.49.00:077][732]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.18-01.49.00:135][732]LogPlayLevel: PIE:  Blueprint regeneration took 57 ms (1 blueprints)
+[2015.03.18-01.49.00:135][732]PIE: New page: SIE session: Scene (Mar 17, 2015, 11:49:00 AM)
+[2015.03.18-01.49.00:258][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.122686s)
+[2015.03.18-01.49.00:258][732]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2015.03.18-01.49.00:259][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.123559s)
+[2015.03.18-01.49.00:259][732]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.49.00:290][732]LogWorld: Game class is 'MyGame_C'
+[2015.03.18-01.49.00:291][732]LogAIModule: Creating AISystem for world Scene
+[2015.03.18-01.49.00:301][732]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.18-01.49.00:301][732]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.17-18.49.00
+[2015.03.18-01.49.00:302][732]LogWorld: Bringing up level for play took: 0.010271
+[2015.03.18-01.49.00:303][732]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene 0.735
+[2015.03.18-01.49.00:321][732]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.00:321][732]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.00:340][732]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.49.13:489][978]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.13:490][978]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.13:553][978]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.13:554][978]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.13:631][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039909760
+[2015.03.18-01.49.14:446][  1]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.18-01.49.14:446][  1]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.18-01.49.14:505][  1]LogPlayLevel: PIE:  Blueprint regeneration took 58 ms (1 blueprints)
+[2015.03.18-01.49.14:505][  1]PIE: New page: SIE session: Scene (Mar 17, 2015, 11:49:14 AM)
+[2015.03.18-01.49.14:626][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121082s)
+[2015.03.18-01.49.14:627][  1]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2015.03.18-01.49.14:627][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.122073s)
+[2015.03.18-01.49.14:628][  1]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.49.14:660][  1]LogWorld: Game class is 'MyGame_C'
+[2015.03.18-01.49.14:661][  1]LogAIModule: Creating AISystem for world Scene
+[2015.03.18-01.49.14:671][  1]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.18-01.49.14:671][  1]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.17-18.49.14
+[2015.03.18-01.49.14:672][  1]LogWorld: Bringing up level for play took: 0.010127
+[2015.03.18-01.49.14:673][  1]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene 1.103
+[2015.03.18-01.49.14:690][  1]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.14:691][  1]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.14:710][  1]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.49.19:112][ 86]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.19:113][ 86]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.19:182][ 86]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.19:182][ 86]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.19:260][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004D892B60
+[2015.03.18-01.49.26:634][257]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.18-01.49.26:634][257]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.18-01.49.26:692][257]LogPlayLevel: PIE:  Blueprint regeneration took 58 ms (1 blueprints)
+[2015.03.18-01.49.26:693][257]PIE: New page: SIE session: Scene (Mar 17, 2015, 11:49:26 AM)
+[2015.03.18-01.49.26:815][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.122514s)
+[2015.03.18-01.49.26:816][257]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2015.03.18-01.49.26:816][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.123428s)
+[2015.03.18-01.49.26:817][257]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.49.26:849][257]LogWorld: Game class is 'MyGame_C'
+[2015.03.18-01.49.26:850][257]LogAIModule: Creating AISystem for world Scene
+[2015.03.18-01.49.26:860][257]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.18-01.49.26:860][257]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.17-18.49.26
+[2015.03.18-01.49.26:861][257]LogWorld: Bringing up level for play took: 0.010121
+[2015.03.18-01.49.26:862][257]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene -0.708
+[2015.03.18-01.49.26:879][257]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.26:880][257]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.26:899][257]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.49.32:769][372]Cmd: SELECT NONE
+[2015.03.18-01.49.33:880][397]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.33:881][397]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.33:956][397]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.33:956][397]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.34:035][398]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E990860
+[2015.03.18-01.49.39:953][535]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.18-01.49.39:953][535]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.18-01.49.40:011][535]LogPlayLevel: PIE:  Blueprint regeneration took 58 ms (1 blueprints)
+[2015.03.18-01.49.40:011][535]PIE: New page: SIE session: Scene (Mar 17, 2015, 11:49:40 AM)
+[2015.03.18-01.49.40:134][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.122541s)
+[2015.03.18-01.49.40:135][535]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2015.03.18-01.49.40:135][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.123428s)
+[2015.03.18-01.49.40:135][535]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.49.40:168][535]LogWorld: Game class is 'MyGame_C'
+[2015.03.18-01.49.40:169][535]LogAIModule: Creating AISystem for world Scene
+[2015.03.18-01.49.40:179][535]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.18-01.49.40:179][535]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.17-18.49.40
+[2015.03.18-01.49.40:180][535]LogWorld: Bringing up level for play took: 0.010049
+[2015.03.18-01.49.40:181][535]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene 0.61
+[2015.03.18-01.49.40:198][535]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.40:199][535]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.49.40:218][535]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.51.12:268][906]LogStaticMesh: Building static mesh Low_M9...
+[2015.03.18-01.51.12:310][906]LogLayoutUV:Display: FindCharts: 1 ms
+[2015.03.18-01.51.12:314][906]LogLayoutUV:Display: PackCharts: 2 ms
+[2015.03.18-01.51.12:314][906]LogLayoutUV:Display:   Rasterize: 4346
+[2015.03.18-01.51.12:314][906]LogLayoutUV:Display:   Find: 3467
+[2015.03.18-01.51.12:317][906]LogLayoutUV:Display: PackCharts: 3 ms
+[2015.03.18-01.51.12:317][906]LogLayoutUV:Display:   Rasterize: 4793
+[2015.03.18-01.51.12:317][906]LogLayoutUV:Display:   Find: 6141
+[2015.03.18-01.51.12:321][906]LogLayoutUV:Display: PackCharts: 3 ms
+[2015.03.18-01.51.12:321][906]LogLayoutUV:Display:   Rasterize: 5010
+[2015.03.18-01.51.12:321][906]LogLayoutUV:Display:   Find: 7444
+[2015.03.18-01.51.12:325][906]LogLayoutUV:Display: PackCharts: 4 ms
+[2015.03.18-01.51.12:325][906]LogLayoutUV:Display:   Rasterize: 5109
+[2015.03.18-01.51.12:325][906]LogLayoutUV:Display:   Find: 9544
+[2015.03.18-01.51.12:329][906]LogLayoutUV:Display: PackCharts: 3 ms
+[2015.03.18-01.51.12:329][906]LogLayoutUV:Display:   Rasterize: 5201
+[2015.03.18-01.51.12:329][906]LogLayoutUV:Display:   Find: 8071
+[2015.03.18-01.51.12:333][906]LogLayoutUV:Display: PackCharts: 3 ms
+[2015.03.18-01.51.12:333][906]LogLayoutUV:Display:   Rasterize: 5208
+[2015.03.18-01.51.12:333][906]LogLayoutUV:Display:   Find: 8444
+[2015.03.18-01.51.12:339][906]LogLayoutUV:Display: PackCharts: 3 ms
+[2015.03.18-01.51.12:339][906]LogLayoutUV:Display:   Rasterize: 5184
+[2015.03.18-01.51.12:339][906]LogLayoutUV:Display:   Find: 8442
+[2015.03.18-01.51.12:348][906]LogStaticMesh: Built static mesh [80.083176ms] /Game/Mesh/Low_M9.Low_M9
+[2015.03.18-01.51.28:382][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/zeke/character/PoPo_Skeleton" FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/zeke/character/PoPo_Skeleton.uasset" SILENT=true
+[2015.03.18-01.51.28:426][333]LogSavePackage: Save=2.417587ms
+[2015.03.18-01.51.28:426][333]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/PoPo_SkeletonEB024FA641EA3D3871185597049A8BB6.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/zeke/character/PoPo_Skeleton.uasset'
+[2015.03.18-01.51.30:798][382]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.51.30:799][382]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.51.30:860][382]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.51.30:861][382]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.51.30:877][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.03.18-01.51.30:877][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.03.18-01.51.30:939][383]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E992CA0
+[2015.03.18-01.51.32:061][412]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.18-01.51.32:061][412]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.18-01.51.32:120][412]LogPlayLevel: PIE:  Blueprint regeneration took 59 ms (1 blueprints)
+[2015.03.18-01.51.32:121][412]PIE: New page: SIE session: Scene (Mar 17, 2015, 11:51:32 AM)
+[2015.03.18-01.51.32:240][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118986s)
+[2015.03.18-01.51.32:241][412]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2015.03.18-01.51.32:241][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.120021s)
+[2015.03.18-01.51.32:242][412]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.51.32:273][412]LogWorld: Game class is 'MyGame_C'
+[2015.03.18-01.51.32:274][412]LogAIModule: Creating AISystem for world Scene
+[2015.03.18-01.51.32:284][412]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.18-01.51.32:284][412]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.17-18.51.32
+[2015.03.18-01.51.32:285][412]LogWorld: Bringing up level for play took: 0.010168
+[2015.03.18-01.51.32:286][412]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene 0.709
+[2015.03.18-01.51.32:304][412]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.51.32:304][412]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.51.32:324][412]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.51.53:309][791]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.51.53:309][791]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.51.53:372][791]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.51.53:373][791]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.51.53:450][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000231FE3E0
+[2015.03.18-01.52.08:303][182]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.18-01.52.08:303][182]LogPlayLevel: [PIE] Compiling Scene before PIE...
+[2015.03.18-01.52.08:361][182]LogPlayLevel: PIE:  Blueprint regeneration took 58 ms (1 blueprints)
+[2015.03.18-01.52.08:362][182]PIE: New page: SIE session: Scene (Mar 17, 2015, 11:52:08 AM)
+[2015.03.18-01.52.08:482][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.119857s)
+[2015.03.18-01.52.08:483][182]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2015.03.18-01.52.08:483][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Scene.Scene to /Game/level/UEDPIE_0_Scene.Scene (0.120752s)
+[2015.03.18-01.52.08:483][182]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.52.08:515][182]LogWorld: Game class is 'MyGame_C'
+[2015.03.18-01.52.08:516][182]LogAIModule: Creating AISystem for world Scene
+[2015.03.18-01.52.08:526][182]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.18-01.52.08:526][182]LogWorld: Bringing World /Game/level/UEDPIE_0_Scene.Scene up for play (max tick rate 0) at 2015.03.17-18.52.08
+[2015.03.18-01.52.08:527][182]LogWorld: Bringing up level for play took: 0.010055
+[2015.03.18-01.52.08:528][182]PIE: Info Play in editor start time for /Game/level/UEDPIE_0_Scene 0.949
+[2015.03.18-01.52.08:545][182]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.52.08:546][182]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.52.08:565][182]LogSelection:Warning: PIE object was selected: "Police_Character_C /Game/level/UEDPIE_0_Scene.Scene:PersistentLevel.Police_Character_C_2"
+[2015.03.18-01.52.20:689][430]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.52.20:689][430]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.52.20:752][430]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.52.20:753][430]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.03.18-01.52.20:835][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000069AFDEE0
+[2015.03.18-01.57.09:918][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/Scene" FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/level/Scene.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.18-01.57.10:462][ 87]LogSavePackage: Save=499.825226ms
+[2015.03.18-01.57.10:462][ 87]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Scene7BAC5B9D41ECA34E2111D68F8188B753.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/level/Scene.umap'
+[2015.03.18-01.57.10:513][ 87]LogFileHelpers: Saving map 'Scene' took 0.777
+[2015.03.18-01.57.10:533][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/zeke/blueprint/Police_Character" FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/zeke/blueprint/Police_Character.uasset" SILENT=true
+[2015.03.18-01.57.10:860][ 87]LogSavePackage: Save=316.099426ms
+[2015.03.18-01.57.10:860][ 87]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Police_Character13EFDA5B414CA754DD69738281FD737B.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/zeke/blueprint/Police_Character.uasset'
+[2015.03.18-01.57.10:867][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/zeke/character/PoPo_Skeleton" FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/zeke/character/PoPo_Skeleton.uasset" SILENT=true
+[2015.03.18-01.57.10:879][ 87]LogSavePackage: Save=2.164395ms
+[2015.03.18-01.57.10:879][ 87]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/PoPo_SkeletonB0452EE64D29F3A754A700BC44A240A1.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/zeke/character/PoPo_Skeleton.uasset'
+[2015.03.18-01.57.10:885][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/zeke/character/PoPo" FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/zeke/character/PoPo.uasset" SILENT=true
+[2015.03.18-01.57.10:919][ 87]LogSavePackage: Save=22.698061ms
+[2015.03.18-01.57.10:919][ 87]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/PoPoA97203FF40DF7EAE7CFBD8999204084A.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/zeke/character/PoPo.uasset'
+[2015.03.18-01.57.10:943][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/blueprint/Pistol_BP" FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/Zeke/blueprint/Pistol_BP.uasset" SILENT=true
+[2015.03.18-01.57.11:270][ 87]LogSavePackage: Save=317.118774ms
+[2015.03.18-01.57.11:270][ 87]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Pistol_BPCF102C4F4A0C1032EEB22C948451B62F.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/Zeke/blueprint/Pistol_BP.uasset'
+[2015.03.18-01.57.11:294][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/blueprint/Ammo" FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/Zeke/blueprint/Ammo.uasset" SILENT=true
+[2015.03.18-01.57.11:622][ 87]LogSavePackage: Save=317.632843ms
+[2015.03.18-01.57.11:622][ 87]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Ammo2E61C2B04CFAA61E8A5F82B305C1090C.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/Zeke/blueprint/Ammo.uasset'
+[2015.03.18-01.57.11:645][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zeke/blueprint/Zeke_Character" FILE="../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/Zeke/blueprint/Zeke_Character.uasset" SILENT=true
+[2015.03.18-01.57.11:991][ 87]LogSavePackage: Save=334.289063ms
+[2015.03.18-01.57.11:991][ 87]LogSavePackage: Moving '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Saved/Zeke_CharacterF553CA1C4F90843B206CB5B4604F60AC.tmp' to '../../../../../../Users/student/Desktop/ZekeGame4.6/Zeke/Zeke/Content/Zeke/blueprint/Zeke_Character.uasset'
+[2015.03.18-01.57.14:766][194]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.03.18-01.57.14:766][194]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.03.18-01.57.24:740][458]Cmd: QUIT_EDITOR
+[2015.03.18-01.57.25:061][458]LogExit: Preparing to exit.
+[2015.03.18-01.57.26:313][458]LogExit: Editor shut down
+[2015.03.18-01.57.26:313][458]LogExit: Transaction tracking system shut down
+[2015.03.18-01.57.26:314][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035B28900
+[2015.03.18-01.57.26:315][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BAFA020
+[2015.03.18-01.57.26:315][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000AB42520
+[2015.03.18-01.57.26:315][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000185DE480
+[2015.03.18-01.57.26:315][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027B22480
+[2015.03.18-01.57.26:315][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027B22160
+[2015.03.18-01.57.26:316][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044A3E0C0
+[2015.03.18-01.57.26:316][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000036CF47C0
+[2015.03.18-01.57.26:319][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017009300
+[2015.03.18-01.57.26:319][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BA29080
+[2015.03.18-01.57.26:319][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000495BF2E0
+[2015.03.18-01.57.26:319][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000052DC1260
+[2015.03.18-01.57.26:319][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000343B42C0
+[2015.03.18-01.57.26:413][458]LogExit: Object subsystem successfully closed.
+[2015.03.18-01.57.26:473][458]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.03.18-01.57.26:473][458]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.03.18-01.57.26:473][458]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.03.18-01.57.26:473][458]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.03.18-01.57.26:473][458]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.03.18-01.57.26:473][458]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.03.18-01.57.26:484][458]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.03.18-01.57.26:484][458]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.03.18-01.57.26:484][458]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.03.18-01.57.26:484][458]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.03.18-01.57.26:484][458]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.03.18-01.57.26:484][458]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.03.18-01.57.26:484][458]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.03.18-01.57.26:484][458]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.03.18-01.57.26:484][458]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.03.18-01.57.26:484][458]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.03.18-01.57.26:484][458]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.03.18-01.57.26:484][458]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.03.18-01.57.26:484][458]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.03.18-01.57.26:490][458]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.03.18-01.57.26:491][458]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.03.18-01.57.26:491][458]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.03.18-01.57.26:491][458]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.03.18-01.57.26:491][458]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.03.18-01.57.26:491][458]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.03.18-01.57.26:491][458]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.03.18-01.57.26:491][458]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.03.18-01.57.26:491][458]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.03.18-01.57.26:491][458]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.03.18-01.57.26:491][458]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.03.18-01.57.26:491][458]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.03.18-01.57.26:553][458]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.03.18-01.57.26:698][458]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.03.18-01.57.26:699][458]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.03.18-01.57.26:699][458]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.03.18-01.57.26:699][458]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.03.18-01.57.26:699][458]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.03.18-01.57.26:699][458]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.03.18-01.57.26:700][458]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.03.18-01.57.26:700][458]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.03.18-01.57.26:700][458]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.03.18-01.57.26:800][458]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.03.18-01.57.26:800][458]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.03.18-01.57.26:800][458]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.03.18-01.57.26:802][458]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.03.18-01.57.26:802][458]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.03.18-01.57.26:802][458]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.03.18-01.57.26:802][458]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.03.18-01.57.26:802][458]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.03.18-01.57.26:802][458]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.03.18-01.57.26:802][458]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.03.18-01.57.26:802][458]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.03.18-01.57.26:802][458]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.03.18-01.57.26:802][458]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.03.18-01.57.26:802][458]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.03.18-01.57.26:803][458]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.03.18-01.57.26:803][458]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.03.18-01.57.26:803][458]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.03.18-01.57.26:803][458]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.03.18-01.57.26:806][458]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.03.18-01.57.26:806][458]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.03.18-01.57.26:806][458]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.03.18-01.57.26:806][458]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.03.18-01.57.26:806][458]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.03.18-01.57.26:806][458]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.03.18-01.57.26:806][458]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.03.18-01.57.26:806][458]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.03.18-01.57.26:806][458]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.03.18-01.57.26:806][458]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.03.18-01.57.26:853][458]LogDerivedDataCache: Shutdown
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.18-01.57.26:853][458]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.18-01.57.26:855][458]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.18-01.57.26:855][458]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.18-01.57.26:855][458]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.18-01.57.26:855][458]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.18-01.57.26:855][458]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.18-01.57.26:855][458]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.18-01.57.26:855][458]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.18-01.57.26:855][458]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.18-01.57.26:855][458]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.18-01.57.26:856][458]LogExit: Exiting.
+[2015.03.18-01.57.26:860][458]Log file closed, 03/17/15 18:57:26
